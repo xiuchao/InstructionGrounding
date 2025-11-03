@@ -1,3 +1,9 @@
+This is the accompanying dataset for the paper "From Grounding to Manipulation: Case Studies of Foundation Model Integration in Embodied Robotic Systems", presented at EMNLP 2025.
+
+### Illustration of the Dataset:
+![desktop](https://github.com/xiuchao/InstructionGrounding/blob/master/Figure3_EMNLP.png?raw=true)
+
+
 The dataset is released under the Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) license. 
 
 Please consider to cite our paper if you use this dataset in your research:
