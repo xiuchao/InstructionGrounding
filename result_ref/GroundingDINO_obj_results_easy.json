@@ -1,0 +1,737 @@
+{
+    "easy": {
+        "test0009.png": {
+            "implicit": {
+                "instruction": [
+                    [
+                        "Please pass me the tool that's used for tightening or loosening screws."
+                    ]
+                ],
+                "grd_truth": [
+                    5
+                ],
+                "identified": [
+                    0
+                ],
+                "flags": [
+                    0
+                ],
+                "acc": 0.0
+            },
+            "attr": {
+                "instruction": [
+                    [
+                        "Please hand me the orange-capped board marker from the image."
+                    ],
+                    [
+                        "Please extract the blue spherical object from the image."
+                    ],
+                    [
+                        "Please identify and extract the red ball from the image."
+                    ]
+                ],
+                "grd_truth": [
+                    1,
+                    4,
+                    6
+                ],
+                "identified": [
+                    5,
+                    4,
+                    6
+                ],
+                "flags": [
+                    0,
+                    1,
+                    1
+                ],
+                "acc": 0.6666666666666666
+            },
+            "rel": {
+                "instruction": [
+                    [
+                        "Please identify and extract the 'marker in the left most' from the image."
+                    ],
+                    [
+                        "Please identify and select the can that is far from the blue ball in the image."
+                    ],
+                    [
+                        "Please hand me the ball between the can and the screwdriver."
+                    ],
+                    [
+                        "Please identify and provide me with the ball on the right of the screwdriver from the image."
+                    ],
+                    [
+                        "Please identify and highlight the can near the blue ball in the image."
+                    ]
+                ],
+                "grd_truth": [
+                    1,
+                    2,
+                    4,
+                    6,
+                    8
+                ],
+                "identified": [
+                    1,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "flags": [
+                    1,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "acc": 0.2
+            }
+        },
+        "test0016.png": {
+            "implicit": {
+                "instruction": [
+                    [
+                        "Please pass me the tool that is used to measure lengths, often found in a pencil case or on a desk."
+                    ]
+                ],
+                "grd_truth": [
+                    4
+                ],
+                "identified": [
+                    5
+                ],
+                "flags": [
+                    0
+                ],
+                "acc": 0.0
+            },
+            "attr": {
+                "instruction": [
+                    [
+                        "Please hand me the black-capped marker from the image."
+                    ]
+                ],
+                "grd_truth": [
+                    3
+                ],
+                "identified": [
+                    99
+                ],
+                "flags": [
+                    0
+                ],
+                "acc": 0.0
+            }
+        },
+        "test0251.png": {
+            "implicit": {
+                "instruction": [
+                    [
+                        "Please pass me the tool that's used for tightening or loosening screws."
+                    ],
+                    [
+                        "Please pass me the tool that is used to measure lengths, commonly found in a pencil case or on a desk."
+                    ]
+                ],
+                "grd_truth": [
+                    5,
+                    8
+                ],
+                "identified": [
+                    0,
+                    99
+                ],
+                "flags": [
+                    0,
+                    0
+                ],
+                "acc": 0.0
+            },
+            "attr": {
+                "instruction": [
+                    [
+                        "Please identify and select the marker with orange cap from the image."
+                    ]
+                ],
+                "grd_truth": [
+                    3
+                ],
+                "identified": [
+                    99
+                ],
+                "flags": [
+                    0
+                ],
+                "acc": 0.0
+            },
+            "rel": {
+                "instruction": [
+                    [
+                        "Please identify and select the can in the left most part of the image."
+                    ],
+                    [
+                        "Please identify and obtain the can between the blue ball and the orange-capped marker from the image."
+                    ],
+                    [
+                        "Please identify and highlight the marker besides the can in the image."
+                    ]
+                ],
+                "grd_truth": [
+                    1,
+                    2,
+                    3
+                ],
+                "identified": [
+                    99,
+                    0,
+                    99
+                ],
+                "flags": [
+                    0,
+                    0,
+                    0
+                ],
+                "acc": 0.0
+            }
+        },
+        "test0215.png": {
+            "implicit": {
+                "instruction": [
+                    [
+                        "Please pass me the tool that's used for tightening or loosening screws."
+                    ],
+                    [
+                        "Please pass me the tool that is used to measure lengths, often found in a pencil case or on a desk."
+                    ]
+                ],
+                "grd_truth": [
+                    5,
+                    9
+                ],
+                "identified": [
+                    0,
+                    99
+                ],
+                "flags": [
+                    0,
+                    0
+                ],
+                "acc": 0.0
+            },
+            "attr": {
+                "instruction": [
+                    [
+                        "Please identify and select the marker with orange cap from the image."
+                    ],
+                    [
+                        "Please identify and select the marker with black cap from the image."
+                    ]
+                ],
+                "grd_truth": [
+                    4,
+                    7
+                ],
+                "identified": [
+                    0,
+                    99
+                ],
+                "flags": [
+                    0,
+                    0
+                ],
+                "acc": 0.0
+            },
+            "rel": {
+                "instruction": [
+                    [
+                        "Please identify and extract the 'can in top left' from the image."
+                    ],
+                    [
+                        "Please identify and highlight the can besides the ball in the image."
+                    ],
+                    [
+                        "Please identify and extract the 'marker in bottom left' from the image."
+                    ],
+                    [
+                        "Please identify and select the 'marker above the ruler' in the image."
+                    ]
+                ],
+                "grd_truth": [
+                    1,
+                    2,
+                    4,
+                    7
+                ],
+                "identified": [
+                    0,
+                    3,
+                    4,
+                    99
+                ],
+                "flags": [
+                    0,
+                    0,
+                    1,
+                    0
+                ],
+                "acc": 0.25
+            }
+        },
+        "test0176.png": {
+            "implicit": {
+                "instruction": [
+                    [
+                        "Please pass me the tool that's used for tightening or loosening screws."
+                    ],
+                    [
+                        "Please pass me the tool that is used for cutting paper."
+                    ]
+                ],
+                "grd_truth": [
+                    3,
+                    5
+                ],
+                "identified": [
+                    5,
+                    0
+                ],
+                "flags": [
+                    0,
+                    0
+                ],
+                "acc": 0.0
+            },
+            "attr": {
+                "instruction": [
+                    [
+                        "Please identify and extract the 'blue ball' from the image."
+                    ],
+                    [
+                        "Please identify and extract the red ball from the image."
+                    ]
+                ],
+                "grd_truth": [
+                    2,
+                    4
+                ],
+                "identified": [
+                    99,
+                    99
+                ],
+                "flags": [
+                    0,
+                    0
+                ],
+                "acc": 0.0
+            },
+            "rel": {
+                "instruction": [
+                    [
+                        "Please identify the ball that is far from the scissors in the image."
+                    ],
+                    [
+                        "Please identify and point out the ball near the scissors in the image."
+                    ]
+                ],
+                "grd_truth": [
+                    2,
+                    4
+                ],
+                "identified": [
+                    99,
+                    0
+                ],
+                "flags": [
+                    0,
+                    0
+                ],
+                "acc": 0.0
+            }
+        },
+        "test012001.png": {
+            "implicit": {
+                "instruction": [
+                    [
+                        "Please pass me the tool that is used for cutting paper."
+                    ],
+                    [
+                        "Please pass me the tool that's used for tightening or loosening screws."
+                    ]
+                ],
+                "grd_truth": [
+                    5,
+                    7
+                ],
+                "identified": [
+                    0,
+                    99
+                ],
+                "flags": [
+                    0,
+                    0
+                ],
+                "acc": 0.0
+            },
+            "attr": {
+                "instruction": [
+                    [
+                        "Please identify and extract the red ball from the image."
+                    ],
+                    [
+                        "Please identify and extract the 'blue ball' from the image."
+                    ]
+                ],
+                "grd_truth": [
+                    3,
+                    6
+                ],
+                "identified": [
+                    3,
+                    5
+                ],
+                "flags": [
+                    1,
+                    0
+                ],
+                "acc": 0.5
+            },
+            "rel": {
+                "instruction": [
+                    [
+                        "Please position the ball in front of the can in the image."
+                    ],
+                    [
+                        "Please identify and select the image that shows the ball on the right of the can."
+                    ]
+                ],
+                "grd_truth": [
+                    3,
+                    6
+                ],
+                "identified": [
+                    0,
+                    0
+                ],
+                "flags": [
+                    0,
+                    0
+                ],
+                "acc": 0.0
+            }
+        },
+        "test0428.png": {
+            "implicit": {
+                "instruction": [
+                    [
+                        "Please pass me the tool that is used for cutting paper or fabric."
+                    ]
+                ],
+                "grd_truth": [
+                    4
+                ],
+                "identified": [
+                    5
+                ],
+                "flags": [
+                    0
+                ],
+                "acc": 0.0
+            },
+            "attr": {
+                "instruction": [
+                    [
+                        "Please identify and extract the 'blue ball' from the image."
+                    ],
+                    [
+                        "Please identify and extract the red ball from the image."
+                    ]
+                ],
+                "grd_truth": [
+                    2,
+                    3
+                ],
+                "identified": [
+                    2,
+                    3
+                ],
+                "flags": [
+                    1,
+                    1
+                ],
+                "acc": 1.0
+            },
+            "rel": {
+                "instruction": [
+                    [
+                        "Please hand me the ball between the can and the screwdriver."
+                    ],
+                    [
+                        "Please place the ball above the scissors in the image."
+                    ]
+                ],
+                "grd_truth": [
+                    2,
+                    3
+                ],
+                "identified": [
+                    5,
+                    2
+                ],
+                "flags": [
+                    0,
+                    0
+                ],
+                "acc": 0.0
+            }
+        },
+        "test0024.png": {
+            "implicit": {
+                "instruction": [
+                    [
+                        "Please pass me the tool that is used for cutting paper."
+                    ],
+                    [
+                        "Please pass me the tool that's used for tightening or loosening screws."
+                    ]
+                ],
+                "grd_truth": [
+                    6,
+                    8
+                ],
+                "identified": [
+                    0,
+                    0
+                ],
+                "flags": [
+                    0,
+                    0
+                ],
+                "acc": 0.0
+            },
+            "attr": {
+                "instruction": [
+                    [
+                        "Please identify and extract the 'blue ball' from the image."
+                    ]
+                ],
+                "grd_truth": [
+                    7
+                ],
+                "identified": [
+                    7
+                ],
+                "flags": [
+                    1
+                ],
+                "acc": 1.0
+            },
+            "rel": {
+                "instruction": [
+                    [
+                        "Please extract the image of the can besides marker."
+                    ],
+                    [
+                        "Please identify and select the top-most can from the image."
+                    ],
+                    [
+                        "Please identify the ball next to the scissors in the image."
+                    ],
+                    [
+                        "Please hand me the ball between the round can and the screwdriver."
+                    ],
+                    [
+                        "Please identify and select the ball in the top right region of the image."
+                    ]
+                ],
+                "grd_truth": [
+                    2,
+                    4,
+                    5,
+                    7,
+                    9
+                ],
+                "identified": [
+                    0,
+                    99,
+                    0,
+                    7,
+                    0
+                ],
+                "flags": [
+                    0,
+                    0,
+                    0,
+                    1,
+                    0
+                ],
+                "acc": 0.2
+            }
+        },
+        "test05013.png": {
+            "implicit": {
+                "instruction": [
+                    [
+                        "Please pass me the tool that's used for cutting paper."
+                    ]
+                ],
+                "grd_truth": [
+                    6
+                ],
+                "identified": [
+                    0
+                ],
+                "flags": [
+                    0
+                ],
+                "acc": 0.0
+            },
+            "attr": {
+                "instruction": [
+                    [
+                        "Please identify and extract the red ball from the image."
+                    ],
+                    [
+                        "Please identify and extract the 'blue ball' from the image."
+                    ]
+                ],
+                "grd_truth": [
+                    4,
+                    5
+                ],
+                "identified": [
+                    4,
+                    5
+                ],
+                "flags": [
+                    1,
+                    1
+                ],
+                "acc": 1.0
+            },
+            "rel": {
+                "instruction": [
+                    [
+                        "Please extract the the can besides the marker."
+                    ],
+                    [
+                        "Please identify and provide me with the ball besides the scissors in the image."
+                    ],
+                    [
+                        "Please give me the ball on the right of the can."
+                    ]
+                ],
+                "grd_truth": [
+                    1,
+                    4,
+                    5
+                ],
+                "identified": [
+                    0,
+                    5,
+                    5
+                ],
+                "flags": [
+                    0,
+                    0,
+                    1
+                ],
+                "acc": 0.3333333333333333
+            }
+        },
+        "test0057.png": {
+            "implicit": {
+                "instruction": [
+                    [
+                        "Please pass me the tool that is used for cutting paper or fabric."
+                    ],
+                    [
+                        "Please pass me the tool that's used for tightening or loosening screws."
+                    ]
+                ],
+                "grd_truth": [
+                    5,
+                    8
+                ],
+                "identified": [
+                    0,
+                    8
+                ],
+                "flags": [
+                    0,
+                    1
+                ],
+                "acc": 0.5
+            },
+            "attr": {
+                "instruction": [
+                    [
+                        "Please identify and extract the 'blue ball' from the image."
+                    ]
+                ],
+                "grd_truth": [
+                    7
+                ],
+                "identified": [
+                    7
+                ],
+                "flags": [
+                    1
+                ],
+                "acc": 1.0
+            },
+            "rel": {
+                "instruction": [
+                    [
+                        "Please extract the can besides the marker."
+                    ],
+                    [
+                        "Please identify and highlight the 'can in the top region' of the image."
+                    ],
+                    [
+                        "Please give the ball which is above the scissors in the image."
+                    ],
+                    [
+                        "Please pass me the ball between the can and the screwdriver."
+                    ],
+                    [
+                        "Please give me the ball in the top right corner."
+                    ]
+                ],
+                "grd_truth": [
+                    3,
+                    4,
+                    6,
+                    7,
+                    9
+                ],
+                "identified": [
+                    0,
+                    0,
+                    9,
+                    7,
+                    99
+                ],
+                "flags": [
+                    0,
+                    0,
+                    0,
+                    1,
+                    0
+                ],
+                "acc": 0.2
+            }
+        },
+        "macro_acc": {
+            "implicit": 0.05,
+            "attr": 0.5166666666666666,
+            "rel": 0.13148148148148148
+        }
+    },
+    "missing_ids": {
+        "implicit": [],
+        "attr": [],
+        "rel": []
+    }
+}

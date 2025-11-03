@@ -1,0 +1,1233 @@
+{
+    "hard": {
+        "test0119.png": {
+            "implicit": {
+                "instruction": [
+                    [
+                        "Please pass me the tool that is used for cutting paper."
+                    ],
+                    [
+                        "Please pass me the tool that is used to measure lengths, commonly found in a geometry box."
+                    ],
+                    [
+                        "Please pass me the tool that's used for tightening or loosening screws."
+                    ]
+                ],
+                "grd_truth": [
+                    4,
+                    14,
+                    16
+                ],
+                "identified": [
+                    0,
+                    0
+                ],
+                "flags": [
+                    0,
+                    0
+                ],
+                "acc": 0.0
+            },
+            "attr": {
+                "instruction": [
+                    [
+                        "Please hand me the orange-tipped whiteboard marker from the image."
+                    ],
+                    [
+                        "Please extract the 'rectangular can' from the image."
+                    ],
+                    [
+                        "Please locate and identify the beige mug in the image."
+                    ],
+                    [
+                        "Please identify and extract the 'blue ball' from the image."
+                    ],
+                    [
+                        "Please hand me the blue-capped whiteboard marker from the image."
+                    ]
+                ],
+                "grd_truth": [
+                    1,
+                    2,
+                    6,
+                    11,
+                    12
+                ],
+                "identified": [
+                    5,
+                    2,
+                    99,
+                    8,
+                    99
+                ],
+                "flags": [
+                    0,
+                    1,
+                    0,
+                    0,
+                    0
+                ],
+                "acc": 0.2
+            },
+            "rel": {
+                "instruction": [
+                    [
+                        "Please highlight the 'marker in bottom left corner'."
+                    ],
+                    [
+                        "Please identify and select the 'can near top left corner' from the image."
+                    ],
+                    [
+                        "Please identify and point out the ball near the scissors in the image."
+                    ],
+                    [
+                        "Please identify and select the mug next to the bottle in the image."
+                    ],
+                    [
+                        "Please hand me the can on the left of the beige mug."
+                    ],
+                    [
+                        "Please identify the ball next to the cylindrical can in the image."
+                    ],
+                    [
+                        "Please identify and highlight the ball besides the rectangular can in the image."
+                    ],
+                    [
+                        "Please hand me the mug next to the beige mug."
+                    ],
+                    [
+                        "Please identify and select the ball close to the marker with blue cap from the image."
+                    ],
+                    [
+                        "Please identify and select the marker next to the blue ball in the image."
+                    ],
+                    [
+                        "Please identify and obtain the measuring cup on the left of the ruler from the image."
+                    ],
+                    [
+                        "Please identify and obtain the measuring cup on the right of the ruler from the image."
+                    ],
+                    [
+                        "Please pass me the ball besides the measuring cup."
+                    ],
+                    [
+                        "Please identify and extract the image of the cup behind the cylindrical can."
+                    ],
+                    [
+                        "Please extract the mug in the top right corner from the image."
+                    ],
+                    [
+                        "Please identify and select the can on the right of screwdriver in the image."
+                    ]
+                ],
+                "grd_truth": [
+                    1,
+                    2,
+                    3,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    15,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21
+                ],
+                "identified": [
+                    1,
+                    0,
+                    0,
+                    6,
+                    0,
+                    0,
+                    0,
+                    19,
+                    0,
+                    99,
+                    6,
+                    19,
+                    0,
+                    6,
+                    2,
+                    0
+                ],
+                "flags": [
+                    1,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "acc": 0.125
+            }
+        },
+        "test0001.png": {
+            "implicit": {
+                "instruction": [
+                    [
+                        "Please pass me the tool that's used for cutting paper."
+                    ],
+                    [
+                        "Please pass me the tool that's used for tightening or loosening screws."
+                    ],
+                    [
+                        "Please pass me the tool that is used to measure lengths, often found in a pencil case or on a desk."
+                    ]
+                ],
+                "grd_truth": [
+                    6,
+                    7,
+                    11
+                ],
+                "identified": [
+                    0,
+                    0,
+                    7
+                ],
+                "flags": [
+                    0,
+                    0,
+                    0
+                ],
+                "acc": 0.0
+            },
+            "attr": {
+                "instruction": [
+                    [
+                        "Please identify and select the orange-capped marker from the image."
+                    ],
+                    [
+                        "Please extract the transparent bottle from the image."
+                    ],
+                    [
+                        "Please identify and select the white-capped bottle from the image."
+                    ],
+                    [
+                        "Please extract the 'rectangular can' from the image."
+                    ],
+                    [
+                        "Please identify and select the black-capped marker from the image."
+                    ]
+                ],
+                "grd_truth": [
+                    1,
+                    8,
+                    9,
+                    10,
+                    12
+                ],
+                "identified": [
+                    99,
+                    99,
+                    99,
+                    2,
+                    99
+                ],
+                "flags": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "acc": 0.0
+            },
+            "rel": {
+                "instruction": [
+                    [
+                        "Please identify and select the marker close to the red can from the image."
+                    ],
+                    [
+                        "Please identify and extract the 'can in top left region' from the image."
+                    ],
+                    [
+                        "Please locate and obtain the can between the organ-capped marker and the blue ball from the image."
+                    ],
+                    [
+                        "Please identify the ball next to the round can in the image."
+                    ],
+                    [
+                        "Please identify and locate the ball between the round can and the scissors in the image."
+                    ],
+                    [
+                        "Please identify and select the bottle besides the scissors in the image."
+                    ],
+                    [
+                        "Please identify and provide me with the bottle on the right of the transparent bottle from the image."
+                    ],
+                    [
+                        "Please identify and select the can on the right of the white-capped bottle in the image."
+                    ],
+                    [
+                        "Please identify and select the marker near the screwdriver in the image."
+                    ],
+                    [
+                        "Please identify and select the measuring cup next to the marker in the image."
+                    ],
+                    [
+                        "Please hand me the mug between the black mug and the rectangular can."
+                    ],
+                    [
+                        "Please hand me the mug between the measuring cup and the blue ball."
+                    ],
+                    [
+                        "Please identify and point to the ball on the right of the black cups in the image."
+                    ],
+                    [
+                        "Please identify and extract the measuring cup in bottom right region from the image."
+                    ]
+                ],
+                "grd_truth": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    8,
+                    9,
+                    10,
+                    12,
+                    14,
+                    15,
+                    16,
+                    17,
+                    19
+                ],
+                "identified": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    2,
+                    9,
+                    9,
+                    0,
+                    1,
+                    0,
+                    15,
+                    99,
+                    5,
+                    9
+                ],
+                "flags": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0,
+                    0
+                ],
+                "acc": 0.14285714285714285
+            }
+        },
+        "test_4.png": {
+            "implicit": {
+                "instruction": [
+                    [
+                        "Please pass me the tool that's used for tightening or loosening screws."
+                    ],
+                    [
+                        "Please pass me the tool that's used for cutting paper."
+                    ],
+                    [
+                        "Please pass me the tool that is used to measure lengths, often found in a pencil case or on a desk."
+                    ]
+                ],
+                "grd_truth": [
+                    6,
+                    18,
+                    21
+                ],
+                "identified": [
+                    99,
+                    0,
+                    5
+                ],
+                "flags": [
+                    0,
+                    0,
+                    0
+                ],
+                "acc": 0.0
+            },
+            "attr": {
+                "instruction": [
+                    [
+                        "Please hand me the whiteboard marker with orange cap."
+                    ],
+                    [
+                        "Please hand me the whiteboard marker with green cap."
+                    ],
+                    [
+                        "Please hand me the whiteboard marker with dark red cap."
+                    ],
+                    [
+                        "Please hand me the whiteboard marker with black cap."
+                    ]
+                ],
+                "grd_truth": [
+                    9,
+                    10,
+                    13,
+                    14
+                ],
+                "identified": [
+                    0,
+                    8,
+                    20,
+                    99
+                ],
+                "flags": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "acc": 0.0
+            },
+            "rel": {
+                "instruction": [
+                    [
+                        "Please hand me the mug in the left most part of the image."
+                    ],
+                    [
+                        "Please hand me the bottle between the gray mug and black mug."
+                    ],
+                    [
+                        "Please hand me the ball in front of the beige mug."
+                    ],
+                    [
+                        "Please identify the ball between two red balls in the image."
+                    ],
+                    [
+                        "Please identify and provide me with the ball beside the black mug from the image."
+                    ],
+                    [
+                        "Please identify and obtain the marker between the red ball and the blue ball from the image."
+                    ],
+                    [
+                        "Please identify the marker which aligns with screwdriver."
+                    ],
+                    [
+                        "Please identify and select the mug in front of the screwdriver from the image."
+                    ],
+                    [
+                        "Please hand me the measuring cup next to the beige mug."
+                    ],
+                    [
+                        "Please identify the object measuring close to markers and scissors in the image."
+                    ],
+                    [
+                        "Please hand me the measuring cup on the right of the water bottle."
+                    ],
+                    [
+                        "Please identify and select the mug in the right most part of the image."
+                    ]
+                ],
+                "grd_truth": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    9,
+                    10,
+                    11,
+                    12,
+                    16,
+                    17,
+                    20
+                ],
+                "identified": [
+                    1,
+                    0,
+                    0,
+                    0,
+                    5,
+                    0,
+                    5,
+                    99,
+                    19,
+                    18,
+                    5,
+                    17
+                ],
+                "flags": [
+                    1,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "acc": 0.16666666666666666
+            }
+        },
+        "test0020.png": {
+            "implicit": {
+                "instruction": [
+                    [
+                        "Please pass me the tool that's used for tightening or loosening screws."
+                    ],
+                    [
+                        "Please pass me the tool that is used for cutting paper."
+                    ],
+                    [
+                        "Please pass me the tool that is used to measure lengths, often found in a pencil case or on a desk."
+                    ]
+                ],
+                "grd_truth": [
+                    5,
+                    7,
+                    13
+                ],
+                "identified": [
+                    99,
+                    99,
+                    5
+                ],
+                "flags": [
+                    0,
+                    0,
+                    0
+                ],
+                "acc": 0.0
+            },
+            "attr": {
+                "instruction": [
+                    [
+                        "Please identify and select the orange-capped marker from the image."
+                    ],
+                    [
+                        "Please identify and extract the red ball from the image."
+                    ],
+                    [
+                        "Please identify and select the gray bottle with black cap from the image."
+                    ],
+                    [
+                        "Please identify and select the bottle with white cap from the image."
+                    ],
+                    [
+                        "Please identify and highlight the rectangular metal can in the image."
+                    ],
+                    [
+                        "Please hand me the black-capped marker from the image."
+                    ],
+                    [
+                        "Please identify and extract the blue marker from the image."
+                    ],
+                    [
+                        "Please hand me the beige mug from the image."
+                    ],
+                    [
+                        "Please identify and select the green-capped marker from the image."
+                    ]
+                ],
+                "grd_truth": [
+                    1,
+                    6,
+                    8,
+                    10,
+                    11,
+                    12,
+                    14,
+                    15,
+                    21
+                ],
+                "identified": [
+                    99,
+                    6,
+                    99,
+                    10,
+                    10,
+                    99,
+                    99,
+                    15,
+                    21
+                ],
+                "flags": [
+                    0,
+                    1,
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    1,
+                    1
+                ],
+                "acc": 0.4444444444444444
+            },
+            "rel": {
+                "instruction": [
+                    [
+                        "Please identify and extract the 'marker in the left most' from the image."
+                    ],
+                    [
+                        "Please identify and extract the 'can in top left' from the image."
+                    ],
+                    [
+                        "Please identify and obtain the can between the blue ball and the orange-capped marker from the image."
+                    ],
+                    [
+                        "Please identify and point out the ball near the screwdriver in the image."
+                    ],
+                    [
+                        "Please identify and point out the ball near the scissors in the image."
+                    ],
+                    [
+                        "Please identify and select the bottle next to the box in the image."
+                    ],
+                    [
+                        "Please hand me the bottle between the water bottle and the rectangular can."
+                    ],
+                    [
+                        "Please identify and provide me with the can on the left of the black mug from the image."
+                    ],
+                    [
+                        "Please identify and select the marker besides the beige mug in the image."
+                    ],
+                    [
+                        "Please identify and pick up the marker besides the measuring cup."
+                    ],
+                    [
+                        "Please identify and obtain the mug next to the two markers from the image."
+                    ],
+                    [
+                        "Please identify the ball near the measuring cup in the image."
+                    ],
+                    [
+                        "Please identify and select the mug near the measuring cup in the image."
+                    ],
+                    [
+                        "Please identify and select the mug near the rectangular can from the image."
+                    ],
+                    [
+                        "Please identify and provide me with the ball on the right of the black mug."
+                    ],
+                    [
+                        "Please identify and select the right most marker in the image."
+                    ]
+                ],
+                "grd_truth": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    6,
+                    8,
+                    10,
+                    11,
+                    12,
+                    14,
+                    15,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21
+                ],
+                "identified": [
+                    21,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    10,
+                    0,
+                    21,
+                    14,
+                    15,
+                    0,
+                    3,
+                    15,
+                    0,
+                    21
+                ],
+                "flags": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0,
+                    1,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "acc": 0.25
+            }
+        },
+        "test_1.png": {
+            "implicit": {
+                "instruction": [
+                    [
+                        "Please pass me the tool that's used for tightening or loosening screws."
+                    ],
+                    [
+                        "Please pass me the tool that is used to measure lengths, often found in a pencil case or on a desk."
+                    ],
+                    [
+                        "Please pass me the tool that's used for cutting paper."
+                    ]
+                ],
+                "grd_truth": [
+                    20,
+                    21,
+                    22
+                ],
+                "identified": [
+                    99,
+                    99,
+                    0
+                ],
+                "flags": [
+                    0,
+                    0,
+                    0
+                ],
+                "acc": 0.0
+            },
+            "attr": {
+                "instruction": [
+                    [
+                        "Please hand me the gray ceramic mug from the image."
+                    ],
+                    [
+                        "Please hand me the beige ceramic mug from the image."
+                    ],
+                    [
+                        "Please hand me the white dry erase marker with orange cap."
+                    ],
+                    [
+                        "Please hand me the white dry erase marker with green cap."
+                    ],
+                    [
+                        "Please hand me the white dry erase marker with red cap."
+                    ],
+                    [
+                        "Please hand me the white dry erase marker with blue cap."
+                    ],
+                    [
+                        "Please hand me the white dry erase marker with black cap."
+                    ]
+                ],
+                "grd_truth": [
+                    2,
+                    4,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19
+                ],
+                "identified": [
+                    2,
+                    4,
+                    0,
+                    0,
+                    0,
+                    99,
+                    19
+                ],
+                "flags": [
+                    1,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "acc": 0.42857142857142855
+            },
+            "rel": {
+                "instruction": [
+                    [
+                        "Please hand me the mug in the left most part of the image."
+                    ],
+                    [
+                        "Please identify and select the mug on the right of the two blue balls from the image."
+                    ],
+                    [
+                        "Please hand me the mug on the right of the scissors."
+                    ],
+                    [
+                        "Please hand me the measuring cup on the right of the screwdriver."
+                    ],
+                    [
+                        "Please hand me the ball in the top left corner near the black mug."
+                    ],
+                    [
+                        "Please hand me the red ball in top left near the yellow bottle."
+                    ],
+                    [
+                        "Please identify and locate the red ball between the two black mugs in the image."
+                    ],
+                    [
+                        "Please identify and select the blue ball in the leftmost position of the image."
+                    ],
+                    [
+                        "Please identify and select the marker between the red ball and the blue balls in the image."
+                    ],
+                    [
+                        "Please hand me the marker between the black mug and the gray mug."
+                    ],
+                    [
+                        "Please hand me the marker in top left center between the black mug and the yellow bottle."
+                    ],
+                    [
+                        "Please identify the image where the marker align with the ruler."
+                    ]
+                ],
+                "grd_truth": [
+                    1,
+                    3,
+                    4,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    15,
+                    16,
+                    17,
+                    19
+                ],
+                "identified": [
+                    4,
+                    5,
+                    4,
+                    5,
+                    5,
+                    10,
+                    11,
+                    13,
+                    0,
+                    0,
+                    0,
+                    12
+                ],
+                "flags": [
+                    0,
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "acc": 0.16666666666666666
+            }
+        },
+        "test_2.png": {
+            "implicit": {
+                "instruction": [
+                    [
+                        "Please pass me the tool that's used for tightening or loosening screws."
+                    ],
+                    [
+                        "Please pass me the tool that is used for cutting paper."
+                    ],
+                    [
+                        "Please pass me the tool that is used to measure lengths, commonly found in a geometry box."
+                    ]
+                ],
+                "grd_truth": [
+                    2,
+                    5,
+                    21
+                ],
+                "identified": [
+                    99,
+                    0,
+                    99
+                ],
+                "flags": [
+                    0,
+                    0,
+                    0
+                ],
+                "acc": 0.0
+            },
+            "attr": {
+                "instruction": [
+                    [
+                        "Please hand me the white marker with orange cap."
+                    ],
+                    [
+                        "Please identify and select the white marker with blue cap from the image."
+                    ],
+                    [
+                        "Please locate and retrieve the white marker with black cap from the image."
+                    ],
+                    [
+                        "Please identify and extract the 'blue ball' from the image."
+                    ],
+                    [
+                        "Please hand me the beige mug from the image."
+                    ],
+                    [
+                        "Please locate and identify the gray mug in the image."
+                    ],
+                    [
+                        "Please locate and select the white marker with green cap from the image."
+                    ],
+                    [
+                        "Please locate and select the white marker with dark red cap from the image."
+                    ],
+                    [
+                        "Please identify and extract the red ball from the image."
+                    ]
+                ],
+                "grd_truth": [
+                    9,
+                    10,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    20
+                ],
+                "identified": [
+                    0,
+                    10,
+                    0,
+                    13,
+                    14,
+                    15,
+                    16,
+                    0,
+                    99
+                ],
+                "flags": [
+                    0,
+                    1,
+                    0,
+                    1,
+                    1,
+                    1,
+                    1,
+                    0,
+                    0
+                ],
+                "acc": 0.5555555555555556
+            },
+            "rel": {
+                "instruction": [
+                    [
+                        "Please hand me the mug in the leftmost of the image."
+                    ],
+                    [
+                        "Please hand me the mug on the right of the water bottle."
+                    ],
+                    [
+                        "Please identify the ball next to the scissors in the image."
+                    ],
+                    [
+                        "Please identify and select the ball on the left of the squeeze bottle from the image."
+                    ],
+                    [
+                        "Please place the marker perpendicular to the scissors in the image."
+                    ],
+                    [
+                        "Please identify and select the marker in front of the water bottle from the image."
+                    ],
+                    [
+                        "Please place the marker perpendicular to the ruler in the image."
+                    ],
+                    [
+                        "Please crop the image to highlight the ball in the center region."
+                    ],
+                    [
+                        "Please hand me the beige mug on the right of the blue ball."
+                    ],
+                    [
+                        "Please hand me the mug on the right of the beige mug."
+                    ],
+                    [
+                        "Please identify and select the marker close to the black mug in the image."
+                    ],
+                    [
+                        "Please hand me the measuring cup between the red measuring cup and the red ball."
+                    ],
+                    [
+                        "Please give me the ball in top right."
+                    ]
+                ],
+                "grd_truth": [
+                    1,
+                    4,
+                    6,
+                    7,
+                    9,
+                    10,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    19,
+                    20
+                ],
+                "identified": [
+                    1,
+                    15,
+                    0,
+                    0,
+                    99,
+                    9,
+                    5,
+                    0,
+                    14,
+                    1,
+                    15,
+                    0
+                ],
+                "flags": [
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0,
+                    0
+                ],
+                "acc": 0.16666666666666666
+            }
+        },
+        "test0002.png": {
+            "implicit": {
+                "instruction": [
+                    [
+                        "Please pass me the tool that's used for cutting paper."
+                    ],
+                    [
+                        "Please pass me the tool that is used to measure lengths, often found in a pencil case or on a desk."
+                    ],
+                    [
+                        "Please pass me the tool that's used for tightening or loosening screws."
+                    ]
+                ],
+                "grd_truth": [
+                    5,
+                    8,
+                    9
+                ],
+                "identified": [
+                    0,
+                    9,
+                    0
+                ],
+                "flags": [
+                    0,
+                    0,
+                    0
+                ],
+                "acc": 0.0
+            },
+            "attr": {
+                "instruction": [
+                    [
+                        "Please hand me the whiteboard marker with orange cap."
+                    ],
+                    [
+                        "Please hand me the beige mug from the image."
+                    ],
+                    [
+                        "Please hand me the whiteboard marker with blue cap."
+                    ],
+                    [
+                        "Please identify and extract the 'blue ball' from the image."
+                    ],
+                    [
+                        "Please locate and identify the rectangular metal can with pull tab in the image."
+                    ]
+                ],
+                "grd_truth": [
+                    1,
+                    3,
+                    15,
+                    18,
+                    20
+                ],
+                "identified": [
+                    7,
+                    3,
+                    1,
+                    18,
+                    20
+                ],
+                "flags": [
+                    0,
+                    1,
+                    0,
+                    1,
+                    1
+                ],
+                "acc": 0.6
+            },
+            "rel": {
+                "instruction": [
+                    [
+                        "Please identify and select the marker far from the screwdriver in the image."
+                    ],
+                    [
+                        "Please identify and select the can next to the rectangular can from the image."
+                    ],
+                    [
+                        "Please identify the mug close to the squeeze bottle in the image."
+                    ],
+                    [
+                        "Please identify the ball next to the scissors in the image."
+                    ],
+                    [
+                        "Please identify and obtain the measuring cup on the left of the ruler from the image."
+                    ],
+                    [
+                        "Please identify and select the can in the right most part of the image."
+                    ],
+                    [
+                        "Please identify and extract the mug in top right region from the image."
+                    ],
+                    [
+                        "Please identify and select the measuring cup next to the head of screwdriver in the image."
+                    ],
+                    [
+                        "Please identify the ball near the measuring cup in the image."
+                    ],
+                    [
+                        "Please hand me the marker between the black mug and the red ball."
+                    ],
+                    [
+                        "Please provide me with the mug near the beige mug from the image."
+                    ],
+                    [
+                        "Please identify and point out the ball near the round can and the beige mug in the image."
+                    ],
+                    [
+                        "Please identify and select the ball in the top most part of the image."
+                    ],
+                    [
+                        "Please identify and select the can besides the red ball in the image."
+                    ],
+                    [
+                        "Please hand me the measuring cup in the rightmost."
+                    ]
+                ],
+                "grd_truth": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    7,
+                    10,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    18,
+                    19,
+                    20,
+                    21
+                ],
+                "identified": [
+                    1,
+                    0,
+                    3,
+                    0,
+                    3,
+                    10,
+                    99,
+                    3,
+                    0,
+                    1,
+                    11,
+                    99,
+                    0,
+                    0,
+                    11
+                ],
+                "flags": [
+                    1,
+                    0,
+                    1,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "acc": 0.2
+            }
+        },
+        "macro_acc": {
+            "implicit": 0.0,
+            "attr": 0.3183673469387755,
+            "rel": 0.17397959183673467
+        }
+    },
+    "missing_ids": {
+        "implicit": [],
+        "attr": [],
+        "rel": []
+    }
+}

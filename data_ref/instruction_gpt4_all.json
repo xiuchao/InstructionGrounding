@@ -1,0 +1,2523 @@
+{
+  "test0088.png": {
+    "objects": {
+      "1": "box",
+      "2": "bottle",
+      "3": "can",
+      "4": "can",
+      "5": "marker",
+      "6": "ball",
+      "7": "screwdriver",
+      "8": "ball",
+      "9": "mug",
+      "10": "marker",
+      "11": "mug",
+      "12": "marker",
+      "13": "ruler",
+      "14": "marker",
+      "15": "measuring cup",
+      "16": "ball",
+      "17": "mug"
+    },
+    "explicit_attr_instructions": {
+      "5": [
+        "Please identify and select the orange-capped marker from the image."
+      ],
+      "6": [
+        "Please identify and extract the 'blue ball' from the image."
+      ],
+      "9": [
+        "Please locate and select the gray mug in the image."
+      ],
+      "10": [
+        "Please hand me the white marker with red cap."
+      ],
+      "11": [
+        "Please hand me the beige mug from the image."
+      ],
+      "17": [
+        "Please identify and select the black mug from the image."
+      ]
+    },
+    "explicit_rel_instructions": {
+      "3": [
+        "Please identify and select the can which is in front of the bottle."
+      ],
+      "4": [
+        "Please identify and select the can near the orange-capped marker in the image."
+      ],
+      "5": [
+        "Please identify and highlight the 'marker near the box' in the image."
+      ],
+      "6": [
+        "Please identify the ball next to the can in the image."
+      ],
+      "8": [
+        "Please identify and locate the ball besides the head of the screwdriver in the image."
+      ],
+      "9": [
+        "Please identify and select the mug that is located on the right of the red ball in the image."
+      ],
+      "10": [
+        "Please extract the 'marker in top right' from the image."
+      ],
+      "11": [
+        "Please identify and provide me with the mug that is located on the left of the red ball."
+      ],
+      "16": [
+        "Please identify and provide me with the ball on the right of the beige mug from the image."
+      ],
+      "17": [
+        "Please identify and select the mug in bottom right of the image."
+      ]
+    },
+    "implicit_instructions": {
+      "7": [
+        "Please pass me the tool that's used for tightening or loosening screws."
+      ],
+      "13": [
+        "Please pass me the tool that is used to measure lengths, commonly found in a pencil case or on a desk."
+      ]
+    },
+    "multi_turn_instructions_obj": {
+      "['3', '4']": [
+        "Please give me the can."
+      ],
+      "['5', '10', '12', '14']": [
+        "Please identify and outline the marker in the image."
+      ],
+      "['6', '8', '16']": [
+        "Please identify and circle the object referred to as 'ball' in the image."
+      ],
+      "['9', '11', '17']": [
+        "Please identify and extract the 'mug' from the image."
+      ]
+    },
+    "multi_turn_instructions_obj_attr": {
+      "['3', '4']": [
+        "Please identify and extract the 'metal can' from the image."
+      ],
+      "['8', '16']": [
+        "Please identify and extract the red ball from the image."
+      ]
+    }
+  },
+  "test0188.png": {
+    "objects": {
+      "1": "can",
+      "2": "mug",
+      "3": "ball",
+      "4": "squeeze bottle",
+      "5": "measuring cup",
+      "6": "marker",
+      "7": "ruler",
+      "8": "screwdriver",
+      "9": "can",
+      "10": "mug"
+    },
+    "explicit_attr_instructions": {
+      "2": [
+        "Please hand me the beige mug from the image."
+      ],
+      "10": [
+        "Please identify and select the black mug from the image."
+      ]
+    },
+    "explicit_rel_instructions": {
+      "1": [
+        "Please hand me the can on the left of the beige mug."
+      ],
+      "2": [
+        "Please hand me the mug on the right of the can."
+      ],
+      "9": [
+        "Please identify and select the can besides black mug in the image."
+      ],
+      "10": [
+        "Please identify and extract the mug in the top right corner from the image."
+      ]
+    },
+    "implicit_instructions": {
+      "7": [
+        "Please pass me the tool that is used to measure lengths, commonly found in a pencil case or on a desk."
+      ],
+      "8": [
+        "Please pass me the tool that's used for tightening or loosening screws."
+      ]
+    },
+    "multi_turn_instructions_obj": {
+      "['1', '9']": [
+        "Please give me the can."
+      ],
+      "['2', '10']": [
+        "Please identify and extract the 'mug' from the image."
+      ]
+    },
+    "multi_turn_instructions_obj_attr": {
+      "['1', '9']": [
+        "Please identify and extract the 'metal can' from the image."
+      ]
+    }
+  },
+  "test0009.png": {
+    "objects": {
+      "1": "marker",
+      "2": "can",
+      "3": "bottle",
+      "4": "ball",
+      "5": "screwdriver",
+      "6": "ball",
+      "7": "mug",
+      "8": "can"
+    },
+    "explicit_attr_instructions": {
+      "1": [
+        "Please hand me the orange-capped board marker from the image."
+      ],
+      "4": [
+        "Please extract the blue spherical object from the image."
+      ],
+      "6": [
+        "Please identify and extract the red ball from the image."
+      ]
+    },
+    "explicit_rel_instructions": {
+      "1": [
+        "Please identify and extract the 'marker in the left most' from the image."
+      ],
+      "2": [
+        "Please identify and select the can that is far from the blue ball in the image."
+      ],
+      "4": [
+        "Please hand me the ball between the can and the screwdriver."
+      ],
+      "6": [
+        "Please identify and provide me with the ball on the right of the screwdriver from the image."
+      ],
+      "8": [
+        "Please identify and highlight the can near the blue ball in the image."
+      ]
+    },
+    "implicit_instructions": {
+      "5": [
+        "Please pass me the tool that's used for tightening or loosening screws."
+      ]
+    },
+    "multi_turn_instructions_obj": {
+      "['2', '8']": [
+        "Please pass me the can."
+      ],
+      "['4', '6']": [
+        "Please identify and circle the object referred to as 'ball' in the image."
+      ]
+    },
+    "multi_turn_instructions_obj_attr": {
+      "['2', '8']": [
+        "Please locate and retrieve the metal can with a sealed lid from the image."
+      ]
+    }
+  },
+  "test0240.png": {
+    "objects": {
+      "1": "can",
+      "2": "mug",
+      "3": "bottle",
+      "4": "scissors",
+      "5": "ball",
+      "6": "measuring cup",
+      "7": "ruler",
+      "8": "marker",
+      "9": "screwdriver",
+      "10": "can",
+      "11": "mug"
+    },
+    "explicit_attr_instructions": {
+      "2": [
+        "Please locate and identify the beige mug in the image."
+      ],
+      "10": [
+        "Please identify and extract the 'metal can' from the image."
+      ],
+      "11": [
+        "Please identify and select the black mug from the image."
+      ]
+    },
+    "explicit_rel_instructions": {
+      "1": [
+        "Please hand me the can on the left of the beige mug."
+      ],
+      "2": [
+        "Please hand me the mug on the right of the can."
+      ],
+      "10": [
+        "Please identify and obtain the can on the right of the screwdriver from the image."
+      ],
+      "11": [
+        "Please identify and select the mug on the right of the screwdriver in the image."
+      ]
+    },
+    "implicit_instructions": {
+      "4": [
+        "Please pass me the tool that's used for cutting paper."
+      ],
+      "7": [
+        "Please pass me the tool that is used to measure lengths, often found in a pencil case or on a desk."
+      ],
+      "9": [
+        "Please pass me the tool that's used for tightening or loosening screws."
+      ]
+    },
+    "multi_turn_instructions_obj": {
+      "['1', '10']": [
+        "Please give me the can."
+      ],
+      "['2', '11']": [
+        "Please identify and extract the 'mug' from the image."
+      ]
+    },
+    "multi_turn_instructions_obj_attr": {}
+  },
+  "test0075.png": {
+    "objects": {
+      "1": "box",
+      "2": "bottle",
+      "3": "can",
+      "4": "can",
+      "5": "marker",
+      "6": "ball",
+      "7": "ball",
+      "8": "screwdriver",
+      "9": "mug",
+      "10": "mug",
+      "11": "marker",
+      "12": "ruler",
+      "13": "marker",
+      "14": "marker",
+      "15": "ball",
+      "16": "measuring cup",
+      "17": "mug"
+    },
+    "explicit_attr_instructions": {
+      "5": [
+        "Please identify and select the orange-capped marker from the image."
+      ],
+      "6": [
+        "Please identify and extract the 'blue ball' from the image."
+      ],
+      "9": [
+        "Please locate and select the gray mug in the image."
+      ],
+      "10": [
+        "Please hand me the beige mug from the image."
+      ],
+      "11": [
+        "Please hand me the black-capped marker from the image."
+      ],
+      "14": [
+        "Please hand me the white marker with red cap."
+      ],
+      "17": [
+        "Please identify and select the black mug from the image."
+      ]
+    },
+    "explicit_rel_instructions": {
+      "3": [
+        "Please identify and select the can next to the bottle in the image."
+      ],
+      "4": [
+        "Please identify and select the can far from the bottle in the image."
+      ],
+      "5": [
+        "Please identify and extract the 'marker in bottom left' from the image."
+      ],
+      "6": [
+        "Please identify the ball next to the round can in the image."
+      ],
+      "7": [
+        "Please locate and identify the ball between the gray mug and the head of the screwdriver in the image."
+      ],
+      "9": [
+        "Please hand me the mug on the right of the bottle."
+      ],
+      "10": [
+        "Please identify and provide me with the mug that is located on the left of the red ball."
+      ],
+      "14": [
+        "Please identify and select the marker next to the gray mug in the image."
+      ],
+      "15": [
+        "Please identify and provide me with the ball on the right of the beige mug."
+      ],
+      "17": [
+        "Please identify and select the mug in bottom right of the image."
+      ]
+    },
+    "implicit_instructions": {
+      "8": [
+        "Please pass me the tool that's used for tightening or loosening screws."
+      ],
+      "12": [
+        "Please pass me the tool that is used to measure lengths, commonly found in a geometry box."
+      ]
+    },
+    "multi_turn_instructions_obj": {
+      "['3', '4']": [
+        "Please give me the can"
+      ],
+      "['5', '11', '13', '14']": [
+        "Please identify and provide the marker indicating the position of the object within the image."
+      ],
+      "['6', '7', '15']": [
+        "Please identify and circle the object referred to as 'ball' in the image."
+      ],
+      "['9', '10', '17']": [
+        "Please identify and extract the 'mug' from the image."
+      ]
+    },
+    "multi_turn_instructions_obj_attr": {
+      "['3', '4']": [
+        "Please identify and select the object that resembles a 'round can' in the image."
+      ],
+      "['7', '15']": [
+        "Please identify and extract the red ball from the image."
+      ]
+    }
+  },
+  "test0016.png": {
+    "objects": {
+      "1": "ball",
+      "2": "can",
+      "3": "marker",
+      "4": "ruler",
+      "5": "tin",
+      "6": "marker",
+      "7": "bowl",
+      "8": "measuring cup"
+    },
+    "explicit_attr_instructions": {
+      "3": [
+        "Please hand me the black-capped marker from the image."
+      ]
+    },
+    "explicit_rel_instructions": {},
+    "implicit_instructions": {
+      "4": [
+        "Please pass me the tool that is used to measure lengths, often found in a pencil case or on a desk."
+      ]
+    },
+    "multi_turn_instructions_obj": {
+      "['3', '6']": [
+        "Please identify and provide the marker indicating the position of the object within the image."
+      ]
+    },
+    "multi_turn_instructions_obj_attr": {}
+  },
+  "test_3.png": {
+    "objects": {
+      "1": "water bottle",
+      "2": "mug",
+      "3": "ball",
+      "4": "screwdriver",
+      "5": "ruler",
+      "6": "marker",
+      "7": "mug",
+      "8": "mug",
+      "9": "marker",
+      "10": "marker",
+      "11": "ball",
+      "12": "ball",
+      "13": "marker",
+      "14": "measuring cup",
+      "15": "measuring cup",
+      "16": "ball",
+      "17": "ball",
+      "18": "mug",
+      "19": "marker",
+      "20": "squeeze bottle",
+      "21": "measuring cup",
+      "22": "scissors"
+    },
+    "explicit_attr_instructions": {
+      "6": [
+        "Please hand me the white board marker with blue cap."
+      ],
+      "9": [
+        "Please locate and pick up the white board marker with green cap from the image."
+      ],
+      "10": [
+        "Please hand me the white board marker with dark red cap."
+      ],
+      "13": [
+        "Please hand me the white board marker with black cap."
+      ],
+      "17": [
+        "Please locate and identify the blue plastic ball in the image."
+      ],
+      "19": [
+        "Please hand me the white board marker with orange cap."
+      ]
+    },
+    "explicit_rel_instructions": {
+      "2": [
+        "Please hand me the mug behind the water bottle."
+      ],
+      "3": [
+        "Please identify the ball between two black mugs in the image."
+      ],
+      "6": [
+        "Please hand me the marker between the black mug and the blue ball."
+      ],
+      "7": [
+        "Please hand me the mug between the black mug and the beige mug."
+      ],
+      "8": [
+        "Please identify and extract the mug in the top right region from the image."
+      ],
+      "11": [
+        "Please identify and highlight the ball near the water bottle in the image."
+      ],
+      "12": [
+        "Please identify and select the ball next to the screwdriver in the image."
+      ],
+      "13": [
+        "Please hand me the marker between the scissors and the blue ball."
+      ],
+      "15": [
+        "Please hand me the measuring cup between the red measuring cup and the red ball."
+      ],
+      "16": [
+        "Please hand me the ball between the beige mug and the gray mug."
+      ],
+      "17": [
+        "Please identify and point to the ball on the left of the gray mug in the image."
+      ],
+      "18": [
+        "Please identify and select the mug in the bottom right region of the image."
+      ],
+      "19": [
+        "Please hand me the marker besides the squeeze bottle."
+      ],
+      "21": [
+        "Please identify and select the cup besides the scissors in the image."
+      ]
+    },
+    "implicit_instructions": {
+      "4": [
+        "Please pass me the tool that's used for tightening or loosening screws."
+      ],
+      "5": [
+        "Please pass me the tool that is used to measure lengths, often found in a pencil case or on a desk."
+      ],
+      "22": [
+        "Please pass me the tool that's used for cutting paper."
+      ]
+    },
+    "multi_turn_instructions_obj": {
+      "['2', '7', '8', '18']": [
+        "Please identify and extract the 'mug' from the image."
+      ],
+      "['3', '11', '12', '16', '17']": [
+        "Please identify the object with the relative location or attributes of a 'ball' in the image."
+      ],
+      "['6', '9', '10', '13', '19']": [
+        "Please identify and outline the 'marker' within the image and provide its relative location or attributes."
+      ],
+      "['14', '15', '21']": [
+        "Please locate the 'measuring cup' in the image and identify it."
+      ]
+    },
+    "multi_turn_instructions_obj_attr": {
+      "['2', '7']": [
+        "Please hand me the black ceramic mug from the image."
+      ],
+      "['8', '18']": [
+        "Please hand me the beige ceramic mug from the image."
+      ],
+      "['11', '12', '16']": [
+        "Please identify and select the red plastic ball from the image."
+      ],
+      "['14', '15', '21']": [
+        "Please identify and locate the red measuring cup in the image."
+      ]
+    }
+  },
+  "test0251.png": {
+    "objects": {
+      "1": "can",
+      "2": "can",
+      "3": "marker",
+      "4": "ball",
+      "5": "screwdriver",
+      "6": "marker",
+      "7": "marker",
+      "8": "ruler"
+    },
+    "explicit_attr_instructions": {
+      "3": [
+        "Please identify and select the marker with orange cap from the image."
+      ]
+    },
+    "explicit_rel_instructions": {
+      "1": [
+        "Please identify and select the can in the left most part of the image."
+      ],
+      "2": [
+        "Please identify and obtain the can between the blue ball and the orange-capped marker from the image."
+      ],
+      "3": [
+        "Please identify and highlight the marker besides the can in the image."
+      ]
+    },
+    "implicit_instructions": {
+      "5": [
+        "Please pass me the tool that's used for tightening or loosening screws."
+      ],
+      "8": [
+        "Please pass me the tool that is used to measure lengths, commonly found in a pencil case or on a desk."
+      ]
+    },
+    "multi_turn_instructions_obj": {
+      "['1', '2']": [
+        "Please give me the can."
+      ],
+      "['3', '6', '7']": [
+        "Please identify and provide the marker indicating the position of the object within the image."
+      ]
+    },
+    "multi_turn_instructions_obj_attr": {
+      "['1', '2']": [
+        "Please identify and select the object that resembles a 'round can' in the image."
+      ]
+    }
+  },
+  "test0215.png": {
+    "objects": {
+      "1": "can",
+      "2": "can",
+      "3": "ball",
+      "4": "marker",
+      "5": "screwdriver",
+      "6": "mug",
+      "7": "marker",
+      "8": "marker",
+      "9": "ruler"
+    },
+    "explicit_attr_instructions": {
+      "4": [
+        "Please identify and select the marker with orange cap from the image."
+      ],
+      "7": [
+        "Please identify and select the marker with black cap from the image."
+      ]
+    },
+    "explicit_rel_instructions": {
+      "1": [
+        "Please identify and extract the 'can in top left' from the image."
+      ],
+      "2": [
+        "Please identify and highlight the can besides the ball in the image."
+      ],
+      "4": [
+        "Please identify and extract the 'marker in bottom left' from the image."
+      ],
+      "7": [
+        "Please identify and select the 'marker above the ruler' in the image."
+      ]
+    },
+    "implicit_instructions": {
+      "5": [
+        "Please pass me the tool that's used for tightening or loosening screws."
+      ],
+      "9": [
+        "Please pass me the tool that is used to measure lengths, often found in a pencil case or on a desk."
+      ]
+    },
+    "multi_turn_instructions_obj": {
+      "['1', '2']": [
+        "Please identify where the can is located."
+      ],
+      "['4', '7', '8']": [
+        "Please identify and provide the marker indicating the position of the object within the image."
+      ]
+    },
+    "multi_turn_instructions_obj_attr": {
+      "['1', '2']": [
+        "Please identify and extract the 'metal can' from the image."
+      ]
+    }
+  },
+  "test0119.png": {
+    "objects": {
+      "1": "marker",
+      "2": "can",
+      "3": "ball",
+      "4": "scissors",
+      "5": "squeeze bottle",
+      "6": "mug",
+      "7": "can",
+      "8": "ball",
+      "9": "ball",
+      "10": "mug",
+      "11": "ball",
+      "12": "marker",
+      "13": "marker",
+      "14": "ruler",
+      "15": "measuring cup",
+      "16": "screwdriver",
+      "17": "measuring cup",
+      "18": "ball",
+      "19": "mug",
+      "20": "mug",
+      "21": "can"
+    },
+    "explicit_attr_instructions": {
+      "1": [
+        "Please hand me the orange-tipped whiteboard marker from the image."
+      ],
+      "2": [
+        "Please extract the 'rectangular can' from the image."
+      ],
+      "6": [
+        "Please locate and identify the beige mug in the image."
+      ],
+      "11": [
+        "Please identify and extract the 'blue ball' from the image."
+      ],
+      "12": [
+        "Please hand me the blue-capped whiteboard marker from the image."
+      ]
+    },
+    "explicit_rel_instructions": {
+      "1": [
+        "Please highlight the 'marker in bottom left corner'."
+      ],
+      "2": [
+        "Please identify and select the 'can near top left corner' from the image."
+      ],
+      "3": [
+        "Please identify and point out the ball near the scissors in the image."
+      ],
+      "6": [
+        "Please identify and select the mug next to the bottle in the image."
+      ],
+      "7": [
+        "Please hand me the can on the left of the beige mug."
+      ],
+      "8": [
+        "Please identify the ball next to the cylindrical can in the image."
+      ],
+      "9": [
+        "Please identify and highlight the ball besides the rectangular can in the image."
+      ],
+      "10": [
+        "Please hand me the mug next to the beige mug."
+      ],
+      "11": [
+        "Please identify and select the ball close to the marker with blue cap from the image."
+      ],
+      "12": [
+        "Please identify and select the marker next to the blue ball in the image."
+      ],
+      "15": [
+        "Please identify and obtain the measuring cup on the left of the ruler from the image."
+      ],
+      "17": [
+        "Please identify and obtain the measuring cup on the right of the ruler from the image."
+      ],
+      "18": [
+        "Please pass me the ball besides the measuring cup."
+      ],
+      "19": [
+        "Please identify and extract the image of the cup behind the cylindrical can."
+      ],
+      "20": [
+        "Please extract the mug in the top right corner from the image."
+      ],
+      "21": [
+        "Please identify and select the can on the right of screwdriver in the image."
+      ]
+    },
+    "implicit_instructions": {
+      "4": [
+        "Please pass me the tool that is used for cutting paper."
+      ],
+      "14": [
+        "Please pass me the tool that is used to measure lengths, commonly found in a geometry box."
+      ],
+      "16": [
+        "Please pass me the tool that's used for tightening or loosening screws."
+      ]
+    },
+    "multi_turn_instructions_obj": {
+      "['1', '12', '13']": [
+        "Please identify and outline the marker within the image."
+      ],
+      "['2', '7', '21']": [
+        "Please give me the can."
+      ],
+      "['3', '8', '9', '11', '18']": [
+        "Please identify the object with the relative location or attributes of a 'ball' in the image."
+      ],
+      "['6', '10', '19', '20']": [
+        "Please identify and extract the 'mug' from the image."
+      ],
+      "['15', '17']": [
+        "Please locate the 'measuring cup' in the image and identify it."
+      ]
+    },
+    "multi_turn_instructions_obj_attr": {
+      "['3', '9', '18']": [
+        "Please identify and extract the red ball from the image."
+      ],
+      "['7', '21']": [
+        "Please identify and highlight the cylindrical can in the image."
+      ],
+      "['10', '19', '20']": [
+        "Please identify and select the black mug from the image."
+      ],
+      "['15', '17']": [
+        "Please identify and select the red measuring cup from the image."
+      ]
+    }
+  },
+  "test0156.png": {
+    "objects": {
+      "1": "bottle",
+      "2": "can",
+      "3": "can",
+      "4": "marker",
+      "5": "ball",
+      "6": "screwdriver",
+      "7": "ball",
+      "8": "mug",
+      "9": "marker",
+      "10": "ruler",
+      "11": "marker",
+      "12": "measuring cup",
+      "13": "ball"
+    },
+    "explicit_attr_instructions": {
+      "4": [
+        "Please identify and select the orange-capped marker from the image."
+      ],
+      "5": [
+        "Please identify and extract the 'blue ball' from the image."
+      ],
+      "9": [
+        "Please hand me the black-capped marker from the image."
+      ]
+    },
+    "explicit_rel_instructions": {
+      "2": [
+        "Please identify and highlight the 'can near the bottle' in the image."
+      ],
+      "3": [
+        "Please identify and select the can besides the blue ball in the image."
+      ],
+      "4": [
+        "Please identify and highlight the marker besides the metal can in the image."
+      ],
+      "5": [
+        "Please identify and highlight the ball besides the metal can in the image."
+      ],
+      "7": [
+        "Please identify and point out the ball next to the head of the screwdriver in the image."
+      ],
+      "13": [
+        "Please identify and point out the ball near the beige mug in the image."
+      ]
+    },
+    "implicit_instructions": {
+      "6": [
+        "Please pass me the tool that's used for tightening or loosening screws."
+      ],
+      "10": [
+        "Please pass me the tool that is used to measure lengths, commonly found in a geometry box."
+      ]
+    },
+    "multi_turn_instructions_obj": {
+      "['2', '3']": [
+        "Please pass me the can."
+      ],
+      "['4', '9', '11']": [
+        "Please identify and provide the marker indicating the position of the object within the image."
+      ],
+      "['5', '7', '13']": [
+        "Please identify and circle the object referred to as 'ball' in the image."
+      ]
+    },
+    "multi_turn_instructions_obj_attr": {
+      "['2', '3']": [
+        "Please identify and extract the 'metal can' from the image."
+      ],
+      "['7', '13']": [
+        "Please identify and extract the red ball from the image."
+      ]
+    }
+  },
+  "test0176.png": {
+    "objects": {
+      "1": "can",
+      "2": "ball",
+      "3": "screwdriver",
+      "4": "ball",
+      "5": "scissors"
+    },
+    "explicit_attr_instructions": {
+      "2": [
+        "Please identify and extract the 'blue ball' from the image."
+      ],
+      "4": [
+        "Please identify and extract the red ball from the image."
+      ]
+    },
+    "explicit_rel_instructions": {
+      "2": [
+        "Please identify the ball that is far from the scissors in the image."
+      ],
+      "4": [
+        "Please identify and point out the ball near the scissors in the image."
+      ]
+    },
+    "implicit_instructions": {
+      "3": [
+        "Please pass me the tool that's used for tightening or loosening screws."
+      ],
+      "5": [
+        "Please pass me the tool that is used for cutting paper."
+      ]
+    },
+    "multi_turn_instructions_obj": {
+      "['2', '4']": [
+        "Please identify the 'ball' in the image."
+      ]
+    },
+    "multi_turn_instructions_obj_attr": {}
+  },
+  "test0001.png": {
+    "objects": {
+      "1": "marker",
+      "2": "can",
+      "3": "can",
+      "4": "ball",
+      "5": "ball",
+      "6": "scissors",
+      "7": "screwdriver",
+      "8": "water bottle",
+      "9": "bottle",
+      "10": "can",
+      "11": "ruler",
+      "12": "marker",
+      "13": "marker",
+      "14": "measuring cup",
+      "15": "mug",
+      "16": "mug",
+      "17": "ball",
+      "18": "box",
+      "19": "measuring cup",
+      "20": "marker"
+    },
+    "explicit_attr_instructions": {
+      "1": [
+        "Please identify and select the orange-capped marker from the image."
+      ],
+      "8": [
+        "Please extract the transparent bottle from the image."
+      ],
+      "9": [
+        "Please identify and select the white-capped bottle from the image."
+      ],
+      "10": [
+        "Please extract the 'rectangular can' from the image."
+      ],
+      "12": [
+        "Please identify and select the black-capped marker from the image."
+      ]
+    },
+    "explicit_rel_instructions": {
+      "1": [
+        "Please identify and select the marker close to the red can from the image."
+      ],
+      "2": [
+        "Please identify and extract the 'can in top left region' from the image."
+      ],
+      "3": [
+        "Please locate and obtain the can between the organ-capped marker and the blue ball from the image."
+      ],
+      "4": [
+        "Please identify the ball next to the round can in the image."
+      ],
+      "5": [
+        "Please identify and locate the ball between the round can and the scissors in the image."
+      ],
+      "8": [
+        "Please identify and select the bottle besides the scissors in the image."
+      ],
+      "9": [
+        "Please identify and provide me with the bottle on the right of the transparent bottle from the image."
+      ],
+      "10": [
+        "Please identify and select the can on the right of the white-capped bottle in the image."
+      ],
+      "12": [
+        "Please identify and select the marker near the screwdriver in the image."
+      ],
+      "14": [
+        "Please identify and select the measuring cup next to the marker in the image."
+      ],
+      "15": [
+        "Please hand me the mug between the black mug and the rectangular can."
+      ],
+      "16": [
+        "Please hand me the mug between the measuring cup and the blue ball."
+      ],
+      "17": [
+        "Please identify and point to the ball on the right of the black cups in the image."
+      ],
+      "19": [
+        "Please identify and extract the measuring cup in bottom right region from the image."
+      ]
+    },
+    "implicit_instructions": {
+      "6": [
+        "Please pass me the tool that's used for cutting paper."
+      ],
+      "7": [
+        "Please pass me the tool that's used for tightening or loosening screws."
+      ],
+      "11": [
+        "Please pass me the tool that is used to measure lengths, often found in a pencil case or on a desk."
+      ]
+    },
+    "multi_turn_instructions_obj": {
+      "['1', '12', '13', '20']": [
+        "Please identify and provide the marker indicating the position of the object within the image."
+      ],
+      "['2', '3', '10']": [
+        "Please take a photo of the area where the trash can is located."
+      ],
+      "['4', '5', '17']": [
+        "Please identify and circle the object referred to as 'ball' in the image."
+      ],
+      "['14', '19']": [
+        "Please locate the 'measuring cup' in the image and identify it."
+      ],
+      "['15', '16']": [
+        "Please identify and extract the 'mug' from the image."
+      ]
+    },
+    "multi_turn_instructions_obj_attr": {
+      "['2', '3']": [
+        "Please identify and select the object that resembles a 'round can' in the image."
+      ],
+      "['4', '17']": [
+        "Please identify and extract the 'blue ball' from the image."
+      ],
+      "['14', '19']": [
+        "Please identify and select the red measuring cup from the image."
+      ],
+      "['15', '16']": [
+        "Please identify and select the black mug from the image."
+      ]
+    }
+  },
+  "test_4.png": {
+    "objects": {
+      "1": "mug",
+      "2": "squeeze bottle",
+      "3": "ball",
+      "4": "ball",
+      "5": "ball",
+      "6": "screwdriver",
+      "7": "ball",
+      "8": "ball",
+      "9": "marker",
+      "10": "marker",
+      "11": "mug",
+      "12": "measuring cup",
+      "13": "marker",
+      "14": "marker",
+      "16": "measuring cup",
+      "17": "measuring cup",
+      "18": "scissors",
+      "19": "mug",
+      "20": "mug",
+      "21": "ruler",
+      "22": "bottle"
+    },
+    "explicit_attr_instructions": {
+      "9": [
+        "Please hand me the whiteboard marker with orange cap."
+      ],
+      "10": [
+        "Please hand me the whiteboard marker with green cap."
+      ],
+      "13": [
+        "Please hand me the whiteboard marker with dark red cap."
+      ],
+      "14": [
+        "Please hand me the whiteboard marker with black cap."
+      ]
+    },
+    "explicit_rel_instructions": {
+      "1": [
+        "Please hand me the mug in the left most part of the image."
+      ],
+      "2": [
+        "Please hand me the bottle between the gray mug and black mug."
+      ],
+      "3": [
+        "Please hand me the ball in front of the beige mug."
+      ],
+      "4": [
+        "Please identify the ball between two red balls in the image."
+      ],
+      "5": [
+        "Please identify and provide me with the ball beside the black mug from the image."
+      ],
+      "9": [
+        "Please identify and obtain the marker between the red ball and the blue ball from the image."
+      ],
+      "10": [
+        "Please identify the marker which aligns with screwdriver."
+      ],
+      "11": [
+        "Please identify and select the mug in front of the screwdriver from the image."
+      ],
+      "12": [
+        "Please hand me the measuring cup next to the beige mug."
+      ],
+      "16": [
+        "Please identify the object measuring close to markers and scissors in the image."
+      ],
+      "17": [
+        "Please hand me the measuring cup on the right of the water bottle."
+      ],
+      "20": [
+        "Please identify and select the mug in the right most part of the image."
+      ]
+    },
+    "implicit_instructions": {
+      "6": [
+        "Please pass me the tool that's used for tightening or loosening screws."
+      ],
+      "18": [
+        "Please pass me the tool that's used for cutting paper."
+      ],
+      "21": [
+        "Please pass me the tool that is used to measure lengths, often found in a pencil case or on a desk."
+      ]
+    },
+    "multi_turn_instructions_obj": {
+      "['1', '11', '19', '20']": [
+        "Please identify and extract the 'mug' from the image."
+      ],
+      "['3', '4', '5', '7', '8']": [
+        "Please identify and circle the object referred to as 'ball' in the image."
+      ],
+      "['9', '10', '13', '14']": [
+        "Please identify and provide the marker indicating the position of the object within the image."
+      ],
+      "['12', '16', '17']": [
+        "Please locate the 'measuring cup' in the image and identify it."
+      ]
+    },
+    "multi_turn_instructions_obj_attr": {
+      "['1', '11']": [
+        "Please hand me the beige mug from the image."
+      ],
+      "['3', '4', '5']": [
+        "Please identify and extract the red ball from the image."
+      ],
+      "['7', '8']": [
+        "Please identify and extract the 'blue ball' from the image."
+      ],
+      "['12', '16', '17']": [
+        "Please identify and select the red measuring cup from the image."
+      ],
+      "['19', '20']": [
+        "Please identify and select the black mug from the image."
+      ]
+    }
+  },
+  "test0020.png": {
+    "objects": {
+      "1": "marker",
+      "2": "can",
+      "3": "can",
+      "4": "ball",
+      "5": "screwdriver",
+      "6": "ball",
+      "7": "scissors",
+      "8": "bottle",
+      "9": "box",
+      "10": "bottle",
+      "11": "can",
+      "12": "marker",
+      "13": "ruler",
+      "14": "marker",
+      "15": "mug",
+      "16": "measuring cup",
+      "17": "ball",
+      "18": "mug",
+      "19": "mug",
+      "20": "ball",
+      "21": "marker"
+    },
+    "explicit_attr_instructions": {
+      "1": [
+        "Please identify and select the orange-capped marker from the image."
+      ],
+      "6": [
+        "Please identify and extract the red ball from the image."
+      ],
+      "8": [
+        "Please identify and select the gray bottle with black cap from the image."
+      ],
+      "10": [
+        "Please identify and select the bottle with white cap from the image."
+      ],
+      "11": [
+        "Please identify and highlight the rectangular metal can in the image."
+      ],
+      "12": [
+        "Please hand me the black-capped marker from the image."
+      ],
+      "14": [
+        "Please identify and extract the blue marker from the image."
+      ],
+      "15": [
+        "Please hand me the beige mug from the image."
+      ],
+      "21": [
+        "Please identify and select the green-capped marker from the image."
+      ]
+    },
+    "explicit_rel_instructions": {
+      "1": [
+        "Please identify and extract the 'marker in the left most' from the image."
+      ],
+      "2": [
+        "Please identify and extract the 'can in top left' from the image."
+      ],
+      "3": [
+        "Please identify and obtain the can between the blue ball and the orange-capped marker from the image."
+      ],
+      "4": [
+        "Please identify and point out the ball near the screwdriver in the image."
+      ],
+      "6": [
+        "Please identify and point out the ball near the scissors in the image."
+      ],
+      "8": [
+        "Please identify and select the bottle next to the box in the image."
+      ],
+      "10": [
+        "Please hand me the bottle between the water bottle and the rectangular can."
+      ],
+      "11": [
+        "Please identify and provide me with the can on the left of the black mug from the image."
+      ],
+      "12": [
+        "Please identify and select the marker besides the beige mug in the image."
+      ],
+      "14": [
+        "Please identify and pick up the marker besides the measuring cup."
+      ],
+      "15": [
+        "Please identify and obtain the mug next to the two markers from the image."
+      ],
+      "17": [
+        "Please identify the ball near the measuring cup in the image."
+      ],
+      "18": [
+        "Please identify and select the mug near the measuring cup in the image."
+      ],
+      "19": [
+        "Please identify and select the mug near the rectangular can from the image."
+      ],
+      "20": [
+        "Please identify and provide me with the ball on the right of the black mug."
+      ],
+      "21": [
+        "Please identify and select the right most marker in the image."
+      ]
+    },
+    "implicit_instructions": {
+      "5": [
+        "Please pass me the tool that's used for tightening or loosening screws."
+      ],
+      "7": [
+        "Please pass me the tool that is used for cutting paper."
+      ],
+      "13": [
+        "Please pass me the tool that is used to measure lengths, often found in a pencil case or on a desk."
+      ]
+    },
+    "multi_turn_instructions_obj": {
+      "['1', '12', '14', '21']": [
+        "Please identify and outline the 'marker' in the image, indicating its relative location or attributes."
+      ],
+      "['2', '3', '11']": [
+        "Please pass me the can."
+      ],
+      "['4', '6', '17', '20']": [
+        "Please identify and circle the object referred to as 'ball' in the image."
+      ],
+      "['8', '10']": [
+        "Please identify and extract the 'bottle' from the image."
+      ],
+      "['15', '18', '19']": [
+        "Please identify and extract the 'mug' from the image."
+      ]
+    },
+    "multi_turn_instructions_obj_attr": {
+      "['2', '3']": [
+        "Please identify and select the 'round can' from the image provided."
+      ],
+      "['4', '20']": [
+        "Please identify and extract the 'blue ball' from the image."
+      ],
+      "['18', '19']": [
+        "Please identify and select the black mug from the image."
+      ]
+    }
+  },
+  "test_1.png": {
+    "objects": {
+      "1": "mug",
+      "2": "mug",
+      "3": "mug",
+      "4": "mug",
+      "5": "water bottle",
+      "6": "squeeze bottle",
+      "7": "measuring cup",
+      "8": "measuring cup",
+      "9": "measuring cup",
+      "10": "ball",
+      "11": "ball",
+      "12": "ball",
+      "13": "ball",
+      "14": "ball",
+      "15": "marker",
+      "16": "marker",
+      "17": "marker",
+      "18": "marker",
+      "19": "marker",
+      "20": "screwdriver",
+      "21": "ruler",
+      "22": "scissors"
+    },
+    "explicit_attr_instructions": {
+      "2": [
+        "Please hand me the gray ceramic mug from the image."
+      ],
+      "4": [
+        "Please hand me the beige ceramic mug from the image."
+      ],
+      "15": [
+        "Please hand me the white dry erase marker with orange cap."
+      ],
+      "16": [
+        "Please hand me the white dry erase marker with green cap."
+      ],
+      "17": [
+        "Please hand me the white dry erase marker with red cap."
+      ],
+      "18": [
+        "Please hand me the white dry erase marker with blue cap."
+      ],
+      "19": [
+        "Please hand me the white dry erase marker with black cap."
+      ]
+    },
+    "explicit_rel_instructions": {
+      "1": [
+        "Please hand me the mug in the left most part of the image."
+      ],
+      "3": [
+        "Please identify and select the mug on the right of the two blue balls from the image."
+      ],
+      "4": [
+        "Please hand me the mug on the right of the scissors."
+      ],
+      "9": [
+        "Please hand me the measuring cup on the right of the screwdriver."
+      ],
+      "10": [
+        "Please hand me the ball in the top left corner near the black mug."
+      ],
+      "11": [
+        "Please hand me the red ball in top left near the yellow bottle."
+      ],
+      "12": [
+        "Please identify and locate the red ball between the two black mugs in the image."
+      ],
+      "13": [
+        "Please identify and select the blue ball in the leftmost position of the image."
+      ],
+      "15": [
+        "Please identify and select the marker between the red ball and the blue balls in the image."
+      ],
+      "16": [
+        "Please hand me the marker between the black mug and the gray mug."
+      ],
+      "17": [
+        "Please hand me the marker in top left center between the black mug and the yellow bottle."
+      ],
+      "19": [
+        "Please identify the image where the marker align with the ruler."
+      ]
+    },
+    "implicit_instructions": {
+      "20": [
+        "Please pass me the tool that's used for tightening or loosening screws."
+      ],
+      "21": [
+        "Please pass me the tool that is used to measure lengths, often found in a pencil case or on a desk."
+      ],
+      "22": [
+        "Please pass me the tool that's used for cutting paper."
+      ]
+    },
+    "multi_turn_instructions_obj": {
+      "['1', '2', '3', '4']": [
+        "Please identify and extract the 'mug' from the image."
+      ],
+      "['7', '8', '9']": [
+        "Please locate the 'measuring cup' in the image and identify it."
+      ],
+      "['10', '11', '12', '13', '14']": [
+        "Please identify and give me the object referred to as 'ball' in the image."
+      ],
+      "['15', '16', '17', '18', '19']": [
+        "Please identify and provide the marker indicating the position of the object within the image."
+      ]
+    },
+    "multi_turn_instructions_obj_attr": {
+      "['1', '3']": [
+        "Please hand me the black ceramic mug."
+      ],
+      "['7', '8', '9']": [
+        "Please identify and select the red measuring cup from the image."
+      ],
+      "['10', '11', '12']": [
+        "Please identify and select the red plastic ball from the image."
+      ],
+      "['13', '14']": [
+        "Please identify and select the blue plastic ball from the image."
+      ]
+    }
+  },
+  "test003401.png": {
+    "objects": {
+      "1": "can",
+      "2": "can",
+      "3": "ball",
+      "4": "screwdriver",
+      "5": "ball",
+      "6": "mug",
+      "7": "marker",
+      "8": "ball",
+      "9": "scissors",
+      "10": "mug",
+      "11": "marker",
+      "12": "marker",
+      "13": "marker",
+      "14": "ruler",
+      "15": "measuring cup",
+      "16": "ball",
+      "17": "mug",
+      "18": "mug"
+    },
+    "explicit_attr_instructions": {
+      "3": [
+        "Please identify and extract the 'blue ball' from the image."
+      ],
+      "6": [
+        "Please locate and identify the gray mug in the image."
+      ],
+      "10": [
+        "Please hand me the beige mug from the image."
+      ]
+    },
+    "explicit_rel_instructions": {
+      "1": [
+        "Please identify and select the can in the left most part of the image."
+      ],
+      "2": [
+        "Please identify the can between the marker and the blue ball in the image."
+      ],
+      "3": [
+        "Please hand me the ball between the can and the screwdriver."
+      ],
+      "5": [
+        "Please identify and point out the ball near top left mug in the image."
+      ],
+      "6": [
+        "Please hand me the mug on the left of the beige mug."
+      ],
+      "7": [
+        "Please identify and extract the 'marker in the left most' from the image."
+      ],
+      "8": [
+        "Please circle the ball near scissors in the image."
+      ],
+      "10": [
+        "Please hand me the mug between the screwdriver and the markers."
+      ],
+      "16": [
+        "Please identify the ball near measuring cup in the image."
+      ],
+      "17": [
+        "Please identify and select the mug in the top right region of the image."
+      ],
+      "18": [
+        "Please hand me the mug besides the measuring cup and the red ball."
+      ]
+    },
+    "implicit_instructions": {
+      "4": [
+        "Please pass me the tool that's used for tightening or loosening screws."
+      ],
+      "9": [
+        "Please pass me the tool that is used for cutting paper."
+      ],
+      "14": [
+        "Please pass me the tool that is used to measure lengths, such as the width of a book."
+      ]
+    },
+    "multi_turn_instructions_obj": {
+      "['1', '2']": [
+        "Please give me the can."
+      ],
+      "['3', '5', '8', '16']": [
+        "Please identify the object with the relative location or attributes of a 'ball' in the image."
+      ],
+      "['6', '10', '17', '18']": [
+        "Please identify and extract the 'mug' from the image."
+      ],
+      "['7', '11', '12', '13']": [
+        "Please identify and provide the marker indicating the position of the object within the image."
+      ]
+    },
+    "multi_turn_instructions_obj_attr": {
+      "['1', '2']": [
+        "Please identify and select the object that resembles a 'round can' in the image."
+      ],
+      "['5', '8', '16']": [
+        "Please identify and extract the red ball from the image."
+      ],
+      "['17', '18']": [
+        "Please identify and select the black mug from the image."
+      ]
+    }
+  },
+  "test00244.png": {
+    "objects": {
+      "1": "can",
+      "2": "can",
+      "3": "ball",
+      "4": "mug",
+      "5": "ball",
+      "6": "screwdriver",
+      "7": "ball",
+      "8": "scissors",
+      "9": "marker",
+      "10": "marker",
+      "11": "mug",
+      "12": "marker"
+    },
+    "explicit_attr_instructions": {
+      "4": [
+        "Please locate and identify the gray mug in the image."
+      ],
+      "5": [
+        "Please identify and extract the 'blue ball' from the image."
+      ],
+      "11": [
+        "Please hand me the beige mug from the image."
+      ],
+      "12": [
+        "Please hand me the whiteboard marker with red cap."
+      ]
+    },
+    "explicit_rel_instructions": {
+      "1": [
+        "Please identify and select the can on the top left of the image."
+      ],
+      "2": [
+        "Please identify and select the can next to the blue ball from the image."
+      ],
+      "3": [
+        "Please identify and locate the ball near the head of the screwdriver in the image."
+      ],
+      "4": [
+        "Please identify and select the mug that is located on the right of the red ball in the image."
+      ],
+      "5": [
+        "Please highlight the ball near the can in the image."
+      ],
+      "7": [
+        "Please give me the ball which is above the scissors in the image."
+      ],
+      "11": [
+        "Please identify and select the mug in bottom right of the image."
+      ],
+      "12": [
+        "Please extract the 'marker in top right corner' from the image."
+      ]
+    },
+    "implicit_instructions": {
+      "6": [
+        "Please pass me the tool that's used for tightening or loosening screws."
+      ],
+      "8": [
+        "Please pass me the tool that is used for cutting paper."
+      ]
+    },
+    "multi_turn_instructions_obj": {
+      "['1', '2']": [
+        "Please pass me the can."
+      ],
+      "['3', '5', '7']": [
+        "Please identify and circle the object referred to as 'ball' in the image."
+      ],
+      "['4', '11']": [
+        "Please identify and extract the 'mug' from the image."
+      ],
+      "['9', '10', '12']": [
+        "Please identify and provide the marker indicating the position of the object within the image."
+      ]
+    },
+    "multi_turn_instructions_obj_attr": {
+      "['1', '2']": [
+        "Please identify and extract the 'metal can' from the image."
+      ],
+      "['3', '7']": [
+        "Please identify and extract the red ball from the image."
+      ],
+      "['9', '10']": [
+        "Please identify and give me the 'white marker' in the image for further analysis."
+      ]
+    }
+  },
+  "test0013.png": {
+    "objects": {
+      "1": "marker",
+      "2": "can",
+      "3": "ball",
+      "4": "screwdriver",
+      "5": "stand",
+      "6": "scissors",
+      "7": "ball",
+      "8": "mug",
+      "9": "measuring cup",
+      "10": "bottle",
+      "11": "marker",
+      "12": "marker",
+      "13": "box"
+    },
+    "explicit_attr_instructions": {
+      "1": [
+        "Please identify and select the orange-capped marker from the image."
+      ],
+      "3": [
+        "Please identify and extract the 'blue ball' from the image."
+      ],
+      "7": [
+        "Please identify and extract the red ball from the image."
+      ],
+      "11": [
+        "Please hand me the black-capped marker from the image."
+      ]
+    },
+    "explicit_rel_instructions": {
+      "1": [
+        "Please identify and select the marker on the left of the round can in the image."
+      ],
+      "3": [
+        "Please hand me the ball between the round can and the screwdriver."
+      ],
+      "7": [
+        "Please identify the ball next to scissors in the image."
+      ],
+      "11": [
+        "Please identify and select the marker near the screwdriver in the image."
+      ],
+      "12": [
+        "Please identify and select the marker that is aligned with the marker that has a black cap."
+      ]
+    },
+    "implicit_instructions": {
+      "4": [
+        "Please pass me the tool that's used for tightening or loosening screws."
+      ],
+      "6": [
+        "Please pass me the tool that's used for cutting paper."
+      ]
+    },
+    "multi_turn_instructions_obj": {
+      "['1', '11', '12']": [
+        "Please identify and give me the marker."
+      ],
+      "['3', '7']": [
+        "Please identify and give me the ball."
+      ]
+    },
+    "multi_turn_instructions_obj_attr": {}
+  },
+  "test0050.png": {
+    "objects": {
+      "1": "can",
+      "2": "can",
+      "3": "marker",
+      "4": "ball",
+      "5": "ball",
+      "6": "scissors",
+      "7": "screwdriver",
+      "8": "ball",
+      "9": "mug",
+      "10": "marker",
+      "11": "marker",
+      "12": "ruler",
+      "13": "measuring cup",
+      "14": "ball",
+      "15": "mug",
+      "16": "mug",
+      "17": "mug",
+      "18": "ball",
+      "19": "marker"
+    },
+    "explicit_attr_instructions": {
+      "5": [
+        "Please identify and extract the 'blue ball' from the image."
+      ],
+      "9": [
+        "Please locate and identify the beige mug in the image."
+      ],
+      "10": [
+        "Please hand me the whiteboard marker with a black cap."
+      ],
+      "11": [
+        "Please hand me the whiteboard marker with a blue cap."
+      ],
+      "19": [
+        "Please hand me the whiteboard marker with a green cap."
+      ]
+    },
+    "explicit_rel_instructions": {
+      "1": [
+        "Please identify and extract the 'can near the top left corner' from the image."
+      ],
+      "2": [
+        "Please identify and select the can besides the blue ball in the image."
+      ],
+      "4": [
+        "Please place the ball above the scissors in the image."
+      ],
+      "5": [
+        "Please hand me the ball between the can and the screwdriver."
+      ],
+      "8": [
+        "Please identify and locate the ball besides the head of the screwdriver in the image."
+      ],
+      "9": [
+        "Please provide me the mug which is besides markers."
+      ],
+      "14": [
+        "Please identify and point out the ball next to black mugs in the image."
+      ],
+      "15": [
+        "Please provide me with the mug near the blue ball."
+      ],
+      "16": [
+        "Please identify and extract the mug in the top right corner of the image."
+      ],
+      "18": [
+        "Please identify and provide me with the ball on the right of the black mug from the image."
+      ],
+      "19": [
+        "Please identify and extract the 'marker on the right most' from the image."
+      ]
+    },
+    "implicit_instructions": {
+      "6": [
+        "Please pass me the tool that is used for cutting paper."
+      ],
+      "7": [
+        "Please pass me the tool that's used for tightening or loosening screws."
+      ],
+      "12": [
+        "Please pass me the tool that is used to measure lengths, often found in a geometry box or a pencil case."
+      ]
+    },
+    "multi_turn_instructions_obj": {
+      "['1', '2']": [
+        "Please pass me the can."
+      ],
+      "['3', '10', '11', '19']": [
+        "Please identify and outline the marker in the image."
+      ],
+      "['4', '5', '8', '14', '18']": [
+        "Please identify and highlight the object referred to as 'ball' in the image."
+      ],
+      "['9', '15', '16', '17']": [
+        "Please identify and extract the 'mug' from the image."
+      ]
+    },
+    "multi_turn_instructions_obj_attr": {
+      "['1', '2']": [
+        "Please identify and select the object that resembles a 'round can' in the image."
+      ],
+      "['4', '8', '14']": [
+        "Please identify and extract the red ball from the image."
+      ],
+      "['15', '16', '17']": [
+        "Please identify and select the black mug from the image."
+      ]
+    }
+  },
+  "test0e44020.png": {
+    "objects": {
+      "1": "marker",
+      "2": "can",
+      "3": "can",
+      "4": "ball",
+      "5": "ball",
+      "6": "scissors",
+      "7": "box",
+      "8": "water bottle",
+      "9": "squeeze bottle",
+      "10": "screwdriver",
+      "11": "marker",
+      "12": "ruler",
+      "13": "marker",
+      "14": "measuring cup",
+      "15": "can",
+      "16": "mug",
+      "17": "mug",
+      "18": "ball",
+      "19": "marker"
+    },
+    "explicit_attr_instructions": {
+      "1": [
+        "Please hand me the whiteboard marker with orange cap."
+      ],
+      "5": [
+        "Please identify and extract the red ball from the image."
+      ],
+      "8": [
+        "Please extract the transparent bottle with black cap from the image."
+      ],
+      "9": [
+        "Please identify and extract the non-transparent bottle from the image."
+      ],
+      "11": [
+        "Please hand me the whiteboard marker with black cap."
+      ],
+      "15": [
+        "Please identify and select the rectangular can with pull tab from the image."
+      ],
+      "17": [
+        "Please identify and select the black mug from the image."
+      ]
+    },
+    "explicit_rel_instructions": {
+      "1": [
+        "Please identify and extract the 'marker in the left most' from the image."
+      ],
+      "3": [
+        "Please provide me with the can close to the marker with an orange cap."
+      ],
+      "4": [
+        "Please identify and point out the ball besides the round can in the image."
+      ],
+      "5": [
+        "Please identify and select the ball besides the scissors in the image."
+      ],
+      "8": [
+        "Please hand me the bottle on the left of the squeeze bottle."
+      ],
+      "15": [
+        "Please hand me the can between the squeeze bottle and the black mug."
+      ],
+      "16": [
+        "Please identify and select the mug next to the rectangular can from the image."
+      ],
+      "17": [
+        "Please hand me the mug between the measuring cup and the blue ball."
+      ],
+      "18": [
+        "Please identify and point out the ball next to the black mug in the image."
+      ]
+    },
+    "implicit_instructions": {
+      "6": [
+        "Please pass me the tool that is used for cutting paper."
+      ],
+      "10": [
+        "Please pass me the tool that's used for tightening or loosening screws."
+      ],
+      "12": [
+        "Please pass me the tool that is used to measure lengths, often found in a pencil case or desk drawer."
+      ]
+    },
+    "multi_turn_instructions_obj": {
+      "['1', '11', '13', '19']": [
+        "Please identify and outline the 'marker' in the image, indicating its relative location or attributes."
+      ],
+      "['2', '3', '15']": [
+        "Please give me the can."
+      ],
+      "['4', '5', '18']": [
+        "Please identify and pass me the object referred to as 'ball' in the image."
+      ],
+      "['16', '17']": [
+        "Please identify and extract the 'mug' from the image."
+      ]
+    },
+    "multi_turn_instructions_obj_attr": {
+      "['2', '3']": [
+        "Please identify and select the 'round can' from the image provided."
+      ],
+      "['4', '18']": [
+        "Please identify and extract the 'blue ball' from the image."
+      ]
+    }
+  },
+  "test012001.png": {
+    "objects": {
+      "1": "box",
+      "2": "marker",
+      "3": "ball",
+      "4": "can",
+      "5": "scissors",
+      "6": "ball",
+      "7": "screwdriver",
+      "8": "squeeze bottle",
+      "9": "water bottle"
+    },
+    "explicit_attr_instructions": {
+      "3": [
+        "Please identify and extract the red ball from the image."
+      ],
+      "6": [
+        "Please identify and extract the 'blue ball' from the image."
+      ]
+    },
+    "explicit_rel_instructions": {
+      "3": [
+        "Please position the ball in front of the can in the image."
+      ],
+      "6": [
+        "Please identify and select the image that shows the ball on the right of the can."
+      ]
+    },
+    "implicit_instructions": {
+      "5": [
+        "Please pass me the tool that is used for cutting paper."
+      ],
+      "7": [
+        "Please pass me the tool that's used for tightening or loosening screws."
+      ]
+    },
+    "multi_turn_instructions_obj": {
+      "['3', '6']": [
+        "Please give me the ball."
+      ]
+    },
+    "multi_turn_instructions_obj_attr": {}
+  },
+  "test0428.png": {
+    "objects": {
+      "1": "can",
+      "2": "ball",
+      "3": "ball",
+      "4": "scissors",
+      "5": "screwdriver handle",
+      "6": "marker"
+    },
+    "explicit_attr_instructions": {
+      "2": [
+        "Please identify and extract the 'blue ball' from the image."
+      ],
+      "3": [
+        "Please identify and extract the red ball from the image."
+      ]
+    },
+    "explicit_rel_instructions": {
+      "2": [
+        "Please hand me the ball between the can and the screwdriver."
+      ],
+      "3": [
+        "Please place the ball above the scissors in the image."
+      ]
+    },
+    "implicit_instructions": {
+      "4": [
+        "Please pass me the tool that is used for cutting paper or fabric."
+      ]
+    },
+    "multi_turn_instructions_obj": {
+      "['2', '3']": [
+        "Please identify and circle the object referred to as 'ball' in the image."
+      ]
+    },
+    "multi_turn_instructions_obj_attr": {}
+  },
+  "test_2.png": {
+    "objects": {
+      "1": "mug",
+      "2": "screwdriver",
+      "3": "water bottle",
+      "4": "mug",
+      "5": "scissors",
+      "6": "ball",
+      "7": "ball",
+      "8": "squeeze bottle",
+      "9": "marker",
+      "10": "marker",
+      "11": "measuring cup",
+      "12": "marker",
+      "13": "ball",
+      "14": "mug",
+      "15": "mug",
+      "16": "marker",
+      "17": "marker",
+      "18": "measuring cup",
+      "19": "measuring cup",
+      "20": "ball",
+      "21": "ruler"
+    },
+    "explicit_attr_instructions": {
+      "9": [
+        "Please hand me the white marker with orange cap."
+      ],
+      "10": [
+        "Please identify and select the white marker with blue cap from the image."
+      ],
+      "12": [
+        "Please locate and retrieve the white marker with black cap from the image."
+      ],
+      "13": [
+        "Please identify and extract the 'blue ball' from the image."
+      ],
+      "14": [
+        "Please hand me the beige mug from the image."
+      ],
+      "15": [
+        "Please locate and identify the gray mug in the image."
+      ],
+      "16": [
+        "Please locate and select the white marker with green cap from the image."
+      ],
+      "17": [
+        "Please locate and select the white marker with dark red cap from the image."
+      ],
+      "20": [
+        "Please identify and extract the red ball from the image."
+      ]
+    },
+    "explicit_rel_instructions": {
+      "1": [
+        "Please hand me the mug in the leftmost of the image."
+      ],
+      "4": [
+        "Please hand me the mug on the right of the water bottle."
+      ],
+      "6": [
+        "Please identify the ball next to the scissors in the image."
+      ],
+      "7": [
+        "Please identify and select the ball on the left of the squeeze bottle from the image."
+      ],
+      "9": [
+        "Please place the marker perpendicular to the scissors in the image."
+      ],
+      "10": [
+        "Please identify and select the marker in front of the water bottle from the image."
+      ],
+      "12": [
+        "Please place the marker perpendicular to the ruler in the image."
+      ],
+      "13": [
+        "Please crop the image to highlight the ball in the center region."
+      ],
+      "14": [
+        "Please hand me the beige mug on the right of the blue ball."
+      ],
+      "15": [
+        "Please hand me the mug on the right of the beige mug."
+      ],
+      "16": [
+        "Please identify and select the marker close to the black mug in the image."
+      ],
+      "19": [
+        "Please hand me the measuring cup between the red measuring cup and the red ball."
+      ],
+      "20": [
+        "Please give me the ball in top right."
+      ]
+    },
+    "implicit_instructions": {
+      "2": [
+        "Please pass me the tool that's used for tightening or loosening screws."
+      ],
+      "5": [
+        "Please pass me the tool that is used for cutting paper."
+      ],
+      "21": [
+        "Please pass me the tool that is used to measure lengths, commonly found in a geometry box."
+      ]
+    },
+    "multi_turn_instructions_obj": {
+      "['1', '4', '14', '15']": [
+        "Please identify and extract the 'mug' from the image."
+      ],
+      "['6', '7', '13', '20']": [
+        "Please identify and circle the object referred to as 'ball' in the image."
+      ],
+      "['9', '10', '12', '16', '17']": [
+        "Please identify and outline the marker in the image."
+      ],
+      "['11', '18', '19']": [
+        "Please locate the 'measuring cup' in the image."
+      ]
+    },
+    "multi_turn_instructions_obj_attr": {
+      "['1', '4']": [
+        "Please identify and select the black mug from the image."
+      ],
+      "['6', '7']": [
+        "Please identify and extract the red ball from the image."
+      ],
+      "['18', '19']": [
+        "Please identify and select the red measuring cup from the image."
+      ]
+    }
+  },
+  "test0002.png": {
+    "objects": {
+      "1": "marker",
+      "2": "can",
+      "3": "mug",
+      "4": "ball",
+      "5": "scissors",
+      "6": "squeeze bottle",
+      "7": "measuring cup",
+      "8": "ruler",
+      "9": "screwdriver",
+      "10": "can",
+      "11": "mug",
+      "12": "mug",
+      "13": "measuring cup",
+      "14": "ball",
+      "15": "marker",
+      "16": "mug",
+      "17": "marker",
+      "18": "ball",
+      "19": "ball",
+      "20": "can",
+      "21": "measuring cup"
+    },
+    "explicit_attr_instructions": {
+      "1": [
+        "Please hand me the whiteboard marker with orange cap."
+      ],
+      "3": [
+        "Please hand me the beige mug from the image."
+      ],
+      "15": [
+        "Please hand me the whiteboard marker with blue cap."
+      ],
+      "18": [
+        "Please identify and extract the 'blue ball' from the image."
+      ],
+      "20": [
+        "Please locate and identify the rectangular metal can with pull tab in the image."
+      ]
+    },
+    "explicit_rel_instructions": {
+      "1": [
+        "Please identify and select the marker far from the screwdriver in the image."
+      ],
+      "2": [
+        "Please identify and select the can next to the rectangular can from the image."
+      ],
+      "3": [
+        "Please identify the mug close to the squeeze bottle in the image."
+      ],
+      "4": [
+        "Please identify the ball next to the scissors in the image."
+      ],
+      "7": [
+        "Please identify and obtain the measuring cup on the left of the ruler from the image."
+      ],
+      "10": [
+        "Please identify and select the can in the right most part of the image."
+      ],
+      "12": [
+        "Please identify and extract the mug in top right region from the image."
+      ],
+      "13": [
+        "Please identify and select the measuring cup next to the head of screwdriver in the image."
+      ],
+      "14": [
+        "Please identify the ball near the measuring cup in the image."
+      ],
+      "15": [
+        "Please hand me the marker between the black mug and the red ball."
+      ],
+      "16": [
+        "Please provide me with the mug near the beige mug from the image."
+      ],
+      "18": [
+        "Please identify and point out the ball near the round can and the beige mug in the image."
+      ],
+      "19": [
+        "Please identify and select the ball in the top most part of the image."
+      ],
+      "20": [
+        "Please identify and select the can besides the red ball in the image."
+      ],
+      "21": [
+        "Please hand me the measuring cup in the rightmost."
+      ]
+    },
+    "implicit_instructions": {
+      "5": [
+        "Please pass me the tool that's used for cutting paper."
+      ],
+      "8": [
+        "Please pass me the tool that is used to measure lengths, often found in a pencil case or on a desk."
+      ],
+      "9": [
+        "Please pass me the tool that's used for tightening or loosening screws."
+      ]
+    },
+    "multi_turn_instructions_obj": {
+      "['1', '15', '17']": [
+        "Please identify and provide the marker indicating the position of the object within the image."
+      ],
+      "['2', '10', '20']": [
+        "Please give me the can."
+      ],
+      "['3', '11', '12', '16']": [
+        "Please identify and extract the 'mug' from the image."
+      ],
+      "['4', '14', '18', '19']": [
+        "Please identify and circle the object referred to as 'ball' in the image."
+      ],
+      "['7', '13', '21']": [
+        "Please locate the 'measuring cup' in the image and identify it."
+      ]
+    },
+    "multi_turn_instructions_obj_attr": {
+      "['2', '10']": [
+        "Please identify and select the object that resembles a 'round can' in the image."
+      ],
+      "['4', '14', '19']": [
+        "Please identify and extract the red ball from the image."
+      ],
+      "['7', '13', '21']": [
+        "Please identify and select the red measuring cup from the image."
+      ],
+      "['11', '12', '16']": [
+        "Please identify and select the black mug from the image."
+      ]
+    }
+  },
+  "test0024.png": {
+    "objects": {
+      "1": "marker",
+      "2": "can",
+      "3": "box",
+      "4": "can",
+      "5": "ball",
+      "6": "scissors",
+      "7": "ball",
+      "8": "screwdriver",
+      "9": "ball"
+    },
+    "explicit_attr_instructions": {
+      "7": [
+        "Please identify and extract the 'blue ball' from the image."
+      ]
+    },
+    "explicit_rel_instructions": {
+      "2": [
+        "Please extract the image of the can besides marker."
+      ],
+      "4": [
+        "Please identify and select the top-most can from the image."
+      ],
+      "5": [
+        "Please identify the ball next to the scissors in the image."
+      ],
+      "7": [
+        "Please hand me the ball between the round can and the screwdriver."
+      ],
+      "9": [
+        "Please identify and select the ball in the top right region of the image."
+      ]
+    },
+    "implicit_instructions": {
+      "6": [
+        "Please pass me the tool that is used for cutting paper."
+      ],
+      "8": [
+        "Please pass me the tool that's used for tightening or loosening screws."
+      ]
+    },
+    "multi_turn_instructions_obj": {
+      "['2', '4']": [
+        "Please pass the can to me."
+      ],
+      "['5', '7', '9']": [
+        "Please identify and highlight the object referred to as 'ball' in the image."
+      ]
+    },
+    "multi_turn_instructions_obj_attr": {
+      "['2', '4']": [
+        "Please point to the metal can with a lid in the image."
+      ],
+      "['5', '9']": [
+        "Please identify and extract the red ball from the image."
+      ]
+    }
+  },
+  "test0017.png": {
+    "objects": {
+      "1": "marker",
+      "2": "can",
+      "3": "mug",
+      "4": "scissors",
+      "5": "ball",
+      "6": "glue bottle",
+      "7": "stand",
+      "8": "measuring cup",
+      "9": "ruler",
+      "10": "marker",
+      "11": "screwdriver",
+      "12": "can",
+      "13": "mug"
+    },
+    "explicit_attr_instructions": {
+      "3": [
+        "Please hand me the beige mug from the image."
+      ],
+      "13": [
+        "Please identify and select the black mug from the image."
+      ]
+    },
+    "explicit_rel_instructions": {
+      "2": [
+        "Please hand me the can on the left of the beige mug."
+      ],
+      "3": [
+        "Please identify and select the mug next to the bottle in the image."
+      ],
+      "12": [
+        "Please identify and obtain the can on the right of the screwdriver from the image."
+      ],
+      "13": [
+        "Please identify and extract the mug in top right region from the image."
+      ]
+    },
+    "implicit_instructions": {
+      "4": [
+        "Please pass me the tool that is used for cutting paper."
+      ],
+      "9": [
+        "Please pass me the tool that is used to measure lengths, commonly found in a geometry box."
+      ],
+      "11": [
+        "Please pass me the tool that's used for tightening or loosening screws."
+      ]
+    },
+    "multi_turn_instructions_obj": {
+      "['1', '10']": [
+        "Please identify and provide the marker indicating the position of the object within the image."
+      ],
+      "['2', '12']": [
+        "Please give me the can."
+      ],
+      "['3', '13']": [
+        "Please identify and extract the 'mug' from the image."
+      ]
+    },
+    "multi_turn_instructions_obj_attr": {
+      "['2', '12']": [
+        "Please point to the metal can with a lid in the image."
+      ]
+    }
+  },
+  "test05013.png": {
+    "objects": {
+      "1": "can",
+      "2": "marker",
+      "3": "can",
+      "4": "ball",
+      "5": "ball",
+      "6": "scissors"
+    },
+    "explicit_attr_instructions": {
+      "4": [
+        "Please identify and extract the red ball from the image."
+      ],
+      "5": [
+        "Please identify and extract the 'blue ball' from the image."
+      ]
+    },
+    "explicit_rel_instructions": {
+      "1": [
+        "Please extract the the can besides the marker."
+      ],
+      "4": [
+        "Please identify and provide me with the ball besides the scissors in the image."
+      ],
+      "5": [
+        "Please give me the ball on the right of the can."
+      ]
+    },
+    "implicit_instructions": {
+      "6": [
+        "Please pass me the tool that's used for cutting paper."
+      ]
+    },
+    "multi_turn_instructions_obj": {
+      "['1', '3']": [
+        "Please give me the can."
+      ],
+      "['4', '5']": [
+        "Please identify and circle the object referred to as 'ball' in the image."
+      ]
+    },
+    "multi_turn_instructions_obj_attr": {
+      "['1', '3']": [
+        "Please identify and select the object that resembles a 'round can' in the image."
+      ]
+    }
+  },
+  "test0057.png": {
+    "objects": {
+      "1": "box",
+      "2": "marker",
+      "3": "can",
+      "4": "can",
+      "5": "scissors",
+      "6": "ball",
+      "7": "ball",
+      "8": "screwdriver",
+      "9": "ball"
+    },
+    "explicit_attr_instructions": {
+      "7": [
+        "Please identify and extract the 'blue ball' from the image."
+      ]
+    },
+    "explicit_rel_instructions": {
+      "3": [
+        "Please extract the can besides the marker."
+      ],
+      "4": [
+        "Please identify and highlight the 'can in the top region' of the image."
+      ],
+      "6": [
+        "Please give the ball which is above the scissors in the image."
+      ],
+      "7": [
+        "Please pass me the ball between the can and the screwdriver."
+      ],
+      "9": [
+        "Please give me the ball in the top right corner."
+      ]
+    },
+    "implicit_instructions": {
+      "5": [
+        "Please pass me the tool that is used for cutting paper or fabric."
+      ],
+      "8": [
+        "Please pass me the tool that's used for tightening or loosening screws."
+      ]
+    },
+    "multi_turn_instructions_obj": {
+      "['3', '4']": [
+        "Please give me the can."
+      ],
+      "['6', '7', '9']": [
+        "Please identify and highlight the object referred to as 'ball' in the image."
+      ]
+    },
+    "multi_turn_instructions_obj_attr": {
+      "['3', '4']": [
+        "Please identify and select the 'round can' from the image provided."
+      ],
+      "['6', '9']": [
+        "Please identify and extract the red ball from the image."
+      ]
+    }
+  },
+  "test0245.png": {
+    "objects": {
+      "1": "can",
+      "2": "mug",
+      "3": "bottle",
+      "4": "ball",
+      "5": "scissors",
+      "6": "measuring cup",
+      "7": "marker",
+      "8": "ruler",
+      "9": "screwdriver",
+      "10": "can",
+      "11": "mug"
+    },
+    "explicit_attr_instructions": {
+      "2": [
+        "Please hand me the beige mug from the image."
+      ],
+      "11": [
+        "Please identify and select the black mug from the image."
+      ]
+    },
+    "explicit_rel_instructions": {
+      "1": [
+        "Please hand me the can on the left of the beige mug."
+      ],
+      "2": [
+        "Please hand me the mug on the right of the can."
+      ],
+      "10": [
+        "Please identify and obtain the can on the right of the screwdriver from the image."
+      ],
+      "11": [
+        "Please identify and select the mug in the top right region of the image."
+      ]
+    },
+    "implicit_instructions": {
+      "5": [
+        "Please pass me the tool that is used for cutting paper."
+      ],
+      "8": [
+        "Please pass me the tool that is used to measure lengths, commonly found in a geometry box."
+      ],
+      "9": [
+        "Please pass me the tool that's used for tightening or loosening screws."
+      ]
+    },
+    "multi_turn_instructions_obj": {
+      "['1', '10']": [
+        "Please pass me the can."
+      ],
+      "['2', '11']": [
+        "Please identify and extract the 'mug' from the image."
+      ]
+    },
+    "multi_turn_instructions_obj_attr": {
+      "['1', '10']": [
+        "Please identify and extract the 'round can' from the image."
+      ]
+    }
+  }
+}

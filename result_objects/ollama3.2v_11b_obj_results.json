@@ -1,0 +1,1137 @@
+{
+    "easy": {
+        "test0009.png": {
+            "object": {
+                "grd_truth": {
+                    "1": "marker",
+                    "2": "can",
+                    "3": "bottle",
+                    "4": "ball",
+                    "5": "screwdriver",
+                    "6": "ball",
+                    "7": "mug",
+                    "8": "can"
+                },
+                "identified": "1: Board marker\n2: Tin can\n3: White object\n4: Blue ball\n5: Screwdriver\n6: Red circle on white object\n7: Black hole in white object\n8: Tin can",
+                "flags": [
+                    1,
+                    1,
+                    0,
+                    1,
+                    1,
+                    0,
+                    0,
+                    1
+                ],
+                "acc": 0.625
+            }
+        },
+        "test0016.png": {
+            "object": {
+                "grd_truth": {
+                    "1": "ball",
+                    "2": "can",
+                    "3": "marker",
+                    "4": "ruler",
+                    "5": "tin",
+                    "6": "marker",
+                    "7": "bowl",
+                    "8": "measuring cup"
+                },
+                "identified": "Sure, here is the list of objects with their corresponding labels:\n\n1: Red object\n2: Yellow and black handle\n3: White marker cap\n4: White marker cap\n5: Gold container\n6: White marker cap\n7: White cup\n8: Red object\n9: Black object",
+                "flags": [
+                    1,
+                    0,
+                    1,
+                    1,
+                    1,
+                    1,
+                    0,
+                    1
+                ],
+                "acc": 0.75
+            }
+        },
+        "test0251.png": {
+            "object": {
+                "grd_truth": {
+                    "1": "can",
+                    "2": "can",
+                    "3": "marker",
+                    "4": "ball",
+                    "5": "screwdriver",
+                    "6": "marker",
+                    "7": "marker",
+                    "8": "ruler"
+                },
+                "identified": "The following is a list of objects with their corresponding labels:\n\n*   1: Canned food\n*   2: Tin can\n*   3: Pen or marker (text partially obscured)\n*   4: Blue ball (possibly made of plastic or rubber)\n*   5: Screwdriver (red and black handle, silver blade)",
+                "flags": [
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "acc": 1.0
+            }
+        },
+        "test0215.png": {
+            "object": {
+                "grd_truth": {
+                    "1": "can",
+                    "2": "can",
+                    "3": "ball",
+                    "4": "marker",
+                    "5": "screwdriver",
+                    "6": "mug",
+                    "7": "marker",
+                    "8": "marker",
+                    "9": "ruler"
+                },
+                "identified": "The dictionary of objects is:\n\n{'1': 'can', '2': 'tin can', '3': 'blue object', '4': 'marker pen', '5': 'screwdriver', '6': 'cup'}",
+                "flags": [
+                    1,
+                    1,
+                    0,
+                    1,
+                    1,
+                    1
+                ],
+                "acc": 0.8333333333333334
+            }
+        },
+        "test0176.png": {
+            "object": {
+                "grd_truth": {
+                    "1": "can",
+                    "2": "ball",
+                    "3": "screwdriver",
+                    "4": "ball",
+                    "5": "scissors"
+                },
+                "identified": "**Objects Dictionary**\n\n* 1: Can lid\n* 2: Blue circular object (material unknown)\n* 3: Red and black handle (material unknown)\n* 4: Red circular object (material unknown)\n* 5: Scissors with red handles and black blades",
+                "flags": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "acc": 0.8
+            }
+        },
+        "test012001.png": {
+            "object": {
+                "grd_truth": {
+                    "1": "box",
+                    "2": "marker",
+                    "3": "ball",
+                    "4": "can",
+                    "5": "scissors",
+                    "6": "ball",
+                    "7": "screwdriver",
+                    "8": "squeeze bottle",
+                    "9": "water bottle"
+                },
+                "identified": "Sure, here is the list of objects with their corresponding labels:\n\n1: box\n2: board marker\n3: can\n4: object \n5: scissors\n6: ball\n7: screwdriver\n8: bottle\n9: tube\n\nPlease note that I have only included the objects labeled in the image and excluded any other details or context.",
+                "flags": [
+                    1,
+                    1,
+                    0,
+                    0,
+                    1,
+                    1,
+                    1,
+                    0,
+                    0
+                ],
+                "acc": 0.5555555555555556
+            }
+        },
+        "test0428.png": {
+            "object": {
+                "grd_truth": {
+                    "1": "can",
+                    "2": "ball",
+                    "3": "ball",
+                    "4": "scissors",
+                    "5": "screwdriver handle",
+                    "6": "marker"
+                },
+                "identified": "The list of objects with their corresponding numbers is:\n\n\u2022 1: A can.\n\u2022 2: A blue ball.\n\u2022 3: Scissors.\n\u2022 4: An unknown object, possibly a measuring cup or spoon.\n\u2022 5: A screwdriver.\n\u2022 6: An unidentifiable object.",
+                "flags": [
+                    1,
+                    1,
+                    0,
+                    0,
+                    1,
+                    0
+                ],
+                "acc": 0.5
+            }
+        },
+        "test0024.png": {
+            "object": {
+                "grd_truth": {
+                    "1": "marker",
+                    "2": "can",
+                    "3": "box",
+                    "4": "can",
+                    "5": "ball",
+                    "6": "scissors",
+                    "7": "ball",
+                    "8": "screwdriver",
+                    "9": "ball"
+                },
+                "identified": "The following is a list of objects with their corresponding numbers:\n\n- 1: Boardmarker\n- 2: Tin can\n- 3: Box (not visible)\n- 4: Tin can\n- 5: Scissors (not visible)\n- 6: Scissors handle\n- 7: Blue object (possibly a ball or button)\n- 8: Red handle of an unknown tool\n- 9: Small red object (possibly a button)",
+                "flags": [
+                    1,
+                    1,
+                    1,
+                    1,
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "acc": 0.7777777777777778
+            }
+        },
+        "test05013.png": {
+            "object": {
+                "grd_truth": {
+                    "1": "can",
+                    "2": "marker",
+                    "3": "can",
+                    "4": "ball",
+                    "5": "ball",
+                    "6": "scissors"
+                },
+                "identified": "The following is the list of objects with their corresponding numbers:\n\n1: An empty tin can lid\n2: A marker pen\n3: The top part of a tin can\n4: A red ball\n5: A blue round object\n6: The bottom part of a tin can",
+                "flags": [
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "acc": 0.8333333333333334
+            }
+        },
+        "test0057.png": {
+            "object": {
+                "grd_truth": {
+                    "1": "box",
+                    "2": "marker",
+                    "3": "can",
+                    "4": "can",
+                    "5": "scissors",
+                    "6": "ball",
+                    "7": "ball",
+                    "8": "screwdriver",
+                    "9": "ball"
+                },
+                "identified": "The following is a list of objects found in the image, numbered according to their labels:\n\n*   1: Box\n*   2: Marker (Boardmarker)\n*   3: Can\n*   4: Can\n*   5: Knife\n*   6: Scissors\n*   7: Ball (Blue)\n*   8: Screwdriver",
+                "flags": [
+                    1,
+                    1,
+                    1,
+                    1,
+                    0,
+                    0,
+                    1,
+                    1,
+                    1
+                ],
+                "acc": 0.7777777777777778
+            }
+        },
+        "macro_acc": {
+            "obj": 0.7452777777777777
+        }
+    },
+    "missing_ids": {
+        "object": []
+    },
+    "medium": {
+        "test0088.png": {
+            "object": {
+                "grd_truth": {
+                    "1": "box",
+                    "2": "bottle",
+                    "3": "can",
+                    "4": "can",
+                    "5": "marker",
+                    "6": "ball",
+                    "7": "screwdriver",
+                    "8": "ball",
+                    "9": "mug",
+                    "10": "marker",
+                    "11": "mug",
+                    "12": "marker",
+                    "13": "ruler",
+                    "14": "marker",
+                    "15": "measuring cup",
+                    "16": "ball",
+                    "17": "mug"
+                },
+                "identified": "The image contains 17 distinct objects, each identified by a unique number label. The following is a list of these objects:\n\n\u2022 1: White box\n\u2022 2: White bottle with a narrow neck and rounded body\n\u2022 3: Tin can\n\u2022 4: Tin can\n\u2022 5: Orange marker pen\n\u2022 6: Blue ball\n\u2022 7: Red screwdriver handle\n\u2022 8: Red ball\n\u2022 9: White mug\n\u2022 10: White marker pen with red tip\n\u2022 11: Empty white mug\n\u2022 12: Small transparent cylindrical object\n\u2022 13: Black plastic container\n\u2022 14: Transparent cylindrical object\n\u2022 15: Red ball\n\u2022 16: Red ball\n\u2022 17: Black plastic container",
+                "flags": [
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    0,
+                    0,
+                    1,
+                    0,
+                    1,
+                    0
+                ],
+                "acc": 0.7647058823529411
+            }
+        },
+        "test0188.png": {
+            "object": {
+                "grd_truth": {
+                    "1": "can",
+                    "2": "mug",
+                    "3": "ball",
+                    "4": "squeeze bottle",
+                    "5": "measuring cup",
+                    "6": "marker",
+                    "7": "ruler",
+                    "8": "screwdriver",
+                    "9": "can",
+                    "10": "mug"
+                },
+                "identified": "The following is the dictionary of objects, based on their labels:\n\n1: Tin\n2: Bowl\n3: Cup\n4: Bottle\n5: Cup\n6: Marker (Not visible)\n7: Ruler\n8: Screwdriver\n9: Can\n10: Bowl",
+                "flags": [
+                    1,
+                    0,
+                    0,
+                    1,
+                    0,
+                    1,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "acc": 0.6
+            }
+        },
+        "test0240.png": {
+            "object": {
+                "grd_truth": {
+                    "1": "can",
+                    "2": "mug",
+                    "3": "bottle",
+                    "4": "scissors",
+                    "5": "ball",
+                    "6": "measuring cup",
+                    "7": "ruler",
+                    "8": "marker",
+                    "9": "screwdriver",
+                    "10": "can",
+                    "11": "mug"
+                },
+                "identified": "The following is a list of objects with their respective numbers:\n\n* 1: Canned food\n* 2: Cup or mug\n* 3: Bottle \n* 4: Spoon handle\n* 5: Canned food lid\n* 6: Red cap\n* 7: Ruler\n* 8: Object obscured by cup or mug\n* 9: Screwdriver\n* 10: Tin can\n* 11: Black dish",
+                "flags": [
+                    1,
+                    1,
+                    1,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    1,
+                    1,
+                    0
+                ],
+                "acc": 0.5454545454545454
+            }
+        },
+        "test0075.png": {
+            "object": {
+                "grd_truth": {
+                    "1": "box",
+                    "2": "bottle",
+                    "3": "can",
+                    "4": "can",
+                    "5": "marker",
+                    "6": "ball",
+                    "7": "ball",
+                    "8": "screwdriver",
+                    "9": "mug",
+                    "10": "mug",
+                    "11": "marker",
+                    "12": "ruler",
+                    "13": "marker",
+                    "14": "marker",
+                    "15": "ball",
+                    "16": "measuring cup",
+                    "17": "mug"
+                },
+                "identified": "Sure, here is the list of objects with their corresponding labels:\n\n{'1': 'box', '2': 'bottle', '3': 'canned food', '4': 'canned food', '5': 'marker', '6': 'ball', '7': 'cup', '8': 'tool', '9': 'cup', '10': 'cup', '11': 'pen', '12': 'pen', '13': 'pen', '14': 'marker', '15': 'ball', '16': 'ball', '17': 'cylinder'}",
+                "flags": [
+                    1,
+                    1,
+                    0,
+                    0,
+                    1,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    1,
+                    0,
+                    0
+                ],
+                "acc": 0.35294117647058826
+            }
+        },
+        "test0156.png": {
+            "object": {
+                "grd_truth": {
+                    "1": "bottle",
+                    "2": "can",
+                    "3": "can",
+                    "4": "marker",
+                    "5": "ball",
+                    "6": "screwdriver",
+                    "7": "ball",
+                    "8": "mug",
+                    "9": "marker",
+                    "10": "ruler",
+                    "11": "marker",
+                    "12": "measuring cup",
+                    "13": "ball"
+                },
+                "identified": "The following is a dictionary of objects found in the image, with their corresponding labels:\n\n*   1: Vase\n*   2: Can\n*   3: Can\n*   4: Marker\n*   5: Sphere\n*   6: Screwdriver\n*   7: Sphere\n*   8: Cup\n*   9: Pen\n*   10: Tape measure",
+                "flags": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    0,
+                    0,
+                    1,
+                    1,
+                    1
+                ],
+                "acc": 0.7692307692307693
+            }
+        },
+        "test003401.png": {
+            "object": {
+                "grd_truth": {
+                    "1": "can",
+                    "2": "can",
+                    "3": "ball",
+                    "4": "screwdriver",
+                    "5": "ball",
+                    "6": "mug",
+                    "7": "marker",
+                    "8": "ball",
+                    "9": "scissors",
+                    "10": "mug",
+                    "11": "marker",
+                    "12": "marker",
+                    "13": "marker",
+                    "14": "ruler",
+                    "15": "measuring cup",
+                    "16": "ball",
+                    "17": "mug",
+                    "18": "mug"
+                },
+                "identified": "Sure, here is a list of all the objects in the image with their corresponding labels:\n\n{1: \"Can\", 2: \"Can\", 3: \"Cup\", 4: \"Lid\", 5: \"Handle\", 6: \"Can\", 7: \"Cup\", 8: \"Lid\", 9: \"Handle\", 10: \"Cup\", 11: \"Cup\", 12: \"Lid\", 13: \"Handle\", 14: \"Cup\", 15: \"Cup\", 16: \"Lid\", 17: \"Handle\", 18: \"Cup\"}",
+                "flags": [
+                    1,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "acc": 0.1111111111111111
+            }
+        },
+        "test00244.png": {
+            "object": {
+                "grd_truth": {
+                    "1": "can",
+                    "2": "can",
+                    "3": "ball",
+                    "4": "mug",
+                    "5": "ball",
+                    "6": "screwdriver",
+                    "7": "ball",
+                    "8": "scissors",
+                    "9": "marker",
+                    "10": "marker",
+                    "11": "mug",
+                    "12": "marker"
+                },
+                "identified": "The image contains various objects, and the list of these objects with their corresponding labels is provided below:\n\n'1': Tin can\n'2': Tin can\n'3': Ball (red)\n'4': Cup\n'5': Ball (blue)\n'6': Screwdriver handle\n'7': Scissors\n'8': Bottle\n'9': Box \n'10': Unknown object \n'11': Bowl \n'12': Marker",
+                "flags": [
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "acc": 0.5833333333333334
+            }
+        },
+        "test0013.png": {
+            "object": {
+                "grd_truth": {
+                    "1": "marker",
+                    "2": "can",
+                    "3": "ball",
+                    "4": "screwdriver",
+                    "5": "stand",
+                    "6": "scissors",
+                    "7": "ball",
+                    "8": "mug",
+                    "9": "measuring cup",
+                    "10": "bottle",
+                    "11": "marker",
+                    "12": "marker",
+                    "13": "box"
+                },
+                "identified": "The following is the list of objects with their corresponding numbers:\n\n1.  board marker\n2.  tin can\n3.  ball (blue)\n4.  screwdriver handle\n5.  mirror\n6.  red scissors\n7.  metal knife\n8.  glass jar\n9.  black clamp\n10. bottle of liquid\n\nNote: The image is blurry, so it was difficult to identify some objects accurately.",
+                "flags": [
+                    1,
+                    1,
+                    1,
+                    1,
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "acc": 0.6
+            }
+        },
+        "test0050.png": {
+            "object": {
+                "grd_truth": {
+                    "1": "can",
+                    "2": "can",
+                    "3": "marker",
+                    "4": "ball",
+                    "5": "ball",
+                    "6": "scissors",
+                    "7": "screwdriver",
+                    "8": "ball",
+                    "9": "mug",
+                    "10": "marker",
+                    "11": "marker",
+                    "12": "ruler",
+                    "13": "measuring cup",
+                    "14": "ball",
+                    "15": "mug",
+                    "16": "mug",
+                    "17": "mug",
+                    "18": "ball",
+                    "19": "marker"
+                },
+                "identified": "The image contains 19 distinct objects, each assigned a unique number between 1 and 19. The list is as follows:\n\n1: Canned food\n2: Canned food\n3: Ruler \n4: Scissors\n5: Blue sphere\n6: Red sphere\n7: Screwdriver\n8: White mug\n9: White mug\n10: Marker pen\n11: Marker pen\n12: Marker pen\n13: Red sphere\n14: Red sphere\n15: Black sphere\n16: Black sphere\n17: Yellow box\n18: Blue sphere\n19: Bottle",
+                "flags": [
+                    1,
+                    1,
+                    0,
+                    0,
+                    1,
+                    0,
+                    1,
+                    0,
+                    1,
+                    1,
+                    1,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0
+                ],
+                "acc": 0.47368421052631576
+            }
+        },
+        "test0e44020.png": {
+            "object": {
+                "grd_truth": {
+                    "1": "marker",
+                    "2": "can",
+                    "3": "can",
+                    "4": "ball",
+                    "5": "ball",
+                    "6": "scissors",
+                    "7": "box",
+                    "8": "water bottle",
+                    "9": "squeeze bottle",
+                    "10": "screwdriver",
+                    "11": "marker",
+                    "12": "ruler",
+                    "13": "marker",
+                    "14": "measuring cup",
+                    "15": "can",
+                    "16": "mug",
+                    "17": "mug",
+                    "18": "ball",
+                    "19": "marker"
+                },
+                "identified": "The following dictionary represents the objects in the image, with their corresponding labels:\n\n- 1: Marker\n- 2: Can\n- 3: Tin\n- 4: Ball\n- 5: Scissors\n- 6: Knife\n- 7: Cardboard Box\n- 8: Water Bottle\n- 9: Bottle\n- 10: Screwdriver\n- 11: Marker\n- 12: Tape Measure\n- 13: Pen\n- 14: Bowl\n- 15: Tin Can\n- 16: Bowl\n- 17: Bowl\n- 18: Ball\n- 19: Marker",
+                "flags": [
+                    1,
+                    1,
+                    1,
+                    1,
+                    0,
+                    0,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0,
+                    1,
+                    1
+                ],
+                "acc": 0.631578947368421
+            }
+        },
+        "test0017.png": {
+            "object": {
+                "grd_truth": {
+                    "1": "marker",
+                    "2": "can",
+                    "3": "mug",
+                    "4": "scissors",
+                    "5": "ball",
+                    "6": "glue bottle",
+                    "7": "stand",
+                    "8": "measuring cup",
+                    "9": "ruler",
+                    "10": "marker",
+                    "11": "screwdriver",
+                    "12": "can",
+                    "13": "mug"
+                },
+                "identified": "The following is a dictionary of objects, where each key corresponds to an object number and its value describes the object:\n\n1: Marker\n2: Tin Can Lid\n3: Empty Cup\n4: Scissors\n5: Red Ball\n6: Bottle\n7: White Cardboard Box\n8: Small Measuring Cup\n9: Metal Ruler\n10: Eraser\n11: Screwdriver\n12: Tin Can\n13: Black Mug",
+                "flags": [
+                    1,
+                    0,
+                    1,
+                    1,
+                    1,
+                    0,
+                    0,
+                    1,
+                    1,
+                    0,
+                    1,
+                    1,
+                    1
+                ],
+                "acc": 0.6923076923076923
+            }
+        },
+        "test0245.png": {
+            "object": {
+                "grd_truth": {
+                    "1": "can",
+                    "2": "mug",
+                    "3": "bottle",
+                    "4": "ball",
+                    "5": "scissors",
+                    "6": "measuring cup",
+                    "7": "marker",
+                    "8": "ruler",
+                    "9": "screwdriver",
+                    "10": "can",
+                    "11": "mug"
+                },
+                "identified": "The image shows various objects, each labeled with a number. The following is a list of these objects:\n\n\u2022 1: A metal can.\n\u2022 2: An empty white coffee cup.\n\u2022 3: A brown bottle with a clear cap.\n\u2022 4: A red plastic measuring cup.\n\u2022 5: A silver spoon.\n\u2022 6: A black object, possibly a camera or other device.\n\u2022 7: A small, round object that is likely a ball bearing or similar.\n\u2022 8: A long metal ruler.\n\u2022 9: A red-handled screwdriver.\n\u2022 10: A can of food.\n\u2022 11: Another empty white coffee cup.",
+                "flags": [
+                    1,
+                    1,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "acc": 0.6363636363636364
+            }
+        },
+        "macro_acc": {
+            "obj": 0.5633926087099462
+        }
+    },
+    "hard": {
+        "test_3.png": {
+            "object": {
+                "grd_truth": {
+                    "1": "water bottle",
+                    "2": "mug",
+                    "3": "ball",
+                    "4": "screwdriver",
+                    "5": "ruler",
+                    "6": "marker",
+                    "7": "mug",
+                    "8": "mug",
+                    "9": "marker",
+                    "10": "marker",
+                    "11": "ball",
+                    "12": "ball",
+                    "13": "marker",
+                    "14": "measuring cup",
+                    "15": "measuring cup",
+                    "16": "ball",
+                    "17": "ball",
+                    "18": "mug",
+                    "19": "marker",
+                    "20": "squeeze bottle",
+                    "21": "measuring cup",
+                    "22": "scissors"
+                },
+                "identified": "The list of objects with their corresponding numbers from the image is as follows:\n\n\u2022 1: Water bottle\n\u2022 2: Empty coffee cup\n\u2022 3: Blue ball\n\u2022 4: Red handle screwdriver\n\u2022 5: Ruler\n\u2022 6: Whiteboard marker pen\n\u2022 7: Black coffee cup\n\u2022 8: Cream-colored mug\n\u2022 9: Whiteboard marker pen \n\u2022 10: Whiteboard marker pen\n\u2022 11: Small red ball\n\u2022 12: Red ball\n\u2022 13: Whiteboard marker pen \n\u2022 14: Small red ball\n\u2022 15: Small blue ball\n\u2022 16: Small red ball\n\u2022 17: Small red ball\n\u2022 18: Empty coffee mug\n\u2022 19: Whiteboard marker pen\n\u2022 20: Plastic bottle with a yellow cap",
+                "flags": [
+                    1,
+                    0,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    0,
+                    0,
+                    1,
+                    1,
+                    1,
+                    1,
+                    0,
+                    0,
+                    0
+                ],
+                "acc": 0.7272727272727273
+            }
+        },
+        "test0119.png": {
+            "object": {
+                "grd_truth": {
+                    "1": "marker",
+                    "2": "can",
+                    "3": "ball",
+                    "4": "scissors",
+                    "5": "squeeze bottle",
+                    "6": "mug",
+                    "7": "can",
+                    "8": "ball",
+                    "9": "ball",
+                    "10": "mug",
+                    "11": "ball",
+                    "12": "marker",
+                    "13": "marker",
+                    "14": "ruler",
+                    "15": "measuring cup",
+                    "16": "screwdriver",
+                    "17": "measuring cup",
+                    "18": "ball",
+                    "19": "mug",
+                    "20": "mug",
+                    "21": "can"
+                },
+                "identified": "The following is a list of objects with their corresponding labels:\n\n1: marker\n2: tin\n3: scissors\n4: red ball\n5: bottle\n6: cup\n7: can\n8: blue ball\n9: red ball\n10: black cups\n11: white mug\n12: blue pen\n13: ruler\n14: screwdriver\n15: red cup\n16: red handle\n17: red cup\n18: can\n19: black cup\n20: black cup\n21: tin",
+                "flags": [
+                    1,
+                    1,
+                    0,
+                    1,
+                    0,
+                    1,
+                    1,
+                    1,
+                    1,
+                    0,
+                    0,
+                    0,
+                    1,
+                    1,
+                    0,
+                    1,
+                    0,
+                    1,
+                    0,
+                    0,
+                    1
+                ],
+                "acc": 0.5714285714285714
+            }
+        },
+        "test0001.png": {
+            "object": {
+                "grd_truth": {
+                    "1": "marker",
+                    "2": "can",
+                    "3": "can",
+                    "4": "ball",
+                    "5": "ball",
+                    "6": "scissors",
+                    "7": "screwdriver",
+                    "8": "water bottle",
+                    "9": "bottle",
+                    "10": "can",
+                    "11": "ruler",
+                    "12": "marker",
+                    "13": "marker",
+                    "14": "measuring cup",
+                    "15": "mug",
+                    "16": "mug",
+                    "17": "ball",
+                    "18": "box",
+                    "19": "measuring cup",
+                    "20": "marker"
+                },
+                "identified": "The objects in this image are:\n\n*   1: Marker\n*   2: Tin can (top), Tin can (bottom)\n*   3: Tin can\n*   4: Blue ball\n*   5: Scissors\n*   6: Red ball\n*   7: Screwdriver\n*   8: Plastic container\n*   9: Bottle (clear plastic, yellow top)\n*   10: Gold-colored tin with blue sticker and red, white, and blue stripes\n*   11: Scissors\n*   12: Red ball\n*   13: Blue ball\n*   14: Red ball\n*   15: Black cup (top), Black cup (bottom)\n*   16: Black cup\n*   17: Black cup\n*   18: Silver-colored rectangular plastic container\n*   19: Red ball (top), Red ball (bottom)\n*   20: White tube with blue cap",
+                "flags": [
+                    1,
+                    1,
+                    1,
+                    1,
+                    0,
+                    0,
+                    1,
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "acc": 0.3
+            }
+        },
+        "test_4.png": {
+            "object": {
+                "grd_truth": {
+                    "1": "mug",
+                    "2": "squeeze bottle",
+                    "3": "ball",
+                    "4": "ball",
+                    "5": "ball",
+                    "6": "screwdriver",
+                    "7": "ball",
+                    "8": "ball",
+                    "9": "marker",
+                    "10": "marker",
+                    "11": "mug",
+                    "12": "measuring cup",
+                    "13": "marker",
+                    "14": "marker",
+                    "16": "measuring cup",
+                    "17": "measuring cup",
+                    "18": "scissors",
+                    "19": "mug",
+                    "20": "mug",
+                    "21": "ruler",
+                    "22": "bottle"
+                },
+                "identified": "The image contains 22 distinct objects, each with a unique label.\n\nHere is the list of objects:\n\n1. A cup\n2. A bottle\n3. A red ball\n4. A cup\n5. A cup\n6. A marker\n7. An empty cup\n8. A cup\n9. A cup\n10. A cup\n11. A cup\n12. A cup\n13. A cup\n14. A cup\n15. A cup\n16. A cup\n17. A cup\n18. A cup\n19. A marker\n20. A cup\n21. A cup\n22. A thermos",
+                "flags": [
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    0,
+                    1,
+                    1,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    1,
+                    0,
+                    1,
+                    1,
+                    0,
+                    0
+                ],
+                "acc": 0.5454545454545454
+            }
+        },
+        "test0020.png": {
+            "object": {
+                "grd_truth": {
+                    "1": "marker",
+                    "2": "can",
+                    "3": "can",
+                    "4": "ball",
+                    "5": "screwdriver",
+                    "6": "ball",
+                    "7": "scissors",
+                    "8": "bottle",
+                    "9": "box",
+                    "10": "bottle",
+                    "11": "can",
+                    "12": "marker",
+                    "13": "ruler",
+                    "14": "marker",
+                    "15": "mug",
+                    "16": "measuring cup",
+                    "17": "ball",
+                    "18": "mug",
+                    "19": "mug",
+                    "20": "ball",
+                    "21": "marker"
+                },
+                "identified": "The following is a dictionary of the objects identified by their corresponding labels in the image:\n\n*   1: marker\n*   2: can\n*   3: can\n*   4: ball (blue)\n*   5: screwdriver \n*   6: scissors\n*   7: bottle\n*   8: camera lens cover\n*   9: paper\n*   10: tube\n*   11: case\n*   12: pen\n*   13: ruler\n*   14: marker\n*   15: cup\n*   16: ball (red)\n*   17: marker\n*   18: camera lens cover\n*   19: camera lens cover\n*   20: marker",
+                "flags": [
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "acc": 0.4
+            }
+        },
+        "test_1.png": {
+            "object": {
+                "grd_truth": {
+                    "1": "mug",
+                    "2": "mug",
+                    "3": "mug",
+                    "4": "mug",
+                    "5": "water bottle",
+                    "6": "squeeze bottle",
+                    "7": "measuring cup",
+                    "8": "measuring cup",
+                    "9": "measuring cup",
+                    "10": "ball",
+                    "11": "ball",
+                    "12": "ball",
+                    "13": "ball",
+                    "14": "ball",
+                    "15": "marker",
+                    "16": "marker",
+                    "17": "marker",
+                    "18": "marker",
+                    "19": "marker",
+                    "20": "screwdriver",
+                    "21": "ruler",
+                    "22": "scissors"
+                },
+                "identified": "The following is the list of objects with their corresponding labels:\n\n*   1: Black mug\n*   2: White mug\n*   3: Black cup\n*   4: Beige mug\n*   5: Thermos\n*   6: Bottle of glue\n*   7: Red cups\n*   8: Screwdriver with red handle\n\nThe objects labeled 9 and 13 are the same object, which is a blue cup. The object labeled 11 is not visible in the image. The objects labeled 12, 14, 15, 16, 17, 18, and 21 are also not visible in the image.\n\nNote: There is no object labeled 10 or 20 in the provided image.",
+                "flags": [
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    0,
+                    0,
+                    0
+                ],
+                "acc": 0.625
+            }
+        },
+        "test_2.png": {
+            "object": {
+                "grd_truth": {
+                    "1": "mug",
+                    "2": "screwdriver",
+                    "3": "water bottle",
+                    "4": "mug",
+                    "5": "scissors",
+                    "6": "ball",
+                    "7": "ball",
+                    "8": "squeeze bottle",
+                    "9": "marker",
+                    "10": "marker",
+                    "11": "measuring cup",
+                    "12": "marker",
+                    "13": "ball",
+                    "14": "mug",
+                    "15": "mug",
+                    "16": "marker",
+                    "17": "marker",
+                    "18": "measuring cup",
+                    "19": "measuring cup",
+                    "20": "ball",
+                    "21": "ruler"
+                },
+                "identified": "The image contains 20 distinct objects, each labeled with a unique number from 1 to 20.\n\nHere is the list of objects:\n\n1. Black coffee mug\n2. Red handle of scissors\n3. Black lid of thermos\n4. Black bowl\n5. Red handle of scissors\n6. Red ball\n7. Red ball\n8. Brown bottle with white cap\n9. Scissors\n10. Whiteboard marker\n11. Whiteboard marker\n12. Whiteboard marker\n13. Blue ball\n14. White coffee mug\n15. Gray coffee mug\n16. Whiteboard marker\n17. Green and red tip of a whiteboard marker\n18. Red handle of scissors\n19. Red ball\n20. Red ball",
+                "flags": [
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    1,
+                    0,
+                    0,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    0,
+                    0,
+                    1
+                ],
+                "acc": 0.6
+            }
+        },
+        "test0002.png": {
+            "object": {
+                "grd_truth": {
+                    "1": "marker",
+                    "2": "can",
+                    "3": "mug",
+                    "4": "ball",
+                    "5": "scissors",
+                    "6": "squeeze bottle",
+                    "7": "measuring cup",
+                    "8": "ruler",
+                    "9": "screwdriver",
+                    "10": "can",
+                    "11": "mug",
+                    "12": "mug",
+                    "13": "measuring cup",
+                    "14": "ball",
+                    "15": "marker",
+                    "16": "mug",
+                    "17": "marker",
+                    "18": "ball",
+                    "19": "ball",
+                    "20": "can",
+                    "21": "measuring cup"
+                },
+                "identified": "The following is a list of objects with their corresponding labels:\n\n* 1: marker\n* 2: can\n* 3: cup\n* 4: scissor\n* 5: can\n* 6: bottle\n* 7: cup\n* 8: ruler\n* 9: screwdriver\n* 10: can\n* 11: cup\n* 12: cup\n* 13: cup\n* 14: cup\n* 15: marker\n* 16: cup\n* 17: cup\n* 18: cup\n* 19: ball\n* 20: tin\n* 21: ball",
+                "flags": [
+                    1,
+                    1,
+                    1,
+                    0,
+                    0,
+                    1,
+                    0,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    0,
+                    0,
+                    1,
+                    1,
+                    0,
+                    0,
+                    1,
+                    1,
+                    0
+                ],
+                "acc": 0.6190476190476191
+            }
+        },
+        "macro_acc": {
+            "obj": 0.548525432900433
+        }
+    }
+}

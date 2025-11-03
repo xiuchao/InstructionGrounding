@@ -1,0 +1,117 @@
+xiuchaos@IHP-SPD-1A06811 /d/x/IJCAI25> python3.12 test_PaliGemma.py
+Loading checkpoint shards: 100%|██████████████████████████████████████████████████████████| 2/2 [00:01<00:00,  1.36it/s]
+Using a slow image processor as `use_fast` is unset and a slow processor was saved with this model. `use_fast=True` will be the default behavior in v4.52, even if the model was saved with a slow processor. This will result in minor differences in outputs. You'll still be able to use a slow processor with `use_fast=False`.
+Data loaded successfully, 30 images annotated.
+Testing item: test0009.png
+Objects in the image: {'1': 'marker', '2': 'can', '3': 'bottle', '4': 'ball', '5': 'screwdriver', '6': 'ball', '7': 'mug', '8': 'can'}
+Result: 1. Marker (Boardmarker)
+2. Tin can
+3. Jar with lid
+4. Jar with blue lid
+5. Screwdriver
+6. Jar with red lid
+7. Jar with white lid
+8. Jar with silver lid
+--------------------------------------------------
+Testing item: test0016.png
+Objects in the image: {'1': 'ball', '2': 'can', '3': 'marker', '4': 'ruler', '5': 'tin', '6': 'marker', '7': 'bowl', '8': 'measuring cup'}
+Result: Here is a list of the objects in the image, numbered as shown:
+
+1. Mug
+2. Bottle
+3. Marker
+4. Scissors
+5. Can
+6. Tape measure
+7. Bowl
+8. Cup
+--------------------------------------------------
+Testing item: test0251.png
+Objects in the image: {'1': 'can', '2': 'can', '3': 'marker', '4': 'ball', '5': 'screwdriver', '6': 'marker', '7': 'marker', '8': 'ruler'}
+Result: 1. Can lid
+2. Can lid
+3. Marker
+4. Blue object (possibly a can or container)
+5. Screwdriver
+6. Marker
+7. Marker
+8. Marker
+--------------------------------------------------
+Testing item: test0215.png
+Objects in the image: {'1': 'can', '2': 'can', '3': 'ball', '4': 'marker', '5': 'screwdriver', '6': 'mug', '7': 'marker', '8': 'marker', '9': 'ruler'}
+Result: 1. Tin can lid
+2. Tin can
+3. Blue bottle cap
+4. Marker (orange tip)
+5. Screwdriver
+6. Mug
+7. Marker (black tip)
+8. Marker (white body, black tip)
+9. Scissors
+--------------------------------------------------
+Testing item: test0176.png
+Objects in the image: {'1': 'can', '2': 'ball', '3': 'screwdriver', '4': 'ball', '5': 'scissors'}
+Result: 1. Can
+2. Blue container
+3. Screwdriver
+4. Scissors
+5. Stapler
+--------------------------------------------------
+Testing item: test012001.png
+Objects in the image: {'1': 'box', '2': 'marker', '3': 'ball', '4': 'can', '5': 'scissors', '6': 'ball', '7': 'screwdriver', '8': 'squeeze bottle', '9': 'water bottle'}
+Result: 1. Monitor box
+2. Board marker
+3. Scissors
+4. Can of paint
+5. Tape measure
+6. Screwdriver
+7. Bottle of glue
+8. Can of spray paint
+9. Drill
+--------------------------------------------------
+Testing item: test0428.png
+Objects in the image: {'1': 'can', '2': 'ball', '3': 'ball', '4': 'scissors', '5': 'screwdriver handle', '6': 'marker'}
+Result: 1. Can
+2. Blue bottle cap
+3. Scissors
+4. Knife
+5. Screwdriver
+6. Box of batteries
+--------------------------------------------------
+Testing item: test0024.png
+Objects in the image: {'1': 'marker', '2': 'can', '3': 'box', '4': 'can', '5': 'ball', '6': 'scissors', '7': 'ball', '8': 'screwdriver', '9': 'ball'}
+Result: Here is a list of the objects in the image, numbered as shown:
+
+1. Boardmarker
+2. Can (top)
+3. Screwdriver
+4. Can (bottom)
+5. Scissors
+6. Blue lid
+7. Red lid
+8. Black object (possibly a tool or container)
+9. Red object (possibly a tool or container)
+--------------------------------------------------
+Testing item: test05013.png
+Objects in the image: {'1': 'can', '2': 'marker', '3': 'can', '4': 'ball', '5': 'ball', '6': 'scissors'}
+Result: Here is a list of the objects in the image, numbered as shown:
+
+1. Tin can
+2. Marker (Snowman Boardmarker)
+3. Lid
+4. Scissors
+5. Blue object (possibly a bottle cap or container lid)
+6. Black object (possibly a tool or piece of equipment)
+--------------------------------------------------
+Testing item: test0057.png
+Objects in the image: {'1': 'box', '2': 'marker', '3': 'can', '4': 'can', '5': 'scissors', '6': 'ball', '7': 'ball', '8': 'screwdriver', '9': 'ball'}
+Result: 1. Box
+2. Board marker
+3. Cans
+4. Screwdriver
+5. Scissors
+6. Pliers
+7. Jar lid
+8. Tool (possibly a wrench or pliers)
+9. Red object (possibly a bottle cap)
+--------------------------------------------------

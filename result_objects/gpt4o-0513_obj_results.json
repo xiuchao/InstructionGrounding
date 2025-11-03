@@ -1,0 +1,1525 @@
+{
+    "easy": {
+        "test0009.png": {
+            "object": {
+                "grd_truth": {
+                    "1": "marker",
+                    "2": "can",
+                    "3": "bottle",
+                    "4": "ball",
+                    "5": "screwdriver",
+                    "6": "ball",
+                    "7": "mug",
+                    "8": "can"
+                },
+                "identified": {
+                    "1": "marker",
+                    "2": "can",
+                    "3": "bottle",
+                    "4": "blue container",
+                    "5": "screwdriver",
+                    "6": "red lid",
+                    "7": "mug",
+                    "8": "another can"
+                },
+                "flags": [
+                    1,
+                    1,
+                    1,
+                    0,
+                    1,
+                    0,
+                    1,
+                    0
+                ],
+                "acc": 0.625
+            }
+        },
+        "test0016.png": {
+            "object": {
+                "grd_truth": {
+                    "1": "ball",
+                    "2": "can",
+                    "3": "marker",
+                    "4": "ruler",
+                    "5": "tin",
+                    "6": "marker",
+                    "7": "bowl",
+                    "8": "measuring cup"
+                },
+                "identified": {
+                    "1": "cup",
+                    "2": "can",
+                    "3": "marker",
+                    "4": "ruler",
+                    "5": "tin",
+                    "6": "whiteboard eraser",
+                    "7": "bowl",
+                    "8": "measuring cup"
+                },
+                "flags": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    1,
+                    0,
+                    1,
+                    1
+                ],
+                "acc": 0.75
+            }
+        },
+        "test0251.png": {
+            "object": {
+                "grd_truth": {
+                    "1": "can",
+                    "2": "can",
+                    "3": "marker",
+                    "4": "ball",
+                    "5": "screwdriver",
+                    "6": "marker",
+                    "7": "marker",
+                    "8": "ruler"
+                },
+                "identified": {
+                    "1": "can",
+                    "2": "can",
+                    "3": "marker",
+                    "4": "ball",
+                    "5": "screwdriver",
+                    "6": "marker",
+                    "7": "marker",
+                    "8": "marker"
+                },
+                "flags": [
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "acc": 0.875
+            }
+        },
+        "test0215.png": {
+            "object": {
+                "grd_truth": {
+                    "1": "can",
+                    "2": "can",
+                    "3": "ball",
+                    "4": "marker",
+                    "5": "screwdriver",
+                    "6": "mug",
+                    "7": "marker",
+                    "8": "marker",
+                    "9": "ruler"
+                },
+                "identified": {
+                    "1": "can",
+                    "2": "can",
+                    "3": "cap",
+                    "4": "marker",
+                    "5": "screwdriver",
+                    "6": "cup",
+                    "7": "marker",
+                    "8": "marker",
+                    "9": "marker"
+                },
+                "flags": [
+                    1,
+                    1,
+                    0,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "acc": 0.7777777777777778
+            }
+        },
+        "test0176.png": {
+            "object": {
+                "grd_truth": {
+                    "1": "can",
+                    "2": "ball",
+                    "3": "screwdriver",
+                    "4": "ball",
+                    "5": "scissors"
+                },
+                "identified": {
+                    "1": "can",
+                    "2": "ball",
+                    "3": "screwdriver",
+                    "4": "ball",
+                    "5": "scissors"
+                },
+                "flags": [
+                    1,
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "acc": 1.0
+            }
+        },
+        "test012001.png": {
+            "object": {
+                "grd_truth": {
+                    "1": "box",
+                    "2": "marker",
+                    "3": "ball",
+                    "4": "can",
+                    "5": "scissors",
+                    "6": "ball",
+                    "7": "screwdriver",
+                    "8": "squeeze bottle",
+                    "9": "water bottle"
+                },
+                "identified": {
+                    "1": "box",
+                    "2": "marker",
+                    "3": "measuring spoon",
+                    "4": "tin can",
+                    "5": "scissors",
+                    "6": "ball",
+                    "7": "screwdriver",
+                    "8": "spray can",
+                    "9": "bottle"
+                },
+                "flags": [
+                    1,
+                    1,
+                    0,
+                    1,
+                    1,
+                    1,
+                    1,
+                    0,
+                    1
+                ],
+                "acc": 0.7777777777777778
+            }
+        },
+        "test0428.png": {
+            "object": {
+                "grd_truth": {
+                    "1": "can",
+                    "2": "ball",
+                    "3": "ball",
+                    "4": "scissors",
+                    "5": "screwdriver handle",
+                    "6": "marker"
+                },
+                "identified": {
+                    "1": "tin can",
+                    "2": "blue ball",
+                    "3": "scissors",
+                    "4": "pliers",
+                    "5": "screwdriver",
+                    "6": "marker"
+                },
+                "flags": [
+                    1,
+                    1,
+                    0,
+                    0,
+                    1,
+                    1
+                ],
+                "acc": 0.6666666666666666
+            }
+        },
+        "test0024.png": {
+            "object": {
+                "grd_truth": {
+                    "1": "marker",
+                    "2": "can",
+                    "3": "box",
+                    "4": "can",
+                    "5": "ball",
+                    "6": "scissors",
+                    "7": "ball",
+                    "8": "screwdriver",
+                    "9": "ball"
+                },
+                "identified": {
+                    "1": "marker",
+                    "2": "can",
+                    "3": "box",
+                    "4": "can",
+                    "5": "red ball",
+                    "6": "scissors",
+                    "7": "blue ball",
+                    "8": "screwdriver",
+                    "9": "red ball"
+                },
+                "flags": [
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "acc": 1.0
+            }
+        },
+        "test05013.png": {
+            "object": {
+                "grd_truth": {
+                    "1": "can",
+                    "2": "marker",
+                    "3": "can",
+                    "4": "ball",
+                    "5": "ball",
+                    "6": "scissors"
+                },
+                "identified": {
+                    "1": "can",
+                    "2": "marker",
+                    "3": "can",
+                    "4": "red ball",
+                    "5": "blue ball",
+                    "6": "scissors"
+                },
+                "flags": [
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "acc": 1.0
+            }
+        },
+        "test0057.png": {
+            "object": {
+                "grd_truth": {
+                    "1": "box",
+                    "2": "marker",
+                    "3": "can",
+                    "4": "can",
+                    "5": "scissors",
+                    "6": "ball",
+                    "7": "ball",
+                    "8": "screwdriver",
+                    "9": "ball"
+                },
+                "identified": {
+                    "1": "box",
+                    "2": "marker",
+                    "3": "can",
+                    "4": "can",
+                    "5": "pliers",
+                    "6": "red cup",
+                    "7": "blue ball",
+                    "8": "screwdriver",
+                    "9": "red ball"
+                },
+                "flags": [
+                    1,
+                    1,
+                    1,
+                    1,
+                    0,
+                    0,
+                    1,
+                    1,
+                    0
+                ],
+                "acc": 0.6666666666666666
+            }
+        },
+        "macro_acc": {
+            "obj": 0.8138888888888889
+        }
+    },
+    "missing_ids": {
+        "object": []
+    },
+    "medium": {
+        "test0088.png": {
+            "object": {
+                "grd_truth": {
+                    "1": "box",
+                    "2": "bottle",
+                    "3": "can",
+                    "4": "can",
+                    "5": "marker",
+                    "6": "ball",
+                    "7": "screwdriver",
+                    "8": "ball",
+                    "9": "mug",
+                    "10": "marker",
+                    "11": "mug",
+                    "12": "marker",
+                    "13": "ruler",
+                    "14": "marker",
+                    "15": "measuring cup",
+                    "16": "ball",
+                    "17": "mug"
+                },
+                "identified": {
+                    "1": "box",
+                    "2": "bottle",
+                    "3": "tin can",
+                    "4": "tin can",
+                    "5": "marker",
+                    "6": "blue cap",
+                    "7": "screwdriver",
+                    "8": "red cap",
+                    "9": "cup",
+                    "10": "marker",
+                    "11": "cup",
+                    "12": "marker",
+                    "13": "marker",
+                    "14": "marker",
+                    "15": "marker",
+                    "16": "red cap",
+                    "17": "cup"
+                },
+                "flags": [
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    0,
+                    1,
+                    0,
+                    1,
+                    1,
+                    1,
+                    1,
+                    0,
+                    1,
+                    0,
+                    0,
+                    1
+                ],
+                "acc": 0.7058823529411765
+            }
+        },
+        "test0188.png": {
+            "object": {
+                "grd_truth": {
+                    "1": "can",
+                    "2": "mug",
+                    "3": "ball",
+                    "4": "squeeze bottle",
+                    "5": "measuring cup",
+                    "6": "marker",
+                    "7": "ruler",
+                    "8": "screwdriver",
+                    "9": "can",
+                    "10": "mug"
+                },
+                "identified": "```json\n{\n    \"1\": \"can lid\",\n    \"2\": \"cup\",\n    \"3\": \"red cap\",\n    \"4\": \"tape\",\n    \"5\": \"funnel\",\n    \"6\": \"marker\",\n    \"7\": \"ruler\",\n    \"8\": \"screwdriver\",\n    \"9\": \"can\",\n    \"10\": \"mug\"\n}\n```",
+                "flags": [
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "acc": 0.6
+            }
+        },
+        "test0240.png": {
+            "object": {
+                "grd_truth": {
+                    "1": "can",
+                    "2": "mug",
+                    "3": "bottle",
+                    "4": "scissors",
+                    "5": "ball",
+                    "6": "measuring cup",
+                    "7": "ruler",
+                    "8": "marker",
+                    "9": "screwdriver",
+                    "10": "can",
+                    "11": "mug"
+                },
+                "identified": {
+                    "1": "can",
+                    "2": "bowl",
+                    "3": "bottle",
+                    "4": "scissors",
+                    "5": "cap",
+                    "6": "measuring cup",
+                    "7": "ruler",
+                    "8": "pen",
+                    "9": "screwdriver",
+                    "10": "can",
+                    "11": "mug"
+                },
+                "flags": [
+                    1,
+                    0,
+                    1,
+                    1,
+                    0,
+                    1,
+                    1,
+                    0,
+                    1,
+                    1,
+                    1
+                ],
+                "acc": 0.7272727272727273
+            }
+        },
+        "test0075.png": {
+            "object": {
+                "grd_truth": {
+                    "1": "box",
+                    "2": "bottle",
+                    "3": "can",
+                    "4": "can",
+                    "5": "marker",
+                    "6": "ball",
+                    "7": "ball",
+                    "8": "screwdriver",
+                    "9": "mug",
+                    "10": "mug",
+                    "11": "marker",
+                    "12": "ruler",
+                    "13": "marker",
+                    "14": "marker",
+                    "15": "ball",
+                    "16": "measuring cup",
+                    "17": "mug"
+                },
+                "identified": {
+                    "1": "box",
+                    "2": "bottle",
+                    "3": "can",
+                    "4": "can",
+                    "5": "marker",
+                    "6": "ball",
+                    "7": "ball",
+                    "8": "screwdriver",
+                    "9": "cup",
+                    "10": "cup",
+                    "11": "marker",
+                    "12": "post-it note",
+                    "13": "marker",
+                    "14": "marker",
+                    "15": "cup lid",
+                    "16": "cup lid",
+                    "17": "cup"
+                },
+                "flags": [
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    0,
+                    1,
+                    1,
+                    0,
+                    0,
+                    1
+                ],
+                "acc": 0.8235294117647058
+            }
+        },
+        "test0156.png": {
+            "object": {
+                "grd_truth": {
+                    "1": "bottle",
+                    "2": "can",
+                    "3": "can",
+                    "4": "marker",
+                    "5": "ball",
+                    "6": "screwdriver",
+                    "7": "ball",
+                    "8": "mug",
+                    "9": "marker",
+                    "10": "ruler",
+                    "11": "marker",
+                    "12": "measuring cup",
+                    "13": "ball"
+                },
+                "identified": "```python\n{\n    '1': 'bottle',\n    '2': 'can',\n    '3': 'can',\n    '4': 'marker',\n    '5': 'blue cap',\n    '6': 'screwdriver',\n    '7': 'red cap',\n    '8': 'cup',\n    '9': 'marker',\n    '10': 'can',\n    '11': 'marker',\n    '12': 'red cap',\n    '13': 'cup'\n}\n```",
+                "flags": [
+                    1,
+                    1,
+                    1,
+                    1,
+                    0,
+                    1,
+                    0,
+                    1,
+                    1,
+                    0,
+                    1,
+                    0,
+                    0
+                ],
+                "acc": 0.6153846153846154
+            }
+        },
+        "test003401.png": {
+            "object": {
+                "grd_truth": {
+                    "1": "can",
+                    "2": "can",
+                    "3": "ball",
+                    "4": "screwdriver",
+                    "5": "ball",
+                    "6": "mug",
+                    "7": "marker",
+                    "8": "ball",
+                    "9": "scissors",
+                    "10": "mug",
+                    "11": "marker",
+                    "12": "marker",
+                    "13": "marker",
+                    "14": "ruler",
+                    "15": "measuring cup",
+                    "16": "ball",
+                    "17": "mug",
+                    "18": "mug"
+                },
+                "identified": {
+                    "1": "canned food",
+                    "2": "canned food",
+                    "3": "blue ball",
+                    "4": "peeler",
+                    "5": "red ball",
+                    "6": "white mug",
+                    "7": "marker",
+                    "8": "red ball",
+                    "9": "scissors",
+                    "10": "beige mug",
+                    "11": "toothpaste",
+                    "12": "black object",
+                    "13": "blue highlighter",
+                    "14": "black object",
+                    "15": "red cup cover",
+                    "16": "red cup cover",
+                    "17": "black mug",
+                    "18": "black mug"
+                },
+                "flags": [
+                    1,
+                    1,
+                    1,
+                    0,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    1
+                ],
+                "acc": 0.6111111111111112
+            }
+        },
+        "test00244.png": {
+            "object": {
+                "grd_truth": {
+                    "1": "can",
+                    "2": "can",
+                    "3": "ball",
+                    "4": "mug",
+                    "5": "ball",
+                    "6": "screwdriver",
+                    "7": "ball",
+                    "8": "scissors",
+                    "9": "marker",
+                    "10": "marker",
+                    "11": "mug",
+                    "12": "marker"
+                },
+                "identified": {
+                    "1": "can",
+                    "2": "can",
+                    "3": "red ball",
+                    "4": "grey mug",
+                    "5": "blue ball",
+                    "6": "screwdriver",
+                    "7": "red ball",
+                    "8": "scissors",
+                    "9": "eraser",
+                    "10": "marker",
+                    "11": "beige mug",
+                    "12": "marker"
+                },
+                "flags": [
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    0,
+                    1,
+                    1,
+                    1
+                ],
+                "acc": 0.9166666666666666
+            }
+        },
+        "test0013.png": {
+            "object": {
+                "grd_truth": {
+                    "1": "marker",
+                    "2": "can",
+                    "3": "ball",
+                    "4": "screwdriver",
+                    "5": "stand",
+                    "6": "scissors",
+                    "7": "ball",
+                    "8": "mug",
+                    "9": "measuring cup",
+                    "10": "bottle",
+                    "11": "marker",
+                    "12": "marker",
+                    "13": "box"
+                },
+                "identified": {
+                    "1": "marker",
+                    "2": "can lid",
+                    "3": "ball",
+                    "4": "screwdriver",
+                    "5": "plastic stand",
+                    "6": "scissors",
+                    "7": "ping pong ball",
+                    "8": "thermos",
+                    "9": "spray can",
+                    "10": "bottle",
+                    "11": "marker",
+                    "12": "marker",
+                    "13": "box"
+                },
+                "flags": [
+                    1,
+                    0,
+                    1,
+                    1,
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "acc": 0.6153846153846154
+            }
+        },
+        "test0050.png": {
+            "object": {
+                "grd_truth": {
+                    "1": "can",
+                    "2": "can",
+                    "3": "marker",
+                    "4": "ball",
+                    "5": "ball",
+                    "6": "scissors",
+                    "7": "screwdriver",
+                    "8": "ball",
+                    "9": "mug",
+                    "10": "marker",
+                    "11": "marker",
+                    "12": "ruler",
+                    "13": "measuring cup",
+                    "14": "ball",
+                    "15": "mug",
+                    "16": "mug",
+                    "17": "mug",
+                    "18": "ball",
+                    "19": "marker"
+                },
+                "identified": {
+                    "1": "can",
+                    "2": "can",
+                    "3": "marker",
+                    "4": "red ball",
+                    "5": "blue ball",
+                    "6": "scissors",
+                    "7": "screwdriver",
+                    "8": "red ball",
+                    "9": "mug",
+                    "10": "marker",
+                    "11": "marker",
+                    "12": "marker",
+                    "13": "measuring cup",
+                    "14": "red ball",
+                    "15": "black mug",
+                    "16": "black mug",
+                    "17": "mug",
+                    "18": "blue ball",
+                    "19": "marker"
+                },
+                "flags": [
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    0,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "acc": 0.9473684210526315
+            }
+        },
+        "test0e44020.png": {
+            "object": {
+                "grd_truth": {
+                    "1": "marker",
+                    "2": "can",
+                    "3": "can",
+                    "4": "ball",
+                    "5": "ball",
+                    "6": "scissors",
+                    "7": "box",
+                    "8": "water bottle",
+                    "9": "squeeze bottle",
+                    "10": "screwdriver",
+                    "11": "marker",
+                    "12": "ruler",
+                    "13": "marker",
+                    "14": "measuring cup",
+                    "15": "can",
+                    "16": "mug",
+                    "17": "mug",
+                    "18": "ball",
+                    "19": "marker"
+                },
+                "identified": "```python\n{\n    '1': 'marker',\n    '2': 'can',\n    '3': 'can',\n    '4': 'blue ball',\n    '5': 'red ball',\n    '6': 'scissors',\n    '7': 'plastic box',\n    '8': 'water bottle',\n    '9': 'spray bottle',\n    '10': 'screwdriver',\n    '11': 'marker',\n    '12': 'ruler',\n    '13': 'marker',\n    '14': 'bottle cap',\n    '15': 'can',\n    '16': 'black cup',\n    '17': 'black cup',\n    '18': 'blue ball',\n    '19': 'marker'\n}\n```",
+                "flags": [
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    0,
+                    1,
+                    1,
+                    1,
+                    1,
+                    0,
+                    1,
+                    0,
+                    0,
+                    1,
+                    1
+                ],
+                "acc": 0.7894736842105263
+            }
+        },
+        "test0017.png": {
+            "object": {
+                "grd_truth": {
+                    "1": "marker",
+                    "2": "can",
+                    "3": "mug",
+                    "4": "scissors",
+                    "5": "ball",
+                    "6": "glue bottle",
+                    "7": "stand",
+                    "8": "measuring cup",
+                    "9": "ruler",
+                    "10": "marker",
+                    "11": "screwdriver",
+                    "12": "can",
+                    "13": "mug"
+                },
+                "identified": "```python\n{\n    '1': 'marker',\n    '2': 'can',\n    '3': 'cup',\n    '4': 'scissors',\n    '5': 'tape',\n    '6': 'glue',\n    '7': 'box',\n    '8': 'measuring cup',\n    '9': 'ruler',\n    '10': 'marker',\n    '11': 'screwdriver',\n    '12': 'can',\n    '13': 'mug'\n}\n```",
+                "flags": [
+                    1,
+                    1,
+                    1,
+                    1,
+                    0,
+                    0,
+                    0,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "acc": 0.7692307692307693
+            }
+        },
+        "test0245.png": {
+            "object": {
+                "grd_truth": {
+                    "1": "can",
+                    "2": "mug",
+                    "3": "bottle",
+                    "4": "ball",
+                    "5": "scissors",
+                    "6": "measuring cup",
+                    "7": "marker",
+                    "8": "ruler",
+                    "9": "screwdriver",
+                    "10": "can",
+                    "11": "mug"
+                },
+                "identified": {
+                    "1": "can",
+                    "2": "bowl",
+                    "3": "bottle",
+                    "4": "measuring cup",
+                    "5": "scissors",
+                    "6": "measuring cup",
+                    "7": "marker",
+                    "8": "ruler",
+                    "9": "screwdriver",
+                    "10": "can",
+                    "11": "mug"
+                },
+                "flags": [
+                    1,
+                    0,
+                    1,
+                    0,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "acc": 0.8181818181818182
+            }
+        },
+        "macro_acc": {
+            "obj": 0.7449571827667804
+        }
+    },
+    "hard": {
+        "test_3.png": {
+            "object": {
+                "grd_truth": {
+                    "1": "water bottle",
+                    "2": "mug",
+                    "3": "ball",
+                    "4": "screwdriver",
+                    "5": "ruler",
+                    "6": "marker",
+                    "7": "mug",
+                    "8": "mug",
+                    "9": "marker",
+                    "10": "marker",
+                    "11": "ball",
+                    "12": "ball",
+                    "13": "marker",
+                    "14": "measuring cup",
+                    "15": "measuring cup",
+                    "16": "ball",
+                    "17": "ball",
+                    "18": "mug",
+                    "19": "marker",
+                    "20": "squeeze bottle",
+                    "21": "measuring cup",
+                    "22": "scissors"
+                },
+                "identified": "```python\n{\n    '1': 'water bottle',\n    '2': 'brown mug',\n    '3': 'blue cap',\n    '4': 'screwdriver',\n    '5': 'ruler',\n    '7': 'black mug',\n    '8': 'beige mug',\n    '9': 'white board marker',\n    '10': 'white board marker',\n    '11': 'red cap',\n    '12': 'red cap',\n    '13': 'black marker',\n    '14': 'red cap',\n    '15': 'red cap',\n    '16': 'red cap',\n    '17': 'blue cap',\n    '18': 'grey mug',\n    '19': 'orange marker',\n    '20': 'soy sauce bottle',\n    '21': 'small red cup',\n    '22': 'red scissors'\n}\n```",
+                "flags": [
+                    1,
+                    1,
+                    0,
+                    1,
+                    1,
+                    0,
+                    1,
+                    1,
+                    1,
+                    1,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    1,
+                    0,
+                    0,
+                    1
+                ],
+                "acc": 0.5454545454545454
+            }
+        },
+        "test0119.png": {
+            "object": {
+                "grd_truth": {
+                    "1": "marker",
+                    "2": "can",
+                    "3": "ball",
+                    "4": "scissors",
+                    "5": "squeeze bottle",
+                    "6": "mug",
+                    "7": "can",
+                    "8": "ball",
+                    "9": "ball",
+                    "10": "mug",
+                    "11": "ball",
+                    "12": "marker",
+                    "13": "marker",
+                    "14": "ruler",
+                    "15": "measuring cup",
+                    "16": "screwdriver",
+                    "17": "measuring cup",
+                    "18": "ball",
+                    "19": "mug",
+                    "20": "mug",
+                    "21": "can"
+                },
+                "identified": {
+                    "1": "board marker",
+                    "2": "can",
+                    "3": "red ball",
+                    "4": "scissors",
+                    "5": "spray bottle",
+                    "6": "white mug",
+                    "7": "tin can",
+                    "8": "blue ball",
+                    "9": "red ball",
+                    "10": "brown mug",
+                    "11": "blue and gray tool",
+                    "12": "marker",
+                    "13": "pen",
+                    "14": "ruler",
+                    "15": "red cup",
+                    "16": "screwdriver",
+                    "17": "red scoop",
+                    "18": "red scoop",
+                    "19": "black mug",
+                    "20": "black mug",
+                    "21": "tin can"
+                },
+                "flags": [
+                    1,
+                    1,
+                    1,
+                    1,
+                    0,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    0,
+                    1,
+                    0,
+                    1,
+                    0,
+                    1,
+                    0,
+                    0,
+                    1,
+                    1,
+                    1
+                ],
+                "acc": 0.7142857142857143
+            }
+        },
+        "test0001.png": {
+            "object": {
+                "grd_truth": {
+                    "1": "marker",
+                    "2": "can",
+                    "3": "can",
+                    "4": "ball",
+                    "5": "ball",
+                    "6": "scissors",
+                    "7": "screwdriver",
+                    "8": "water bottle",
+                    "9": "bottle",
+                    "10": "can",
+                    "11": "ruler",
+                    "12": "marker",
+                    "13": "marker",
+                    "14": "measuring cup",
+                    "15": "mug",
+                    "16": "mug",
+                    "17": "ball",
+                    "18": "box",
+                    "19": "measuring cup",
+                    "20": "marker"
+                },
+                "identified": {
+                    "1": "boardmarker",
+                    "2": "can",
+                    "3": "can",
+                    "4": "blue ball",
+                    "5": "red ball",
+                    "6": "scissors",
+                    "7": "screwdriver",
+                    "8": "spray bottle",
+                    "9": "coffee cup",
+                    "10": "tin can",
+                    "11": "ruler",
+                    "12": "black marker",
+                    "13": "boardmarker",
+                    "14": "red lid",
+                    "15": "black cup",
+                    "16": "black cup",
+                    "17": "blue lid",
+                    "18": "box",
+                    "19": "red lid",
+                    "20": "boardmarker"
+                },
+                "flags": [
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    0,
+                    0,
+                    1,
+                    1,
+                    1,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    1
+                ],
+                "acc": 0.65
+            }
+        },
+        "test_4.png": {
+            "object": {
+                "grd_truth": {
+                    "1": "mug",
+                    "2": "squeeze bottle",
+                    "3": "ball",
+                    "4": "ball",
+                    "5": "ball",
+                    "6": "screwdriver",
+                    "7": "ball",
+                    "8": "ball",
+                    "9": "marker",
+                    "10": "marker",
+                    "11": "mug",
+                    "12": "measuring cup",
+                    "13": "marker",
+                    "14": "marker",
+                    "16": "measuring cup",
+                    "17": "measuring cup",
+                    "18": "scissors",
+                    "19": "mug",
+                    "20": "mug",
+                    "21": "ruler",
+                    "22": "bottle"
+                },
+                "identified": {
+                    "1": "mug",
+                    "2": "bottle of glue",
+                    "3": "red ball",
+                    "4": "red ball",
+                    "5": "red ball",
+                    "6": "screwdriver",
+                    "7": "blue ball",
+                    "8": "blue ball",
+                    "10": "marker",
+                    "11": "mug",
+                    "12": "red lid",
+                    "13": "marker",
+                    "14": "marker",
+                    "16": "red lid",
+                    "17": "small cup",
+                    "18": "scissors",
+                    "19": "black cup",
+                    "20": "black cup",
+                    "21": "marker",
+                    "22": "water bottle"
+                },
+                "flags": [
+                    1,
+                    0,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    0,
+                    1,
+                    1,
+                    0,
+                    1,
+                    1,
+                    0,
+                    0,
+                    1,
+                    1,
+                    1,
+                    0,
+                    0,
+                    1
+                ],
+                "acc": 0.6818181818181818
+            }
+        },
+        "test0020.png": {
+            "object": {
+                "grd_truth": {
+                    "1": "marker",
+                    "2": "can",
+                    "3": "can",
+                    "4": "ball",
+                    "5": "screwdriver",
+                    "6": "ball",
+                    "7": "scissors",
+                    "8": "bottle",
+                    "9": "box",
+                    "10": "bottle",
+                    "11": "can",
+                    "12": "marker",
+                    "13": "ruler",
+                    "14": "marker",
+                    "15": "mug",
+                    "16": "measuring cup",
+                    "17": "ball",
+                    "18": "mug",
+                    "19": "mug",
+                    "20": "ball",
+                    "21": "marker"
+                },
+                "identified": {
+                    "1": "orange marker",
+                    "2": "tin can",
+                    "3": "tin can",
+                    "4": "blue sphere",
+                    "5": "screwdriver",
+                    "6": "scissors",
+                    "7": "tin snips",
+                    "8": "water bottle",
+                    "9": "plastic box",
+                    "10": "spray bottle",
+                    "11": "can",
+                    "12": "marker",
+                    "13": "white marker",
+                    "14": "marker",
+                    "15": "bowl",
+                    "16": "red scoop",
+                    "17": "red scoop",
+                    "18": "black cup",
+                    "19": "black cup",
+                    "20": "blue sphere",
+                    "21": "white marker"
+                },
+                "flags": [
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    0,
+                    0,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    1
+                ],
+                "acc": 0.6666666666666666
+            }
+        },
+        "test_1.png": {
+            "object": {
+                "grd_truth": {
+                    "1": "mug",
+                    "2": "mug",
+                    "3": "mug",
+                    "4": "mug",
+                    "5": "water bottle",
+                    "6": "squeeze bottle",
+                    "7": "measuring cup",
+                    "8": "measuring cup",
+                    "9": "measuring cup",
+                    "10": "ball",
+                    "11": "ball",
+                    "12": "ball",
+                    "13": "ball",
+                    "14": "ball",
+                    "15": "marker",
+                    "16": "marker",
+                    "17": "marker",
+                    "18": "marker",
+                    "19": "marker",
+                    "20": "screwdriver",
+                    "21": "ruler",
+                    "22": "scissors"
+                },
+                "identified": {
+                    "1": "black mug",
+                    "2": "grey mug",
+                    "3": "black cup",
+                    "4": "cream mug",
+                    "5": "thermos",
+                    "6": "bottle",
+                    "7": "red measuring cup",
+                    "8": "red measuring cup",
+                    "9": "red small cup",
+                    "10": "red lid",
+                    "11": "red lid",
+                    "12": "red lid",
+                    "13": "blue lid",
+                    "14": "blue lid",
+                    "15": "whiteboard marker",
+                    "16": "whiteboard marker",
+                    "17": "whiteboard marker",
+                    "18": "whiteboard marker",
+                    "19": "whiteboard marker",
+                    "20": "screwdriver",
+                    "21": "metal ruler",
+                    "22": "scissors"
+                },
+                "flags": [
+                    1,
+                    1,
+                    0,
+                    1,
+                    0,
+                    1,
+                    1,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "acc": 0.6363636363636364
+            }
+        },
+        "test_2.png": {
+            "object": {
+                "grd_truth": {
+                    "1": "mug",
+                    "2": "screwdriver",
+                    "3": "water bottle",
+                    "4": "mug",
+                    "5": "scissors",
+                    "6": "ball",
+                    "7": "ball",
+                    "8": "squeeze bottle",
+                    "9": "marker",
+                    "10": "marker",
+                    "11": "measuring cup",
+                    "12": "marker",
+                    "13": "ball",
+                    "14": "mug",
+                    "15": "mug",
+                    "16": "marker",
+                    "17": "marker",
+                    "18": "measuring cup",
+                    "19": "measuring cup",
+                    "20": "ball",
+                    "21": "ruler"
+                },
+                "identified": {
+                    "1": "black cup",
+                    "2": "black cup lid",
+                    "3": "silver water bottle",
+                    "4": "black cup",
+                    "5": "scissors",
+                    "6": "red ball",
+                    "7": "red ball",
+                    "8": "glue bottle",
+                    "9": "black marker",
+                    "10": "blue marker",
+                    "11": "red lid",
+                    "12": "white marker",
+                    "13": "blue lid",
+                    "14": "peach cup",
+                    "15": "grey cup",
+                    "16": "white marker",
+                    "17": "green marker",
+                    "18": "small red measuring spoon",
+                    "19": "medium red measuring spoon",
+                    "20": "large red measuring spoon",
+                    "21": "ruler"
+                },
+                "flags": [
+                    1,
+                    0,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    0,
+                    1,
+                    1,
+                    0,
+                    1,
+                    0,
+                    1,
+                    1,
+                    1,
+                    1,
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "acc": 0.6666666666666666
+            }
+        },
+        "test0002.png": {
+            "object": {
+                "grd_truth": {
+                    "1": "marker",
+                    "2": "can",
+                    "3": "mug",
+                    "4": "ball",
+                    "5": "scissors",
+                    "6": "squeeze bottle",
+                    "7": "measuring cup",
+                    "8": "ruler",
+                    "9": "screwdriver",
+                    "10": "can",
+                    "11": "mug",
+                    "12": "mug",
+                    "13": "measuring cup",
+                    "14": "ball",
+                    "15": "marker",
+                    "16": "mug",
+                    "17": "marker",
+                    "18": "ball",
+                    "19": "ball",
+                    "20": "can",
+                    "21": "measuring cup"
+                },
+                "identified": {
+                    "1": "marker",
+                    "2": "tin can",
+                    "3": "cup",
+                    "4": "ball",
+                    "5": "scissors",
+                    "6": "bottle",
+                    "7": "measuring cup",
+                    "8": "ruler",
+                    "9": "screwdriver",
+                    "10": "tin can",
+                    "11": "mug",
+                    "12": "mug",
+                    "13": "measuring cup",
+                    "14": "measuring cup",
+                    "15": "marker",
+                    "16": "mug",
+                    "17": "cup",
+                    "18": "ball",
+                    "19": "ball",
+                    "20": "tin can",
+                    "21": "measuring cup"
+                },
+                "flags": [
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    0,
+                    1,
+                    1,
+                    0,
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "acc": 0.9047619047619048
+            }
+        },
+        "macro_acc": {
+            "obj": 0.6832521645021645
+        }
+    }
+}

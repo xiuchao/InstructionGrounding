@@ -1,0 +1,184 @@
+Data loaded successfully, 30 images annotated.
+Testing Foundation Model: llama3.2-vision:90b 
+
+Testing Ollama Foundation Models
+-------------easy: 10 images ------
+
+Testing test0009.png 
+
+Object identification
+Object Verification
+Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='[1, 1, 0, 1, 1, 0, 0, 1]', role='assistant', function_call=None, tool_calls=None), content_filter_results={'hate': {'filtered': False, 'severity': 'safe'}, 'self_harm': {'filtered': False, 'severity': 'safe'}, 'sexual': {'filtered': False, 'severity': 'safe'}, 'violence': {'filtered': False, 'severity': 'safe'}})
+Testing test0016.png 
+
+Object identification
+Object Verification
+Error: Missing data for image test0016.png. Exception raised Request timed out..
+Testing test0251.png 
+
+Object identification
+Error: object identification answer is not in dictionary format.
+Object Verification
+Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='[1, 1, 0, 1, 1, 1, 1, 0]', role='assistant', function_call=None, tool_calls=None), content_filter_results={'hate': {'filtered': False, 'severity': 'safe'}, 'self_harm': {'filtered': False, 'severity': 'safe'}, 'sexual': {'filtered': False, 'severity': 'safe'}, 'violence': {'filtered': False, 'severity': 'safe'}})
+Testing test0215.png 
+
+Object identification
+Error: object identification answer is not in dictionary format.
+Object Verification
+Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='[1, 1, 0, 1, 0, 1, 1, 1, 0]', role='assistant', function_call=None, tool_calls=None), content_filter_results={'hate': {'filtered': False, 'severity': 'safe'}, 'self_harm': {'filtered': False, 'severity': 'safe'}, 'sexual': {'filtered': False, 'severity': 'safe'}, 'violence': {'filtered': False, 'severity': 'safe'}})
+Testing test0176.png 
+
+Object identification
+Error: object identification answer is not in dictionary format.
+Object Verification
+Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='[0, 1, 1, 1, 0]', role='assistant', function_call=None, tool_calls=None), content_filter_results={'hate': {'filtered': False, 'severity': 'safe'}, 'self_harm': {'filtered': False, 'severity': 'safe'}, 'sexual': {'filtered': False, 'severity': 'safe'}, 'violence': {'filtered': False, 'severity': 'safe'}})
+Testing test012001.png 
+
+Object identification
+Object Verification
+Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='[1, 1, 0, 1, 0, 1, 0, 0, 1]', role='assistant', function_call=None, tool_calls=None), content_filter_results={'hate': {'filtered': False, 'severity': 'safe'}, 'self_harm': {'filtered': False, 'severity': 'safe'}, 'sexual': {'filtered': False, 'severity': 'safe'}, 'violence': {'filtered': False, 'severity': 'safe'}})
+Testing test0428.png 
+
+Object identification
+Object Verification
+Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='[1, 1, 0, 0, 1, 0]', role='assistant', function_call=None, tool_calls=None), content_filter_results={'hate': {'filtered': False, 'severity': 'safe'}, 'self_harm': {'filtered': False, 'severity': 'safe'}, 'sexual': {'filtered': False, 'severity': 'safe'}, 'violence': {'filtered': False, 'severity': 'safe'}})
+Testing test0024.png 
+
+Object identification
+Error: object identification answer is not in dictionary format.
+Object Verification
+Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='[1, 1, 1, 0, 0, 0, 1, 1, 0]', role='assistant', function_call=None, tool_calls=None), content_filter_results={'hate': {'filtered': False, 'severity': 'safe'}, 'self_harm': {'filtered': False, 'severity': 'safe'}, 'sexual': {'filtered': False, 'severity': 'safe'}, 'violence': {'filtered': False, 'severity': 'safe'}})
+Testing test05013.png 
+
+Object identification
+Object Verification
+Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='[1, 1, 1, 0, 1, 1]', role='assistant', function_call=None, tool_calls=None), content_filter_results={'hate': {'filtered': False, 'severity': 'safe'}, 'self_harm': {'filtered': False, 'severity': 'safe'}, 'sexual': {'filtered': False, 'severity': 'safe'}, 'violence': {'filtered': False, 'severity': 'safe'}})
+Testing test0057.png 
+
+Object identification
+Object Verification
+Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='[1, 1, 1, 1, 1, 0, 1, 1, 1]', role='assistant', function_call=None, tool_calls=None), content_filter_results={'hate': {'filtered': False, 'severity': 'safe'}, 'self_harm': {'filtered': False, 'severity': 'safe'}, 'sexual': {'filtered': False, 'severity': 'safe'}, 'violence': {'filtered': False, 'severity': 'safe'}})
+Macro Accuracy: {'obj': 0.6638888888888889}
+
+-------------medium: 12 images ------
+
+Testing test0088.png 
+
+Object identification
+Error: object identification answer is not in dictionary format.
+Object Verification
+Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='[1, 1, 1, 1, 1, 0, 1, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0]', role='assistant', function_call=None, tool_calls=None), content_filter_results={'hate': {'filtered': False, 'severity': 'safe'}, 'self_harm': {'filtered': False, 'severity': 'safe'}, 'sexual': {'filtered': False, 'severity': 'safe'}, 'violence': {'filtered': False, 'severity': 'safe'}})
+Testing test0188.png 
+
+Object identification
+Object Verification
+Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='[0, 1, 1, 0, 1, 1, 1, 1, 1, 0]', role='assistant', function_call=None, tool_calls=None), content_filter_results={'hate': {'filtered': False, 'severity': 'safe'}, 'self_harm': {'filtered': False, 'severity': 'safe'}, 'sexual': {'filtered': False, 'severity': 'safe'}, 'violence': {'filtered': False, 'severity': 'safe'}})
+Testing test0240.png 
+
+Object identification
+Error: object identification answer is not in dictionary format.
+Object Verification
+Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='[1, 1, 1, 0, 0, 0, 1, 1, 1, 0, 0]', role='assistant', function_call=None, tool_calls=None), content_filter_results={'hate': {'filtered': False, 'severity': 'safe'}, 'self_harm': {'filtered': False, 'severity': 'safe'}, 'sexual': {'filtered': False, 'severity': 'safe'}, 'violence': {'filtered': False, 'severity': 'safe'}})
+Testing test0075.png 
+
+Object identification
+Error: object identification answer is not in dictionary format.
+Object Verification
+Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]', role='assistant', function_call=None, tool_calls=None), content_filter_results={'hate': {'filtered': False, 'severity': 'safe'}, 'self_harm': {'filtered': False, 'severity': 'safe'}, 'sexual': {'filtered': False, 'severity': 'safe'}, 'violence': {'filtered': False, 'severity': 'safe'}})
+Testing test0156.png 
+
+Object identification
+Object Verification
+Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='[0, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 0, 1]', role='assistant', function_call=None, tool_calls=None), content_filter_results={'hate': {'filtered': False, 'severity': 'safe'}, 'self_harm': {'filtered': False, 'severity': 'safe'}, 'sexual': {'filtered': False, 'severity': 'safe'}, 'violence': {'filtered': False, 'severity': 'safe'}})
+Testing test003401.png 
+
+Object identification
+Error: object identification answer is not in dictionary format.
+Object Verification
+Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='[0, 0, 0, 1, 1, 1, 1, 0, 0, 1, 0, 0, 0, 0, 1, 1, 1, 1]', role='assistant', function_call=None, tool_calls=None), content_filter_results={'hate': {'filtered': False, 'severity': 'safe'}, 'self_harm': {'filtered': False, 'severity': 'safe'}, 'sexual': {'filtered': False, 'severity': 'safe'}, 'violence': {'filtered': False, 'severity': 'safe'}})
+Testing test00244.png 
+
+Object identification
+Object Verification
+Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='[1, 1, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1]', role='assistant', function_call=None, tool_calls=None), content_filter_results={'hate': {'filtered': False, 'severity': 'safe'}, 'self_harm': {'filtered': False, 'severity': 'safe'}, 'sexual': {'filtered': False, 'severity': 'safe'}, 'violence': {'filtered': False, 'severity': 'safe'}})
+Testing test0013.png 
+
+Object identification
+Error: object identification answer is not in dictionary format.
+Object Verification
+Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='[0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1]', role='assistant', function_call=None, tool_calls=None), content_filter_results={'hate': {'filtered': False, 'severity': 'safe'}, 'self_harm': {'filtered': False, 'severity': 'safe'}, 'sexual': {'filtered': False, 'severity': 'safe'}, 'violence': {'filtered': False, 'severity': 'safe'}})
+Testing test0050.png 
+
+Object identification
+Object Verification
+Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='[1, 1, 0, 0, 0, 1, 1, 0, 1, 1, 1, 0, 1, 0, 1, 1, 1, 0, 1]', role='assistant', function_call=None, tool_calls=None), content_filter_results={'hate': {'filtered': False, 'severity': 'safe'}, 'self_harm': {'filtered': False, 'severity': 'safe'}, 'sexual': {'filtered': False, 'severity': 'safe'}, 'violence': {'filtered': False, 'severity': 'safe'}})
+Testing test0e44020.png 
+
+Object identification
+Error: object identification answer is not in dictionary format.
+Object Verification
+Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Since there is no estimated list provided, we cannot compare the objects and therefore cannot provide a list of flags.', role='assistant', function_call=None, tool_calls=None), content_filter_results={'hate': {'filtered': False, 'severity': 'safe'}, 'self_harm': {'filtered': False, 'severity': 'safe'}, 'sexual': {'filtered': False, 'severity': 'safe'}, 'violence': {'filtered': False, 'severity': 'safe'}})
+Error: Object Verification answer is not in list format.
+> /data/xiuchao/IJCAI25/GoalSpecification.py(206)gpt4_verify_objects()
+-> return result_list
+(Pdb) [K(Pdb) c
+Error: Missing data for image test0e44020.png. Exception raised local variable 'result_list' referenced before assignment.
+Testing test0017.png 
+
+Object identification
+Error: Missing data for image test0017.png. Exception raised llama runner process has terminated: error loading model: unable to allocate CUDA1 buffer
+llama_load_model_from_file: failed to load model.
+Testing test0245.png 
+
+Object identification
+Object Verification
+Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='[0, 1, 1, 0, 1, 0, 1, 1, 1, 1, 0]', role='assistant', function_call=None, tool_calls=None), content_filter_results={'hate': {'filtered': False, 'severity': 'safe'}, 'self_harm': {'filtered': False, 'severity': 'safe'}, 'sexual': {'filtered': False, 'severity': 'safe'}, 'violence': {'filtered': False, 'severity': 'safe'}})
+Macro Accuracy: {'obj': 0.5416866209126272}
+
+-------------hard: 8 images ------
+
+Testing test_3.png 
+
+Object identification
+Error: object identification answer is not in dictionary format.
+Object Verification
+Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='[0, 1, 1, 1, 1, 1, 0, 1, 1, 1, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 1, 0]', role='assistant', function_call=None, tool_calls=None), content_filter_results={'hate': {'filtered': False, 'severity': 'safe'}, 'self_harm': {'filtered': False, 'severity': 'safe'}, 'sexual': {'filtered': False, 'severity': 'safe'}, 'violence': {'filtered': False, 'severity': 'safe'}})
+Testing test0119.png 
+
+Object identification
+Object Verification
+Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='[1, 1, 0, 0, 0, 1, 1, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 1, 1, 1]', role='assistant', function_call=None, tool_calls=None), content_filter_results={'hate': {'filtered': False, 'severity': 'safe'}, 'self_harm': {'filtered': False, 'severity': 'safe'}, 'sexual': {'filtered': False, 'severity': 'safe'}, 'violence': {'filtered': False, 'severity': 'safe'}})
+Testing test0001.png 
+
+Object identification
+Object Verification
+Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='[1, 1, 1, 1, 0, 0, 1, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 1, 0, 0]', role='assistant', function_call=None, tool_calls=None), content_filter_results={'hate': {'filtered': False, 'severity': 'safe'}, 'self_harm': {'filtered': False, 'severity': 'safe'}, 'sexual': {'filtered': False, 'severity': 'safe'}, 'violence': {'filtered': False, 'severity': 'safe'}})
+Testing test_4.png 
+
+Object identification
+Object Verification
+Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='[1, 0, 1, 1, 1, 0, 1, 1, 1, 1, 1, 0, 1, 0, 1, 1, 0, 1, 0, 1, 0]', role='assistant', function_call=None, tool_calls=None), content_filter_results={'hate': {'filtered': False, 'severity': 'safe'}, 'self_harm': {'filtered': False, 'severity': 'safe'}, 'sexual': {'filtered': False, 'severity': 'safe'}, 'violence': {'filtered': False, 'severity': 'safe'}})
+Testing test0020.png 
+
+Object identification
+Error: object identification answer is not in dictionary format.
+Object Verification
+Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='[1, 1, 1, 1, 1, 0, 0, 1, 1, 0, 0, 1, 0, 1, 0, 0, 1, 1, 1, 1, 0]', role='assistant', function_call=None, tool_calls=None), content_filter_results={'hate': {'filtered': False, 'severity': 'safe'}, 'self_harm': {'filtered': False, 'severity': 'safe'}, 'sexual': {'filtered': False, 'severity': 'safe'}, 'violence': {'filtered': False, 'severity': 'safe'}})
+Testing test_1.png 
+
+Object identification
+Object Verification
+Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='[1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 1, 1]', role='assistant', function_call=None, tool_calls=None), content_filter_results={'hate': {'filtered': False, 'severity': 'safe'}, 'self_harm': {'filtered': False, 'severity': 'safe'}, 'sexual': {'filtered': False, 'severity': 'safe'}, 'violence': {'filtered': False, 'severity': 'safe'}})
+Testing test_2.png 
+
+Object identification
+Object Verification
+Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='[1, 0, 0, 1, 1, 1, 1, 0, 1, 1, 0, 1, 1, 1, 1, 1, 1, 0, 0, 1, 1]', role='assistant', function_call=None, tool_calls=None), content_filter_results={'hate': {'filtered': False, 'severity': 'safe'}, 'self_harm': {'filtered': False, 'severity': 'safe'}, 'sexual': {'filtered': False, 'severity': 'safe'}, 'violence': {'filtered': False, 'severity': 'safe'}})
+Testing test0002.png 
+
+Object identification
+Object Verification
+Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='[1, 1, 1, 0, 1, 0, 1, 1, 1, 0, 1, 1, 1, 0, 1, 0, 1, 1, 1, 0, 1]', role='assistant', function_call=None, tool_calls=None), content_filter_results={'hate': {'filtered': False, 'severity': 'safe'}, 'self_harm': {'filtered': False, 'severity': 'safe'}, 'sexual': {'filtered': False, 'severity': 'safe'}, 'violence': {'filtered': False, 'severity': 'safe'}})
+Macro Accuracy: {'obj': 0.5746753246753247}
+
+Grounding data has been saved to json files.

@@ -1,0 +1,51 @@
+Data loaded successfully, 30 images annotated.
+Testing item: test0009.png
+<image> list all objects in the image: Bottle.  
+Objects in the image: {'1': 'marker', '2': 'can', '3': 'bottle', '4': 'ball', '5': 'screwdriver', '6': 'ball', '7': 'mug', '8': 'can'}
+Result: <image> list all objects in the image: Bottle. (1/8)
+--------------------------------------------------
+Testing item: test0016.png
+<image> list all objects in the image: Bottle.
+Objects in the image: {'1': 'ball', '2': 'can', '3': 'marker', '4': 'ruler', '5': 'tin', '6': 'marker', '7': 'bowl', '8': 'measuring cup'}
+Result: <image> list all objects in the image: Bottle. (0/8)
+--------------------------------------------------
+Testing item: test0251.png
+<image> list all objects in the image: Screwdriver.
+Objects in the image: {'1': 'can', '2': 'can', '3': 'marker', '4': 'ball', '5': 'screwdriver', '6': 'marker', '7': 'marker', '8': 'ruler'}
+Result: <image> list all objects in the image: Screwdriver.(1/8)
+--------------------------------------------------
+Testing item: test0215.png
+<image> list all objects in the image: Screwdriver.
+Objects in the image: {'1': 'can', '2': 'can', '3': 'ball', '4': 'marker', '5': 'screwdriver', '6': 'mug', '7': 'marker', '8': 'marker', '9': 'ruler'}
+Result: <image> list all objects in the image: Screwdriver.(1/9)
+--------------------------------------------------
+Testing item: test0176.png
+<image> list all objects in the image: Screwdriver.
+Objects in the image: {'1': 'can', '2': 'ball', '3': 'screwdriver', '4': 'ball', '5': 'scissors'}
+Result: <image> list all objects in the image: Screwdriver.(1/5)
+--------------------------------------------------
+Testing item: test012001.png
+<image> list all objects in the image: Scissors.
+Objects in the image: {'1': 'box', '2': 'marker', '3': 'ball', '4': 'can', '5': 'scissors', '6': 'ball', '7': 'screwdriver', '8': 'squeeze bottle', '9': 'water bottle'}
+Result: <image> list all objects in the image: Scissors.(1/9)
+--------------------------------------------------
+Testing item: test0428.png
+<image> list all objects in the image: Screwdriver.
+Objects in the image: {'1': 'can', '2': 'ball', '3': 'ball', '4': 'scissors', '5': 'screwdriver handle', '6': 'marker'}
+Result: <image> list all objects in the image: Screwdriver.(1/6)
+--------------------------------------------------
+Testing item: test0024.png
+<image> list all objects in the image: Bottle.
+Objects in the image: {'1': 'marker', '2': 'can', '3': 'box', '4': 'can', '5': 'ball', '6': 'scissors', '7': 'ball', '8': 'screwdriver', '9': 'ball'}
+Result: <image> list all objects in the image: Bottle. (0/9)
+--------------------------------------------------
+Testing item: test05013.png
+<image> list all objects in the image: Ball.
+Objects in the image: {'1': 'can', '2': 'marker', '3': 'can', '4': 'ball', '5': 'ball', '6': 'scissors'}
+Result: <image> list all objects in the image: Ball. (1/6)
+--------------------------------------------------
+Testing item: test0057.png
+<image> list all objects in the image: Bottle.
+Objects in the image: {'1': 'box', '2': 'marker', '3': 'can', '4': 'can', '5': 'scissors', '6': 'ball', '7': 'ball', '8': 'screwdriver', '9': 'ball'}
+Result: <image> list all objects in the image: Bottle. (0/9)
+--------------------------------------------------

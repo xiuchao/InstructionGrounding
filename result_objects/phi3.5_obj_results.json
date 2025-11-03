@@ -1,0 +1,1131 @@
+{
+    "easy": {
+        "test0009.png": {
+            "object": {
+                "grd_truth": {
+                    "1": "marker",
+                    "2": "can",
+                    "3": "bottle",
+                    "4": "ball",
+                    "5": "screwdriver",
+                    "6": "ball",
+                    "7": "mug",
+                    "8": "can"
+                },
+                "identified": " {\n    '1': 'can',\n    '2': 'syringe',\n    '3': 'blue ball',\n    '4': 'red ball',\n    '5': 'red screwdriver',\n    '6': 'white container',\n    '7': 'white container',\n    '8': 'black clamp'\n}",
+                "flags": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0,
+                    0
+                ],
+                "acc": 0.125
+            }
+        },
+        "test0016.png": {
+            "object": {
+                "grd_truth": {
+                    "1": "ball",
+                    "2": "can",
+                    "3": "marker",
+                    "4": "ruler",
+                    "5": "tin",
+                    "6": "marker",
+                    "7": "bowl",
+                    "8": "measuring cup"
+                },
+                "identified": " {\n    '1': 'bottle',\n    '2': 'box',\n    '3': 'can',\n    '4': 'tube',\n    '5': 'container',\n    '6': 'tool',\n    '7': 'container',\n    '8': 'container',\n    '9': 'container',\n    '10': 'container'\n}",
+                "flags": [
+                    0,
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "acc": 0.125
+            }
+        },
+        "test0215.png": {
+            "object": {
+                "grd_truth": {
+                    "1": "can",
+                    "2": "can",
+                    "3": "ball",
+                    "4": "marker",
+                    "5": "screwdriver",
+                    "6": "mug",
+                    "7": "marker",
+                    "8": "marker",
+                    "9": "ruler"
+                },
+                "identified": " {\n    '1': 'can',\n    '2': 'can',\n    '3': 'blue ball',\n    '5': 'scissors',\n    '6': 'container',\n    '7': 'marker',\n    '8': 'marker',\n    '9': 'marker'\n}",
+                "flags": [
+                    1,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    1,
+                    0
+                ],
+                "acc": 0.4444444444444444
+            }
+        },
+        "test0176.png": {
+            "object": {
+                "grd_truth": {
+                    "1": "can",
+                    "2": "ball",
+                    "3": "screwdriver",
+                    "4": "ball",
+                    "5": "scissors"
+                },
+                "identified": " {\n  '1': 'box',\n  '2': 'bottle',\n  '3': 'tool',\n  '4': 'scissors',\n  '5': 'pliers'\n}",
+                "flags": [
+                    0,
+                    0,
+                    1,
+                    0,
+                    0
+                ],
+                "acc": 0.2
+            }
+        },
+        "test012001.png": {
+            "object": {
+                "grd_truth": {
+                    "1": "box",
+                    "2": "marker",
+                    "3": "ball",
+                    "4": "can",
+                    "5": "scissors",
+                    "6": "ball",
+                    "7": "screwdriver",
+                    "8": "squeeze bottle",
+                    "9": "water bottle"
+                },
+                "identified": " {\n  '1': 'box',\n  '2': 'bottle',\n  '3': 'scissors',\n  '4': 'can',\n  '5': 'ring',\n  '6': 'marker',\n  '7': 'pliers',\n  '8': 'screwdriver',\n  '9': 'bottle cap'\n}",
+                "flags": [
+                    1,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0
+                ],
+                "acc": 0.3333333333333333
+            }
+        },
+        "test0428.png": {
+            "object": {
+                "grd_truth": {
+                    "1": "can",
+                    "2": "ball",
+                    "3": "ball",
+                    "4": "scissors",
+                    "5": "screwdriver handle",
+                    "6": "marker"
+                },
+                "identified": " {\n  '1': 'can',\n  '2': 'blue ball',\n  '3': 'scissors',\n  '4': 'black object',\n  '5': 'red object'\n}",
+                "flags": [
+                    1,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "acc": 0.3333333333333333
+            }
+        },
+        "test0024.png": {
+            "object": {
+                "grd_truth": {
+                    "1": "marker",
+                    "2": "can",
+                    "3": "box",
+                    "4": "can",
+                    "5": "ball",
+                    "6": "scissors",
+                    "7": "ball",
+                    "8": "screwdriver",
+                    "9": "ball"
+                },
+                "identified": " {\n  '1': 'box',\n  '2': 'bottle',\n  '3': 'can',\n  '4': 'can',\n  '5': 'pliers',\n  '6': 'pliers',\n  '7': 'can',\n  '8': 'can opener',\n  '9': 'can opener'\n}",
+                "flags": [
+                    0,
+                    0,
+                    1,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "acc": 0.2222222222222222
+            }
+        },
+        "test05013.png": {
+            "object": {
+                "grd_truth": {
+                    "1": "can",
+                    "2": "marker",
+                    "3": "can",
+                    "4": "ball",
+                    "5": "ball",
+                    "6": "scissors"
+                },
+                "identified": " {\n  '1': 'can',\n  '2': 'marker',\n  '3': 'can',\n  '4': 'scissors',\n  '5': 'blue object',\n  '6': 'red object'\n}",
+                "flags": [
+                    1,
+                    1,
+                    1,
+                    0,
+                    0,
+                    0
+                ],
+                "acc": 0.5
+            }
+        },
+        "test0057.png": {
+            "object": {
+                "grd_truth": {
+                    "1": "box",
+                    "2": "marker",
+                    "3": "can",
+                    "4": "can",
+                    "5": "scissors",
+                    "6": "ball",
+                    "7": "ball",
+                    "8": "screwdriver",
+                    "9": "ball"
+                },
+                "identified": " {\n    '1': 'box',\n    '2': 'bottle',\n    '3': 'can',\n    '4': 'can',\n    '5': 'can',\n    '6': 'can',\n    '7': 'can',\n    '8': 'can',\n    '9': 'can'\n}",
+                "flags": [
+                    1,
+                    0,
+                    1,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "acc": 0.3333333333333333
+            }
+        },
+        "macro_acc": {
+            "obj": 0.29074074074074074
+        }
+    },
+    "missing_ids": {
+        "object": []
+    },
+    "medium": {
+        "test0088.png": {
+            "object": {
+                "grd_truth": {
+                    "1": "box",
+                    "2": "bottle",
+                    "3": "can",
+                    "4": "can",
+                    "5": "marker",
+                    "6": "ball",
+                    "7": "screwdriver",
+                    "8": "ball",
+                    "9": "mug",
+                    "10": "marker",
+                    "11": "mug",
+                    "12": "marker",
+                    "13": "ruler",
+                    "14": "marker",
+                    "15": "measuring cup",
+                    "16": "ball",
+                    "17": "mug"
+                },
+                "identified": " {\n    '1': 'box',\n    '2': 'bottle',\n    '3': 'can',\n    '4': 'can',\n    '5': 'marker',\n    '6': 'can',\n    '7': 'can opener',\n    '8': 'mug',\n    '9': 'mug',\n    '10': 'marker',\n    '11': 'mug',\n    '12': 'marker',\n    '13': 'marker',\n    '14': 'marker',\n    '15': 'marker',\n    '16': 'marker',\n    '17': 'marker',\n    '18': 'marker',\n    '19': 'marker',\n    '20': 'marker',\n    '21': 'marker',\n    '22': 'marker',\n    '23': 'marker',\n    '24': 'marker',\n    '25': 'marker',\n    '26': 'marker',\n    '27': 'marker',\n    '28': 'marker',\n    '29': 'marker',\n    '30': 'marker',\n    '31': 'marker',\n    '32': 'marker',\n    '33': 'marker',\n    '34': 'marker',\n    '35': 'marker',\n    '36': 'marker',\n    '37': 'marker',\n    '38': 'marker',\n    '39': 'marker',\n    '40': 'marker',\n    '41': 'marker',\n    '42': 'marker',\n    '43': 'marker',\n    '44': 'marker',\n    '45': 'marker',\n    '46': 'marker',\n    '47': 'marker',\n    '48': 'marker',\n    '49': 'marker',\n    '50': 'marker',\n    '51': 'marker',\n    '52': 'marker',\n    '53': 'marker',\n    '54': 'marker',\n    '55': 'marker',\n    '56': 'marker',\n    '57': 'marker',\n    '58': 'marker',\n    '59': 'marker',\n    '60': 'marker',\n    '61': 'marker',\n    '62': 'marker',\n    '63': 'marker',\n    '64': 'marker',\n    '65': 'marker',\n    '66': 'marker',\n    '67': 'marker',\n    '68': 'marker',\n    '69': 'marker',\n    '70': 'marker',\n    '71': 'marker',\n    '72': 'marker',\n    '73': 'marker',\n    '74': 'marker',\n    '75': 'marker',\n    '76': 'marker',\n    '77': 'marker',\n    '78': 'marker',\n    '79': 'marker',\n    '80': 'marker',\n    '81': 'marker',\n    '82': 'marker',\n    '83': 'marker',\n    '84': 'marker',\n    '85': 'marker',\n    '86': 'marker',\n    '87': 'marker',\n    '88': 'marker',\n    '89': 'marker',\n    '90': 'marker',\n    '91': 'marker',\n    '92': 'marker',\n    '93': 'marker',\n    '94': 'marker',\n    '95': 'marker',\n    '96': 'marker',\n    '97': 'marker',\n    '98': 'marker',\n    '99': 'marker',\n    '100': 'marker'\n}",
+                "flags": [
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    0,
+                    0,
+                    0,
+                    1,
+                    1,
+                    1,
+                    1,
+                    0,
+                    1,
+                    0,
+                    0,
+                    1
+                ],
+                "acc": 0.6470588235294118
+            }
+        },
+        "test0188.png": {
+            "object": {
+                "grd_truth": {
+                    "1": "can",
+                    "2": "mug",
+                    "3": "ball",
+                    "4": "squeeze bottle",
+                    "5": "measuring cup",
+                    "6": "marker",
+                    "7": "ruler",
+                    "8": "screwdriver",
+                    "9": "can",
+                    "10": "mug"
+                },
+                "identified": " {\n    '1': 'box',\n    '2': 'bottle',\n    '3': 'can',\n    '4': 'jar',\n    '5': 'container',\n    '6': 'tool',\n    '7': 'screwdriver',\n    '8': 'pliers',\n    '9': 'can',\n    '10': 'container'\n}",
+                "flags": [
+                    0,
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    1,
+                    0
+                ],
+                "acc": 0.3
+            }
+        },
+        "test0240.png": {
+            "object": {
+                "grd_truth": {
+                    "1": "can",
+                    "2": "mug",
+                    "3": "bottle",
+                    "4": "scissors",
+                    "5": "ball",
+                    "6": "measuring cup",
+                    "7": "ruler",
+                    "8": "marker",
+                    "9": "screwdriver",
+                    "10": "can",
+                    "11": "mug"
+                },
+                "identified": " {\n    '1': 'box',\n    '2': 'bottle',\n    '3': 'jar',\n    '4': 'jar',\n    '5': 'jar',\n    '6': 'jar',\n    '7': 'ruler',\n    '8': 'jar',\n    '9': 'jar',\n    '10': 'jar',\n    '11': 'box'\n}",
+                "flags": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "acc": 0.09090909090909091
+            }
+        },
+        "test0075.png": {
+            "object": {
+                "grd_truth": {
+                    "1": "box",
+                    "2": "bottle",
+                    "3": "can",
+                    "4": "can",
+                    "5": "marker",
+                    "6": "ball",
+                    "7": "ball",
+                    "8": "screwdriver",
+                    "9": "mug",
+                    "10": "mug",
+                    "11": "marker",
+                    "12": "ruler",
+                    "13": "marker",
+                    "14": "marker",
+                    "15": "ball",
+                    "16": "measuring cup",
+                    "17": "mug"
+                },
+                "identified": " {\n    '1': 'box',\n    '2': 'bottle',\n    '3': 'can',\n    '4': 'marker',\n    '5': 'pen',\n    '6': 'scissors',\n    '7': 'ruler',\n    '8': 'pliers',\n    '9': 'mug',\n    '10': 'mug',\n    '11': 'mug',\n    '12': 'marker',\n    '13': 'marker',\n    '14': 'marker',\n    '15': 'mug',\n    '16': 'mug',\n    '17': 'mug'\n}",
+                "flags": [
+                    1,
+                    1,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    1,
+                    0,
+                    1,
+                    1,
+                    1,
+                    0,
+                    0,
+                    1
+                ],
+                "acc": 0.5294117647058824
+            }
+        },
+        "test0156.png": {
+            "object": {
+                "grd_truth": {
+                    "1": "bottle",
+                    "2": "can",
+                    "3": "can",
+                    "4": "marker",
+                    "5": "ball",
+                    "6": "screwdriver",
+                    "7": "ball",
+                    "8": "mug",
+                    "9": "marker",
+                    "10": "ruler",
+                    "11": "marker",
+                    "12": "measuring cup",
+                    "13": "ball"
+                },
+                "identified": " {\n    '1': 'box',\n    '2': 'bottle',\n    '3': 'can',\n    '4': 'can',\n    '5': 'can',\n    '6': 'can',\n    '7': 'can',\n    '8': 'can',\n    '9': 'can',\n    '10': 'can',\n    '11': 'can',\n    '12': 'can',\n    '13': 'can'\n}",
+                "flags": [
+                    0,
+                    0,
+                    1,
+                    1,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "acc": 0.23076923076923078
+            }
+        },
+        "test003401.png": {
+            "object": {
+                "grd_truth": {
+                    "1": "can",
+                    "2": "can",
+                    "3": "ball",
+                    "4": "screwdriver",
+                    "5": "ball",
+                    "6": "mug",
+                    "7": "marker",
+                    "8": "ball",
+                    "9": "scissors",
+                    "10": "mug",
+                    "11": "marker",
+                    "12": "marker",
+                    "13": "marker",
+                    "14": "ruler",
+                    "15": "measuring cup",
+                    "16": "ball",
+                    "17": "mug",
+                    "18": "mug"
+                },
+                "identified": " {\n    '1': 'can',\n    '2': 'can',\n    '3': 'can',\n    '4': 'can',\n    '5': 'can',\n    '6': 'mug',\n    '7': 'can',\n    '8': 'can',\n    '9': 'can',\n    '10': 'mug',\n    '11': 'can',\n    '12': 'can',\n    '13': 'can',\n    '14': 'can',\n    '15': 'can',\n    '16': 'mug',\n    '17': 'mug',\n    '18': 'mug',\n    '19': 'can',\n    '20': 'can',\n    '21': 'can',\n    '22': 'can',\n    '23': 'can',\n    '24': 'can',\n    '25': 'can',\n    '26': 'can',\n    '27': 'can',\n    '28': 'can',\n    '29': 'can',\n    '30': 'can',\n    '31': 'can',\n    '32': 'can',\n    '33': 'can',\n    '34': 'can',\n    '35': 'can',\n    '36': 'can',\n    '37': 'can',\n    '38': 'can',\n    '39': 'can',\n    '40': 'can',\n    '41': 'can',\n    '42': 'can',\n    '43': 'can',\n    '44': 'can',\n    '45': 'can',\n    '46': 'can',\n    '47': 'can',\n    '48': 'can',\n    '49': 'can',\n    '50': 'can',\n    '51': 'can',\n    '52': 'can',\n    '53': 'can',\n    '54': 'can',\n    '55': 'can',\n    '56': 'can',\n    '57': 'can',\n    '58': 'can',\n    '59': 'can',\n    '60': 'can',\n    '61': 'can',\n    '62': 'can',\n    '63': 'can',\n    '64': 'can',\n    '65': 'can',\n    '66': 'can',\n    '67': 'can',\n    '68': 'can',\n    '69': 'can',\n    '70': 'can',\n    '71': 'can',\n    '72': 'can',\n    '73': 'can',\n    '74': 'can',\n    '75': 'can',\n    '76': 'can',\n    '77': 'can',\n    '78': 'can',\n    '79': 'can',\n    '80': 'can',\n    '81': 'can',\n    '82': 'can',\n    '83': 'can',\n    '84': 'can',\n    '85': 'can',\n    '86': 'can',\n    '87': 'can',\n    '88': 'can',\n    '89': 'can',\n    '90': 'can',\n    '91': 'can',\n    '92': 'can',\n    '93': 'can',\n    '94': 'can',\n    '95': 'can',\n    '96': 'can',\n    '97': 'can',\n    '98': 'can',\n    '99': 'can',\n    '100': 'can',\n    '101': 'can',\n    '102': 'can',\n    '103': 'can',\n    '104': 'can',\n    '105': 'can',\n    '106': 'can',\n    '107': 'can',\n    '108': 'can',\n    '109': 'can',\n    '110': 'can',\n    '111': 'can',\n    '112': 'can',\n    '113': 'can',\n    '114': 'can',\n    '115': 'can',\n    '116': 'can',\n    '117': 'can',\n    '118': 'can',\n    '119': 'can',\n    '120': 'can',\n    '121': 'can',\n    '122': 'can',\n    '123': 'can',\n    '124': 'can',\n    '125': 'can',\n    '126': 'can',\n    '127': 'can',\n    '128': 'can',\n    '129': 'can',\n    '130': 'can',\n    '131': 'can',\n    '132': 'can',\n    '133': 'can',\n    '134': 'can',\n    '135': 'can',\n    '136': 'can',\n    '137': 'can',\n    '138': 'can',\n    '139': 'can',\n    '140': 'can',\n    '141': 'can',\n    '142': 'can',\n    '143': 'can',\n    '144': 'can',\n    '145': 'can',\n    '146': 'can',\n    '147': 'can',\n    '148': 'can',\n    '149': 'can',\n    '150': 'can',\n    '151': 'can',\n    '152': 'can',\n    '153': 'can',\n    '154': 'can',\n    '155': 'can',\n    '156': 'can',\n    '157': 'can',\n    '158': 'can',\n    '159': 'can',\n    '160': 'can',\n    '161': 'can',\n    '162': 'can',\n    '163': 'can',\n    '164': 'can',\n    '165': 'can',\n    '166': 'can',\n    '167': 'can',\n    '168': 'can',\n    '169': 'can',\n    '170': 'can',\n    '171': 'can',\n    '172': 'can',\n    '173': 'can',\n    '174': 'can',\n    '175': 'can',\n    '176': 'can',\n    '177': 'can',\n    '178': 'can',\n    '179': 'can',\n    '180': 'can',\n    '181': 'can',\n    '182': 'can',\n    '183': 'can',\n    '184': 'can',\n    '185': 'can',\n    '186': 'can',\n    '187': 'can',\n    '188': 'can',\n    '189': 'can',\n    '190': 'can',\n    '191': 'can',\n    '192': 'can',\n    '193': 'can',\n    '194': 'can',\n    '195': 'can',\n    '196': 'can',\n    '197': 'can',\n    '198': 'can',\n    '199': 'can',\n    '200': 'can',\n    '201': 'can',\n    '202': 'can',\n    '203': 'can',\n    '204': 'can',\n    '205': 'can',\n    '206': 'can',\n    '207': 'can',\n    '208': 'can',\n    '209': 'can',\n    '210': 'can',\n    '211': 'can',\n    '212': 'can',\n    '213': 'can',\n    '214': 'can',\n    '215': 'can',",
+                "flags": [
+                    1,
+                    1,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    1
+                ],
+                "acc": 0.3333333333333333
+            }
+        },
+        "test00244.png": {
+            "object": {
+                "grd_truth": {
+                    "1": "can",
+                    "2": "can",
+                    "3": "ball",
+                    "4": "mug",
+                    "5": "ball",
+                    "6": "screwdriver",
+                    "7": "ball",
+                    "8": "scissors",
+                    "9": "marker",
+                    "10": "marker",
+                    "11": "mug",
+                    "12": "marker"
+                },
+                "identified": " {\n    '1': 'can',\n    '2': 'can',\n    '3': 'red ball',\n    '4': 'mug',\n    '5': 'blue ball',\n    '6': 'scissors',\n    '7': 'red scissors',\n    '8': 'black scissors',\n    '9': 'black clamp',\n    '10': 'black clamp',\n    '11': 'mug',\n    '12': 'box'\n}",
+                "flags": [
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0
+                ],
+                "acc": 0.5
+            }
+        },
+        "test0013.png": {
+            "object": {
+                "grd_truth": {
+                    "1": "marker",
+                    "2": "can",
+                    "3": "ball",
+                    "4": "screwdriver",
+                    "5": "stand",
+                    "6": "scissors",
+                    "7": "ball",
+                    "8": "mug",
+                    "9": "measuring cup",
+                    "10": "bottle",
+                    "11": "marker",
+                    "12": "marker",
+                    "13": "box"
+                },
+                "identified": " {\n    '1': 'box',\n    '2': 'bottle',\n    '3': 'can',\n    '4': 'scissors',\n    '5': 'ring',\n    '6': 'ring',\n    '7': 'ring',\n    '8': 'ring',\n    '9': 'ring',\n    '10': 'ring',\n    '11': 'ring',\n    '12': 'ring'\n}",
+                "flags": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "acc": 0.25
+            }
+        },
+        "test0050.png": {
+            "object": {
+                "grd_truth": {
+                    "1": "can",
+                    "2": "can",
+                    "3": "marker",
+                    "4": "ball",
+                    "5": "ball",
+                    "6": "scissors",
+                    "7": "screwdriver",
+                    "8": "ball",
+                    "9": "mug",
+                    "10": "marker",
+                    "11": "marker",
+                    "12": "ruler",
+                    "13": "measuring cup",
+                    "14": "ball",
+                    "15": "mug",
+                    "16": "mug",
+                    "17": "mug",
+                    "18": "ball",
+                    "19": "marker"
+                },
+                "identified": " {\n    '1': 'can',\n    '2': 'can',\n    '3': 'can',\n    '4': 'can',\n    '5': 'can',\n    '6': 'can',\n    '7': 'can',\n    '8': 'can',\n    '9': 'can',\n    '10': 'can',\n    '11': 'can',\n    '12': 'can',\n    '13': 'can',\n    '14': 'can',\n    '15': 'can',\n    '16': 'can',\n    '17': 'can',\n    '18': 'can',\n    '19': 'can',\n    '20': 'can',\n    '21': 'can',\n    '22': 'can',\n    '23': 'can',\n    '24': 'can',\n    '25': 'can',\n    '26': 'can',\n    '27': 'can',\n    '28': 'can',\n    '29': 'can',\n    '30': 'can',\n    '31': 'can',\n    '32': 'can',\n    '33': 'can',\n    '34': 'can',\n    '35': 'can',\n    '36': 'can',\n    '37': 'can',\n    '38': 'can',\n    '39': 'can',\n    '40': 'can',\n    '41': 'can',\n    '42': 'can',\n    '43': 'can',\n    '44': 'can',\n    '45': 'can',\n    '46': 'can',\n    '47': 'can',\n    '48': 'can',\n    '49': 'can',\n    '50': 'can',\n    '51': 'can',\n    '52': 'can',\n    '53': 'can',\n    '54': 'can',\n    '55': 'can',\n    '56': 'can',\n    '57': 'can',\n    '58': 'can',\n    '59': 'can',\n    '60': 'can',\n    '61': 'can',\n    '62': 'can',\n    '63': 'can',\n    '64': 'can',\n    '65': 'can',\n    '66': 'can',\n    '67': 'can',\n    '68': 'can',\n    '69': 'can',\n    '70': 'can',\n    '71': 'can',\n    '72': 'can',\n    '73': 'can',\n    '74': 'can',\n    '75': 'can',\n    '76': 'can',\n    '77': 'can',\n    '78': 'can',\n    '79': 'can',\n    '80': 'can',\n    '81': 'can',\n    '82': 'can',\n    '83': 'can',\n    '84': 'can',\n    '85': 'can',\n    '86': 'can',\n    '87': 'can',\n    '88': 'can',\n    '89': 'can',\n    '90': 'can',\n    '91': 'can',\n    '92': 'can',\n    '93': 'can',\n    '94': 'can',\n    '95': 'can',\n    '96': 'can',\n    '97': 'can',\n    '98': 'can',\n    '99': 'can',\n    '100': 'can',\n    '101': 'can',\n    '102': 'can',\n    '103': 'can',\n    '104': 'can',\n    '105': 'can',\n    '106': 'can',\n    '107': 'can',\n    '108': 'can',\n    '109': 'can',\n    '110': 'can',\n    '111': 'can',\n    '112': 'can',\n    '113': 'can',\n    '114': 'can',\n    '115': 'can',\n    '116': 'can',\n    '117': 'can',\n    '118': 'can',\n    '119': 'can',\n    '120': 'can',\n    '121': 'can',\n    '122': 'can',\n    '123': 'can',\n    '124': 'can',\n    '125': 'can',\n    '126': 'can',\n    '127': 'can',\n    '128': 'can',\n    '129': 'can',\n    '130': 'can',\n    '131': 'can',\n    '132': 'can',\n    '133': 'can',\n    '134': 'can',\n    '135': 'can',\n    '136': 'can',\n    '137': 'can',\n    '138': 'can',\n    '139': 'can',\n    '140': 'can',\n    '141': 'can',\n    '142': 'can',\n    '143': 'can',\n    '144': 'can',\n    '145': 'can',\n    '146': 'can',\n    '147': 'can',\n    '148': 'can',\n    '149': 'can',\n    '150': 'can',\n    '151': 'can',\n    '152': 'can',\n    '153': 'can',\n    '154': 'can',\n    '155': 'can',\n    '156': 'can',\n    '157': 'can',\n    '158': 'can',\n    '159': 'can',\n    '160': 'can',\n    '161': 'can',\n    '162': 'can',\n    '163': 'can',\n    '164': 'can',\n    '165': 'can',\n    '166': 'can',\n    '167': 'can',\n    '168': 'can',\n    '169': 'can',\n    '170': 'can',\n    '171': 'can',\n    '172': 'can',\n    '173': 'can',\n    '174': 'can',\n    '175': 'can',\n    '176': 'can',\n    '177': 'can',\n    '178': 'can',\n    '179': 'can',\n    '180': 'can',\n    '181': 'can',\n    '182': 'can',\n    '183': 'can',\n    '184': 'can',\n    '185': 'can',\n    '186': 'can',\n    '187': 'can',\n    '188': 'can',\n    '189': 'can',\n    '190': 'can',\n    '191': 'can',\n    '192': 'can',\n    '193': 'can',\n    '194': 'can',\n    '195': 'can',\n    '196': 'can',\n    '197': 'can',\n    '198': 'can',\n    '199': 'can',\n    '200': 'can',\n    '201': 'can',\n    '202': 'can',\n    '203': 'can',\n    '204': 'can',\n    '205': 'can',\n    '206': 'can',\n    '207': 'can',\n    '208': 'can',\n    '209': 'can',\n    '210': 'can',\n    '211': 'can',\n    '212': 'can',\n    '213': 'can',\n    '214': 'can',\n    '215': 'can',\n    '21",
+                "flags": [
+                    1,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "acc": 0.10526315789473684
+            }
+        },
+        "test0e44020.png": {
+            "object": {
+                "grd_truth": {
+                    "1": "marker",
+                    "2": "can",
+                    "3": "can",
+                    "4": "ball",
+                    "5": "ball",
+                    "6": "scissors",
+                    "7": "box",
+                    "8": "water bottle",
+                    "9": "squeeze bottle",
+                    "10": "screwdriver",
+                    "11": "marker",
+                    "12": "ruler",
+                    "13": "marker",
+                    "14": "measuring cup",
+                    "15": "can",
+                    "16": "mug",
+                    "17": "mug",
+                    "18": "ball",
+                    "19": "marker"
+                },
+                "identified": " {\n    '1': 'can',\n    '2': 'bottle',\n    '3': 'can',\n    '4': 'marker',\n    '5': 'scissors',\n    '6': 'marker',\n    '7': 'marker',\n    '8': 'marker',\n    '9': 'marker',\n    '10': 'marker',\n    '11': 'marker',\n    '12': 'marker',\n    '13': 'marker',\n    '14': 'marker',\n    '15': 'marker',\n    '16': 'marker',\n    '17': 'marker',\n    '18': 'marker',\n    '19': 'marker',\n    '20': 'marker',\n    '21': 'marker',\n    '22': 'marker',\n    '23': 'marker',\n    '24': 'marker',\n    '25': 'marker',\n    '26': 'marker',\n    '27': 'marker',\n    '28': 'marker',\n    '29': 'marker',\n    '30': 'marker',\n    '31': 'marker',\n    '32': 'marker',\n    '33': 'marker',\n    '34': 'marker',\n    '35': 'marker',\n    '36': 'marker',\n    '37': 'marker',\n    '38': 'marker',\n    '39': 'marker',\n    '40': 'marker',\n    '41': 'marker',\n    '42': 'marker',\n    '43': 'marker',\n    '44': 'marker',\n    '45': 'marker',\n    '46': 'marker',\n    '47': 'marker',\n    '48': 'marker',\n    '49': 'marker',\n    '50': 'marker',\n    '51': 'marker',\n    '52': 'marker',\n    '53': 'marker',\n    '54': 'marker',\n    '55': 'marker',\n    '56': 'marker',\n    '57': 'marker',\n    '58': 'marker',\n    '59': 'marker',\n    '60': 'marker',\n    '61': 'marker',\n    '62': 'marker',\n    '63': 'marker',\n    '64': 'marker',\n    '65': 'marker',\n    '66': 'marker',\n    '67': 'marker',\n    '68': 'marker',\n    '69': 'marker',\n    '70': 'marker',\n    '71': 'marker',\n    '72': 'marker',\n    '73': 'marker',\n    '74': 'marker',\n    '75': 'marker',\n    '76': 'marker',\n    '77': 'marker',\n    '78': 'marker',\n    '79': 'marker',\n    '80': 'marker',\n    '81': 'marker',\n    '82': 'marker',\n    '83': 'marker',\n    '84': 'marker',\n    '85': 'marker',\n    '86': 'marker',\n    '87': 'marker',\n    '88': 'marker',\n    '89': 'marker',\n    '90': 'marker',\n    '91': 'marker',\n    '92': 'marker',\n    '93': 'marker',\n    '94': 'marker',\n    '95': 'marker',\n    '96': 'marker',\n    '97': 'marker',\n    '98': 'marker',\n    '99': 'marker',\n    '100': 'marker',\n    '101': 'marker',\n    '102': 'marker',\n    '103': 'marker',\n    '104': 'marker',\n    '105': 'marker',\n    '106': 'marker',\n    '107': 'marker',\n    '108': 'marker',\n    '109': 'marker',\n    '110': 'marker',\n    '111': 'marker',\n    '112': 'marker',\n    '113': 'marker',\n    '114': 'marker',\n    '115': 'marker',\n    '116': 'marker',\n    '117': 'marker',\n    '118': 'marker',\n    '119': 'marker',\n    '120': 'marker',\n    '121': 'marker',\n    '122': 'marker',\n    '123': 'marker',\n    '124': 'marker',\n    '125': 'marker',\n    '126': 'marker',\n    '127': 'marker',\n    '128': 'marker',\n    '129': 'marker',\n    '130': 'marker',\n    '131': 'marker',\n    '132': 'marker',\n    '133': 'marker',\n    '134': 'marker',\n    '135': 'marker',\n    '136': 'marker',\n    '137': 'marker',\n    '138': 'marker',\n    '139': 'marker',\n    '140': 'marker',\n    '141': 'marker',\n    '142': 'marker',\n    '143': 'marker',\n    '144': 'marker',\n    '145': 'marker',\n    '146': 'marker',\n    '147': 'marker',\n    '148': 'marker',\n    '149': 'marker',\n    '150': 'marker',\n    '151': 'marker',\n    '152': 'marker',\n    '153': 'marker',\n    '154': 'marker',\n    '155': 'marker',\n    '156': 'marker',\n    '157': 'marker',\n    '158': 'marker',\n    '159': 'marker',\n    '160': 'marker',\n    '161': 'marker',\n    '162': 'marker',\n    '163': 'marker',\n    '164': 'marker',\n    '165': 'marker',\n    '166': 'marker',\n    '167': 'marker',\n    '168': 'marker',\n    '169': 'marker',\n    '170': 'marker',\n    '171': 'marker',\n    '172': 'marker',\n    '173': 'marker',\n    '174': 'marker',\n    '175': 'marker',\n    '176': 'marker',\n    '177': 'marker',\n    '178': 'marker',\n    '179': 'marker',\n    '180': 'marker',\n    '181': 'marker',\n    '182': 'marker',\n    '183': 'marker',\n    '184': 'marker',\n    '185': 'marker',\n    '186': 'marker',\n    '187': 'marker',\n    '188': 'marker',\n    '189': 'marker',\n    '190': 'marker',\n    '191': 'marker',\n    '192': 'marker',\n    '193': 'marker',\n    '194': 'marker',\n    '195': 'marker',\n    '196': 'marker',\n    '197': 'marker',\n    '198': 'marker',\n    '199': 'marker',\n    '200': 'marker',\n    '201': 'marker',\n    '202': 'marker',\n    '203': 'marker',\n    '204': 'marker',\n    '205': 'marker',\n    '206': 'marker',\n    '207': 'marker',\n    '208': 'marker',\n    '209': 'marker',\n    '210': 'marker',\n    '211': 'marker',\n    '212': 'marker',\n    '213': 'marker',\n    '214': 'marker',\n    '215': 'marker',\n",
+                "flags": [
+                    0,
+                    0,
+                    1,
+                    0,
+                    0,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "acc": 0.7894736842105263
+            }
+        },
+        "test0017.png": {
+            "object": {
+                "grd_truth": {
+                    "1": "marker",
+                    "2": "can",
+                    "3": "mug",
+                    "4": "scissors",
+                    "5": "ball",
+                    "6": "glue bottle",
+                    "7": "stand",
+                    "8": "measuring cup",
+                    "9": "ruler",
+                    "10": "marker",
+                    "11": "screwdriver",
+                    "12": "can",
+                    "13": "mug"
+                },
+                "identified": " {\n    '1': 'box',\n    '2': 'bottle',\n    '3': 'can',\n    '4': 'scissors',\n    '5': 'tape',\n    '6': 'can opener',\n    '7': 'ruler',\n    '8': 'pen',\n    '9': 'pliers',\n    '10': 'marker',\n    '11': 'ruler',\n    '12': 'can',\n    '13': 'box'\n}",
+                "flags": [
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    1,
+                    0
+                ],
+                "acc": 0.23076923076923078
+            }
+        },
+        "test0245.png": {
+            "object": {
+                "grd_truth": {
+                    "1": "can",
+                    "2": "mug",
+                    "3": "bottle",
+                    "4": "ball",
+                    "5": "scissors",
+                    "6": "measuring cup",
+                    "7": "marker",
+                    "8": "ruler",
+                    "9": "screwdriver",
+                    "10": "can",
+                    "11": "mug"
+                },
+                "identified": " {\n    '1': 'can',\n    '2': 'container',\n    '3': 'jar',\n    '4': 'tray',\n    '5': 'container',\n    '6': 'jar',\n    '8': 'ruler',\n    '9': 'utensil',\n    '10': 'can',\n    '11': 'pot'\n}",
+                "flags": [
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    1,
+                    0
+                ],
+                "acc": 0.2727272727272727
+            }
+        },
+        "macro_acc": {
+            "obj": 0.356642965737393
+        }
+    },
+    "hard": {
+        "test_3.png": {
+            "object": {
+                "grd_truth": {
+                    "1": "water bottle",
+                    "2": "mug",
+                    "3": "ball",
+                    "4": "screwdriver",
+                    "5": "ruler",
+                    "6": "marker",
+                    "7": "mug",
+                    "8": "mug",
+                    "9": "marker",
+                    "10": "marker",
+                    "11": "ball",
+                    "12": "ball",
+                    "13": "marker",
+                    "14": "measuring cup",
+                    "15": "measuring cup",
+                    "16": "ball",
+                    "17": "ball",
+                    "18": "mug",
+                    "19": "marker",
+                    "20": "squeeze bottle",
+                    "21": "measuring cup",
+                    "22": "scissors"
+                },
+                "identified": " {\n    '1': 'box',\n    '2': 'bottle',\n    '3': 'cup',\n    '4': 'pen',\n    '5': 'marker',\n    '6': 'ruler',\n    '7': 'pencil',\n    '8': 'pens',\n    '9': 'pens',\n    '10': 'pen',\n    '11': 'pen',\n    '12': 'pen',\n    '13': 'pen',\n    '14': 'pen',\n    '15': 'pen',\n    '16': 'pen',\n    '17': 'pen',\n    '18': 'pen',\n    '19': 'pen',\n    '20': 'pen',\n    '21': 'pen',\n    '22': 'pen',\n    '23': 'pen',\n    '24': 'pen',\n    '25': 'pen',\n    '26': 'pen',\n    '27': 'pen',\n    '28': 'pen',\n    '29': 'pen',\n    '30': 'pen',\n    '31': 'pen',\n    '32': 'pen',\n    '33': 'pen',\n    '34': 'pen',\n    '35': 'pen',\n    '36': 'pen',\n    '37': 'pen',\n    '38': 'pen',\n    '39': 'pen',\n    '40': 'pen',\n    '41': 'pen',\n    '42': 'pen',\n    '43': 'pen',\n    '44': 'pen',\n    '45': 'pen',\n    '46': 'pen',\n    '47': 'pen',\n    '48': 'pen',\n    '49': 'pen',\n    '50': 'pen',\n    '51': 'pen',\n    '52': 'pen',\n    '53': 'pen',\n    '54': 'pen',\n    '55': 'pen',\n    '56': 'pen',\n    '57': 'pen',\n    '58': 'pen',\n    '59': 'pen',\n    '60': 'pen',\n    '61': 'pen',\n    '62': 'pen',\n    '63': 'pen',\n    '64': 'pen',\n    '65': 'pen',\n    '66': 'pen',\n    '67': 'pen',\n    '68': 'pen',\n    '69': 'pen',\n    '70': 'pen',\n    '71': 'pen',\n    '72': 'pen',\n    '73': 'pen',\n    '74': 'pen',\n    '75': 'pen',\n    '76': 'pen',\n    '77': 'pen',\n    '78': 'pen',\n    '79': 'pen',\n    '80': 'pen',\n    '81': 'pen',\n    '82': 'pen',\n    '83': 'pen',\n    '84': 'pen',\n    '85': 'pen',\n    '86': 'pen',\n    '87': 'pen',\n    '88': 'pen',\n    '89': 'pen',\n    '90': 'pen',\n    '91': 'pen',\n    '92': 'pen',\n    '93': 'pen',\n    '94': 'pen',\n    '95': 'pen',\n    '96': 'pen',\n    '97': 'pen',\n    '98': 'pen',\n    '99': 'pen',\n    '100': 'pen',\n    '101': 'pen',\n    '102': 'pen',\n    '103': 'pen',\n    '104': 'pen',\n    '105': 'pen',\n    '106': 'pen',\n    '107': 'pen',\n    '108': 'pen',\n    '109': 'pen',\n    '110': 'pen',\n    '111': 'pen',\n    '112': 'pen',\n    '113': 'pen',\n    '114': 'pen',\n    '115': 'pen',\n    '116': 'pen',\n    '117': 'pen',\n    '118': 'pen',\n    '119': 'pen',\n    '120': 'pen',\n    '121': 'pen',\n    '122': 'pen',\n    '123': 'pen',\n    '124': 'pen',\n    '125': 'pen',\n    '126': 'pen',\n    '127': 'pen',\n    '128': 'pen',\n    '129': 'pen',\n    '130': 'pen',\n    '131': 'pen',\n    '132': 'pen',\n    '133': 'pen',\n    '134': 'pen',\n    '135': 'pen',\n    '136': 'pen',\n    '137': 'pen',\n    '138': 'pen',\n    '139': 'pen',\n    '140': 'pen',\n    '141': 'pen',\n    '142': 'pen',\n    '143': 'pen',\n    '144': 'pen',\n    '145': 'pen',\n    '146': 'pen',\n    '147': 'pen',\n    '148': 'pen',\n    '149': 'pen',\n    '150': 'pen',\n    '151': 'pen',\n    '152': 'pen',\n    '153': 'pen',\n    '154': 'pen',\n    '155': 'pen',\n    '156': 'pen',\n    '157': 'pen',\n    '158': 'pen',\n    '159': 'pen',\n    '160': 'pen',\n    '161': 'pen',\n    '162': 'pen',\n    '163': 'pen',\n    '164': 'pen',\n    '165': 'pen',\n    '166': 'pen',\n    '167': 'pen',\n    '168': 'pen',\n    '169': 'pen',\n    '170': 'pen',\n    '171': 'pen',\n    '172': 'pen',\n    '173': 'pen',\n    '174': 'pen',\n    '175': 'pen',\n    '176': 'pen',\n    '177': 'pen',\n    '178': 'pen',\n    '179': 'pen',\n    '180': 'pen',\n    '181': 'pen',\n    '182': 'pen',\n    '183': 'pen',\n    '184': 'pen',\n    '185': 'pen',\n    '186': 'pen',\n    '187': 'pen',\n    '188': 'pen',\n    '189': 'pen',\n    '190': 'pen',\n    '191': 'pen',\n    '192': 'pen',\n    '193': 'pen',\n    '194': 'pen',\n    '195': 'pen',\n    '196': 'pen',\n    '197': 'pen',\n    '198': 'pen',\n    '199': 'pen',\n    '200': 'pen',\n    '201': 'pen',\n    '202': 'pen',\n    '203': 'pen',\n    '204': 'pen',\n    '205': 'pen',\n    '206': 'pen',\n    '207': 'pen',\n    '208': 'pen',\n    '209': 'pen',\n    '210': 'pen',\n    '211': 'pen',\n    '212': 'pen',\n    '213': 'pen',\n    '214': 'pen',\n    '215': 'pen",
+                "flags": [
+                    0,
+                    1,
+                    0,
+                    0,
+                    1,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "acc": 0.13636363636363635
+            }
+        },
+        "test0119.png": {
+            "object": {
+                "grd_truth": {
+                    "1": "marker",
+                    "2": "can",
+                    "3": "ball",
+                    "4": "scissors",
+                    "5": "squeeze bottle",
+                    "6": "mug",
+                    "7": "can",
+                    "8": "ball",
+                    "9": "ball",
+                    "10": "mug",
+                    "11": "ball",
+                    "12": "marker",
+                    "13": "marker",
+                    "14": "ruler",
+                    "15": "measuring cup",
+                    "16": "screwdriver",
+                    "17": "measuring cup",
+                    "18": "ball",
+                    "19": "mug",
+                    "20": "mug",
+                    "21": "can"
+                },
+                "identified": " {\n    '1': 'box',\n    '2': 'bottle',\n    '3': 'scissors',\n    '4': 'marker',\n    '5': 'pen',\n    '6': 'can',\n    '7': 'tube',\n    '8': 'container',\n    '9': 'button',\n    '10': 'jar',\n    '11': 'ring',\n    '12': 'ring',\n    '13': 'ring',\n    '14': 'ring',\n    '15': 'ring',\n    '16': 'ring',\n    '17': 'ring',\n    '18': 'ring',\n    '19': 'ring',\n    '20': 'ring',\n    '21': 'ring'\n}",
+                "flags": [
+                    0,
+                    0,
+                    1,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "acc": 0.09523809523809523
+            }
+        },
+        "test0001.png": {
+            "object": {
+                "grd_truth": {
+                    "1": "marker",
+                    "2": "can",
+                    "3": "can",
+                    "4": "ball",
+                    "5": "ball",
+                    "6": "scissors",
+                    "7": "screwdriver",
+                    "8": "water bottle",
+                    "9": "bottle",
+                    "10": "can",
+                    "11": "ruler",
+                    "12": "marker",
+                    "13": "marker",
+                    "14": "measuring cup",
+                    "15": "mug",
+                    "16": "mug",
+                    "17": "ball",
+                    "18": "box",
+                    "19": "measuring cup",
+                    "20": "marker"
+                },
+                "identified": " {\n    '1': 'box',\n    '2': 'bottle',\n    '3': 'can',\n    '4': 'tool',\n    '5': 'tool',\n    '6': 'tool',\n    '7': 'tool',\n    '8': 'tool',\n    '9': 'tool',\n    '10': 'tool',\n    '11': 'tool',\n    '12': 'tool',\n    '13': 'tool',\n    '14': 'tool',\n    '15': 'tool',\n    '16': 'tool',\n    '17': 'tool',\n    '18': 'tool',\n    '19': 'tool',\n    '20': 'tool',\n    '21': 'tool',\n    '22': 'tool',\n    '23': 'tool',\n    '24': 'tool',\n    '25': 'tool',\n    '26': 'tool',\n    '27': 'tool',\n    '28': 'tool',\n    '29': 'tool',\n    '30': 'tool',\n    '31': 'tool',\n    '32': 'tool',\n    '33': 'tool',\n    '34': 'tool',\n    '35': 'tool',\n    '36': 'tool',\n    '37': 'tool',\n    '38': 'tool',\n    '39': 'tool',\n    '40': 'tool',\n    '41': 'tool',\n    '42': 'tool',\n    '43': 'tool',\n    '44': 'tool',\n    '45': 'tool',\n    '46': 'tool',\n    '47': 'tool',\n    '48': 'tool',\n    '49': 'tool',\n    '50': 'tool',\n    '51': 'tool',\n    '52': 'tool',\n    '53': 'tool',\n    '54': 'tool',\n    '55': 'tool',\n    '56': 'tool',\n    '57': 'tool',\n    '58': 'tool',\n    '59': 'tool',\n    '60': 'tool',\n    '61': 'tool',\n    '62': 'tool',\n    '63': 'tool',\n    '64': 'tool',\n    '65': 'tool',\n    '66': 'tool',\n    '67': 'tool',\n    '68': 'tool',\n    '69': 'tool',\n    '70': 'tool',\n    '71': 'tool',\n    '72': 'tool',\n    '73': 'tool',\n    '74': 'tool',\n    '75': 'tool',\n    '76': 'tool',\n    '77': 'tool',\n    '78': 'tool',\n    '79': 'tool',\n    '80': 'tool',\n    '81': 'tool',\n    '82': 'tool',\n    '83': 'tool',\n    '84': 'tool',\n    '85': 'tool',\n    '86': 'tool',\n    '87': 'tool',\n    '88': 'tool',\n    '89': 'tool',\n    '90': 'tool',\n    '91': 'tool',\n    '92': 'tool',\n    '93': 'tool',\n    '94': 'tool',\n    '95': 'tool',\n    '96': 'tool',\n    '97': 'tool',\n    '98': 'tool',\n    '99': 'tool',\n    '100': 'tool'\n}",
+                "flags": [
+                    0,
+                    1,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "acc": 0.1
+            }
+        },
+        "test_4.png": {
+            "object": {
+                "grd_truth": {
+                    "1": "mug",
+                    "2": "squeeze bottle",
+                    "3": "ball",
+                    "4": "ball",
+                    "5": "ball",
+                    "6": "screwdriver",
+                    "7": "ball",
+                    "8": "ball",
+                    "9": "marker",
+                    "10": "marker",
+                    "11": "mug",
+                    "12": "measuring cup",
+                    "13": "marker",
+                    "14": "marker",
+                    "16": "measuring cup",
+                    "17": "measuring cup",
+                    "18": "scissors",
+                    "19": "mug",
+                    "20": "mug",
+                    "21": "ruler",
+                    "22": "bottle"
+                },
+                "identified": " {\n    '1': 'mug',\n    '2': 'bottle',\n    '3': 'blueberries',\n    '4': 'marker',\n    '5': 'marker',\n    '6': 'marker',\n    '7': 'marker',\n    '8': 'marker',\n    '9': 'marker',\n    '10': 'marker',\n    '11': 'mug',\n    '12': 'marker',\n    '13': 'marker',\n    '14': 'marker',\n    '15': 'marker',\n    '16': 'marker',\n    '17': 'marker',\n    '18': 'marker',\n    '19': 'mug',\n    '20': 'mug',\n    '21': 'marker',\n    '22': 'marker'\n}",
+                "flags": [
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    1,
+                    1,
+                    0,
+                    1,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    1,
+                    0,
+                    0
+                ],
+                "acc": 0.36363636363636365
+            }
+        },
+        "test0020.png": {
+            "object": {
+                "grd_truth": {
+                    "1": "marker",
+                    "2": "can",
+                    "3": "can",
+                    "4": "ball",
+                    "5": "screwdriver",
+                    "6": "ball",
+                    "7": "scissors",
+                    "8": "bottle",
+                    "9": "box",
+                    "10": "bottle",
+                    "11": "can",
+                    "12": "marker",
+                    "13": "ruler",
+                    "14": "marker",
+                    "15": "mug",
+                    "16": "measuring cup",
+                    "17": "ball",
+                    "18": "mug",
+                    "19": "mug",
+                    "20": "ball",
+                    "21": "marker"
+                },
+                "identified": " {\n    '1': 'can',\n    '2': 'can',\n    '3': 'can',\n    '4': 'can',\n    '5': 'can',\n    '6': 'can',\n    '7': 'can',\n    '8': 'can',\n    '9': 'can',\n    '10': 'can',\n    '11': 'can',\n    '12': 'can',\n    '13': 'can',\n    '14': 'can',\n    '15': 'can',\n    '16': 'can',\n    '17': 'can',\n    '18': 'can',\n    '19': 'can',\n    '20': 'can'\n}",
+                "flags": [
+                    0,
+                    1,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "acc": 0.15
+            }
+        },
+        "test_1.png": {
+            "object": {
+                "grd_truth": {
+                    "1": "mug",
+                    "2": "mug",
+                    "3": "mug",
+                    "4": "mug",
+                    "5": "water bottle",
+                    "6": "squeeze bottle",
+                    "7": "measuring cup",
+                    "8": "measuring cup",
+                    "9": "measuring cup",
+                    "10": "ball",
+                    "11": "ball",
+                    "12": "ball",
+                    "13": "ball",
+                    "14": "ball",
+                    "15": "marker",
+                    "16": "marker",
+                    "17": "marker",
+                    "18": "marker",
+                    "19": "marker",
+                    "20": "screwdriver",
+                    "21": "ruler",
+                    "22": "scissors"
+                },
+                "identified": " {\n    '1': 'mug',\n    '2': 'mug',\n    '3': 'mug',\n    '4': 'mug',\n    '5': 'jar',\n    '6': 'bottle',\n    '7': 'scissors',\n    '8': 'scissors',\n    '9': 'scissors',\n    '10': 'bottle',\n    '11': 'bottle',\n    '12': 'mug',\n    '13': 'mug',\n    '14': 'mug',\n    '15': 'mug',\n    '16': 'mug',\n    '17': 'mug',\n    '18': 'mug',\n    '19': 'mug',\n    '20': 'mug',\n    '21': 'mug',\n    '22': 'mug',\n    '23': 'mug',\n    '24': 'mug',\n    '25': 'mug',\n    '26': 'mug',\n    '27': 'mug',\n    '28': 'mug',\n    '29': 'mug',\n    '30': 'mug',\n    '31': 'mug',\n    '32': 'mug',\n    '33': 'mug',\n    '34': 'mug',\n    '35': 'mug',\n    '36': 'mug',\n    '37': 'mug',\n    '38': 'mug',\n    '39': 'mug',\n    '40': 'mug',\n    '41': 'mug',\n    '42': 'mug',\n    '43': 'mug',\n    '44': 'mug',\n    '45': 'mug',\n    '46': 'mug',\n    '47': 'mug',\n    '48': 'mug',\n    '49': 'mug',\n    '50': 'mug',\n    '51': 'mug',\n    '52': 'mug',\n    '53': 'mug',\n    '54': 'mug',\n    '55': 'mug',\n    '56': 'mug',\n    '57': 'mug',\n    '58': 'mug',\n    '59': 'mug',\n    '60': 'mug',\n    '61': 'mug',\n    '62': 'mug',\n    '63': 'mug',\n    '64': 'mug',\n    '65': 'mug',\n    '66': 'mug',\n    '67': 'mug',\n    '68': 'mug',\n    '69': 'mug',\n    '70': 'mug',\n    '71': 'mug',\n    '72': 'mug',\n    '73': 'mug',\n    '74': 'mug',\n    '75': 'mug',\n    '76': 'mug',\n    '77': 'mug',\n    '78': 'mug',\n    '79': 'mug',\n    '80': 'mug',\n    '81': 'mug',\n    '82': 'mug',\n    '83': 'mug',\n    '84': 'mug',\n    '85': 'mug',\n    '86': 'mug',\n    '87': 'mug',\n    '88': 'mug',\n    '89': 'mug',\n    '90': 'mug',\n    '91': 'mug',\n    '92': 'mug',\n    '93': 'mug',\n    '94': 'mug',\n    '95': 'mug',\n    '96': 'mug',\n    '97': 'mug',\n    '98': 'mug',\n    '99': 'mug',\n    '100': 'mug',\n    '101': 'mug',\n    '102': 'mug',\n    '103': 'mug',\n    '104': 'mug',\n    '105': 'mug',\n    '106': 'mug',\n    '107': 'mug',\n    '108': 'mug',\n    '109': 'mug',\n    '110': 'mug',\n    '111': 'mug',\n    '112': 'mug',\n    '113': 'mug',\n    '114': 'mug',\n    '115': 'mug',\n    '116': 'mug',\n    '117': 'mug',\n    '118': 'mug',\n    '119': 'mug',\n    '120': 'mug',\n    '121': 'mug',\n    '122': 'mug',\n    '123': 'mug',\n    '124': 'mug',\n    '125': 'mug',\n    '126': 'mug',\n    '127': 'mug',\n    '128': 'mug',\n    '129': 'mug',\n    '130': 'mug',\n    '131': 'mug',\n    '132': 'mug',\n    '133': 'mug',\n    '134': 'mug',\n    '135': 'mug',\n    '136': 'mug',\n    '137': 'mug',\n    '138': 'mug',\n    '139': 'mug',\n    '140': 'mug',\n    '141': 'mug',\n    '142': 'mug',\n    '143': 'mug',\n    '144': 'mug',\n    '145': 'mug',\n    '146': 'mug',\n    '147': 'mug',\n    '148': 'mug',\n    '149': 'mug',\n    '150': 'mug',\n    '151': 'mug',\n    '152': 'mug',\n    '153': 'mug',\n    '154': 'mug',\n    '155': 'mug',\n    '156': 'mug',\n    '157': 'mug',\n    '158': 'mug',\n    '159': 'mug',\n    '160': 'mug',\n    '161': 'mug',\n    '162': 'mug',\n    '163': 'mug',\n    '164': 'mug',\n    '165': 'mug',\n    '166': 'mug',\n    '167': 'mug',\n    '168': 'mug',\n    '169': 'mug',\n    '170': 'mug',\n    '171': 'mug',\n    '172': 'mug',\n    '173': 'mug',\n    '174': 'mug',\n    '175': 'mug',\n    '176': 'mug',\n    '177': 'mug',\n    '178': 'mug',\n    '179': 'mug',\n    '180': 'mug',\n    '181': 'mug',\n    '182': 'mug',\n    '183': 'mug',\n    '184': 'mug',\n    '185': 'mug',\n    '186': 'mug',\n    '187': 'mug',\n    '188': 'mug',\n    '189': 'mug',\n    '190': 'mug',\n    '191': 'mug',\n    '192': 'mug',\n    '193': 'mug',\n    '194': 'mug',\n    '195': 'mug',\n    '19",
+                "flags": [
+                    1,
+                    1,
+                    1,
+                    1,
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "acc": 0.22727272727272727
+            }
+        },
+        "test_2.png": {
+            "object": {
+                "grd_truth": {
+                    "1": "mug",
+                    "2": "screwdriver",
+                    "3": "water bottle",
+                    "4": "mug",
+                    "5": "scissors",
+                    "6": "ball",
+                    "7": "ball",
+                    "8": "squeeze bottle",
+                    "9": "marker",
+                    "10": "marker",
+                    "11": "measuring cup",
+                    "12": "marker",
+                    "13": "ball",
+                    "14": "mug",
+                    "15": "mug",
+                    "16": "marker",
+                    "17": "marker",
+                    "18": "measuring cup",
+                    "19": "measuring cup",
+                    "20": "ball",
+                    "21": "ruler"
+                },
+                "identified": " {\n    '1': 'black cup',\n    '2': 'black cup',\n    '3': 'black cup',\n    '4': 'black cup',\n    '5': 'scissors',\n    '6': 'red cap',\n    '7': 'red cap',\n    '8': 'red cap',\n    '9': 'red cap',\n    '10': 'red cap',\n    '11': 'red cap',\n    '12': 'red cap',\n    '13': 'red cap',\n    '14': 'red cap',\n    '15': 'red cap',\n    '16': 'red cap',\n    '17': 'red cap',\n    '18': 'red cap',\n    '19': 'red cap',\n    '20': 'red cap',\n    '21': 'red cap',\n    '22': 'red cap',\n    '23': 'red cap',\n    '24': 'red cap',\n    '25': 'red cap',\n    '26': 'red cap',\n    '27': 'red cap',\n    '28': 'red cap',\n    '29': 'red cap',\n    '30': 'red cap',\n    '31': 'red cap',\n    '32': 'red cap',\n    '33': 'red cap',\n    '34': 'red cap',\n    '35': 'red cap',\n    '36': 'red cap',\n    '37': 'red cap',\n    '38': 'red cap',\n    '39': 'red cap',\n    '40': 'red cap',\n    '41': 'red cap',\n    '42': 'red cap',\n    '43': 'red cap',\n    '44': 'red cap',\n    '45': 'red cap',\n    '46': 'red cap',\n    '47': 'red cap',\n    '48': 'red cap',\n    '49': 'red cap',\n    '50': 'red cap',\n    '51': 'red cap',\n    '52': 'red cap',\n    '53': 'red cap',\n    '54': 'red cap',\n    '55': 'red cap',\n    '56': 'red cap',\n    '57': 'red cap',\n    '58': 'red cap',\n    '59': 'red cap',\n    '60': 'red cap',\n    '61': 'red cap',\n    '62': 'red cap',\n    '63': 'red cap',\n    '64': 'red cap',\n    '65': 'red cap',\n    '66': 'red cap',\n    '67': 'red cap',\n    '68': 'red cap',\n    '69': 'red cap',\n    '70': 'red cap',\n    '71': 'red cap',\n    '72': 'red cap',\n    '73': 'red cap',\n    '74': 'red cap',\n    '75': 'red cap',\n    '76': 'red cap',\n    '77': 'red cap',\n    '78': 'red cap',\n    '79': 'red cap',\n    '80': 'red cap',\n    '81': 'red cap',\n    '82': 'red cap',\n    '83': 'red cap',\n    '84': 'red cap',\n    '85': 'red cap',\n    '86': 'red cap',\n    '87': 'red cap',\n    '88': 'red cap',\n    '89': 'red cap',\n    '90': 'red cap',\n    '91': 'red cap',\n    '92': 'red cap',\n    '93': 'red cap',\n    '94': 'red cap',\n    '95': 'red cap',\n    '96': 'red cap',\n    '97': 'red cap',\n    '98': 'red cap',\n    '99': 'red cap',\n    '100': 'red cap',\n    '101': 'red cap',\n    '102': 'red cap',\n    '103': 'red cap',\n    '104': 'red cap',\n    '105': 'red cap',\n    '106': 'red cap',\n    '107': 'red cap',\n    '108': 'red cap',\n    '109': 'red cap',\n    '110': 'red cap',\n    '111': 'red cap',\n    '112': 'red cap',\n    '113': 'red cap',\n    '114': 'red cap',\n    '115': 'red cap',\n    '116': 'red cap',\n    '117': 'red cap',\n    '118': 'red cap',\n    '119': 'red cap',\n    '120': 'red cap',\n    '121': 'red cap',\n    '122': 'red cap',\n    '123': 'red cap',\n    '124': 'red cap',\n    '125': 'red cap',\n    '126': 'red cap',\n    '127': 'red cap',\n    '128': 'red cap',\n    '129': 'red cap',\n    '130': 'red cap',\n    '131': 'red cap',\n    '132': 'red cap',\n    '133': 'red cap',\n    '134': 'red cap',\n    '135': 'red cap',\n    '136': 'red cap',\n    '137': 'red cap',\n    '138': 'red cap',\n    '139': 'red cap',\n    '140': 'red cap',\n    '141': 'red cap',\n    '142': 'red cap',\n    '143': 'red cap',\n    '144': 'red cap',\n    '145': 'red cap',\n    '146': 'red cap',\n    '147': 'red cap',\n    '148': 'red cap',\n    '149': 'red cap',\n    '150': 'red cap',\n    '151': 'red cap',\n    '152': 'red cap',\n    '153': 'red cap',\n    '154': 'red cap',\n    '155': 'red cap',\n    '156': 'red cap',\n    '157': 'red cap',\n    '158': 'red cap',\n    '159': 'red cap',\n    '160': 'red cap',\n    '161': 'red cap',\n    '162': 'red cap',\n    '163': 'red cap',\n    '164': 'red cap',\n    '165': 'red cap',\n    '166': 'red cap',\n    '167': 'red cap',\n    '168': 'red cap',\n    '169': 'red cap',\n    '170': 'red cap',\n    '171': 'red cap',\n    '172': 'red cap',\n    '173': 'red cap',\n    '174': 'red cap',\n    '175': 'red cap',\n    '176': 'red cap',\n    '177': 'red cap',\n    '178': 'red cap',\n    '179': 'red cap',\n    '180': 'red cap',\n    '100': 'red cap',\n    '101': 'red cap',\n    '102': 'red cap',\n    '103': 'red cap',\n    '104': 'red cap',\n    '105': 'red cap',\n    '106': 'red cap',\n    '107': 'red cap',\n    '108': 'red cap',\n    '109': 'red cap',\n    '110': 'red cap',\n10',\n                ',\n   \n   10',\n   ',\n   \n   100',\n   ',\n   ',\n   ',\n',\n',\n   ',\n   ',\n10',\n   ',\n',",
+                "flags": [
+                    1,
+                    0,
+                    1,
+                    1,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "acc": 0.2857142857142857
+            }
+        },
+        "test0002.png": {
+            "object": {
+                "grd_truth": {
+                    "1": "marker",
+                    "2": "can",
+                    "3": "mug",
+                    "4": "ball",
+                    "5": "scissors",
+                    "6": "squeeze bottle",
+                    "7": "measuring cup",
+                    "8": "ruler",
+                    "9": "screwdriver",
+                    "10": "can",
+                    "11": "mug",
+                    "12": "mug",
+                    "13": "measuring cup",
+                    "14": "ball",
+                    "15": "marker",
+                    "16": "mug",
+                    "17": "marker",
+                    "18": "ball",
+                    "19": "ball",
+                    "20": "can",
+                    "21": "measuring cup"
+                },
+                "identified": " {\n    '1': 'box',\n    '2': 'bottle',\n    '3': 'can',\n    '4': 'scissors',\n    '5': 'marker',\n    '6': 'marker',\n    '7': 'marker',\n    '8': 'marker',\n    '9': 'marker',\n    '10': 'marker',\n    '11': 'marker',\n    '12': 'marker',\n    '13': 'marker',\n    '14': 'marker',\n    '15': 'marker',\n    '16': 'marker',\n    '17': 'marker',\n    '18': 'marker',\n    '19': 'marker',\n    '20': 'marker',\n    '21': 'marker'\n}",
+                "flags": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0,
+                    1,
+                    1,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "acc": 0.2857142857142857
+            }
+        },
+        "macro_acc": {
+            "obj": 0.2054924242424242
+        }
+    }
+}
